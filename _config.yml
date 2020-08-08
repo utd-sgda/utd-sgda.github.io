@@ -30,7 +30,7 @@ twitter_username: utdsgda
 github_username:  utd-sgda
 
 # Build settings
-theme: minima
+theme: bulma-clean-theme
 plugins:
   - jekyll-feed
 
