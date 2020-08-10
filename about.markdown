@@ -5,11 +5,14 @@ permalink: /about/
 ---
 
 # Who are we?
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec massa sapien faucibus et molestie ac feugiat sed lectus. In ornare quam viverra orci sagittis eu volutpat odio. Cum sociis natoque penatibus et magnis dis. 
+The Student Game Developer Association is a student organization at the University of Texas at Dallas. We serve to create a growing community of students and industry professionals to promote game development. We foster this community by hosting various events to help our members learn technical and professional skills associated with the games industry.
 # What do we do?
-Est pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat. Amet commodo nulla facilisi nullam vehicula ipsum. Morbi enim nunc faucibus a pellentesque sit amet. Neque viverra justo nec ultrices dui sapien eget. Semper eget duis at tellus at. Nunc mattis enim ut tellus elementum sagittis vitae et leo.
-# How do I join?
-Mauris sit amet massa vitae tortor condimentum lacinia quis vel. Purus in massa tempor nec feugiat nisl pretium fusce. Et malesuada fames ac turpis egestas. Duis convallis convallis tellus id. Ultrices gravida dictum fusce ut placerat orci nulla pellentesque. Varius vel pharetra vel turpis nunc. Ornare arcu odio ut sem nulla.
+Throughout the school year we host several events to teach technical and professional skills in the industry. We bring in guest speakers who are in the industry to give talks on their experiences. Additionally, we put on workshops to provide crash courses into different tools and engines. Occasionally we also will run game jams, portfolio reviews, panels, etc.
+On top of these events we also do more chill meet ups to show off personal projects or even just hang out and play games. We also provide an active Discord server where we share news, industry opportunities, help solve problems, and just hang out.
+# How can I get involved?
+Getting involved with the SGDA is really simple! There is no membership fee nor any place to “officially” sign up for the org. Best place to start is to join our [Discord server][discord]. This is where we share most of our news, share the projects we are working on, and provide aid in any aspect of game development!
+Additionally, come attend any of our future events or meetings! You can find a list of them on the [events page](/events/).
+*(Note: all events this semester will be digitally held via Discord and/or Twitch)*
 
 ## SGDA Officers
 - (Headshot of officer followed by name and LinkedIn)
@@ -18,3 +21,5 @@ Mauris sit amet massa vitae tortor condimentum lacinia quis vel. Purus in massa 
 - (Headshot of officer followed by name and LinkedIn)
 - (Headshot of officer followed by name and LinkedIn)
 - (Headshot of officer followed by name and LinkedIn)
+
+[discord]: https://discord.com/invite/Aae9Mhg
