@@ -1,23 +1,16 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: page
+layout: homepage
 title: Home
+subtitle: This is the landing page
+callouts: home_callout
 ---
+# The University of Texas at Dallas Student Game Developer Association
 
-(big banner image)
+## Who are we?
+The SGDA serves to promote game development, create a growing community of students and professionals involved in the games industry, and host events related to video game development and its many facets.
 
-
-## The University of Texas at Dallas Student Game Developer Association
-# Who are we?
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec massa sapien faucibus et molestie ac feugiat sed lectus. In ornare quam viverra orci sagittis eu volutpat odio. Cum sociis natoque penatibus et magnis dis.
+***
 
 ## Come to our next event!
 (button linking to events page)
-
-## Join the discussion in our Discord
-(cool discord button)
-
-## Sign up for our Newsletter
-(text entry field)

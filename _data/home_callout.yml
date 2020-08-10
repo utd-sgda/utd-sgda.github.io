@@ -1,0 +1,25 @@
+style: is-light
+height: is-medium
+items:
+  - title: Upcoming Events
+    icon: fa-calendar-check
+    icon_brand: false
+    description: >
+      Come to our next event!
+    call_to_action_name: Learn More
+    call_to_action_link: /events/
+  
+  - title: SGDA Discord
+    icon: fa-discord
+    icon_brand: true
+    description: >
+      Join the discussion on our Discord server!
+    call_to_action_name: Join
+    call_to_action_link: /about/
+
+  - title: Mailing List
+    icon: fa-envelope
+    description: >
+      Have club information sent to your inbox! 
+    call_to_action_name: Sign Up
+    call_to_action_link: /about/
