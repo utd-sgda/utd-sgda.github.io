@@ -2,7 +2,6 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: homepage
 title: Home
-subtitle: This is the landing page
 callouts: home_callout
 ---
 # The University of Texas at Dallas Student Game Developer Association

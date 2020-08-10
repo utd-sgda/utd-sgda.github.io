@@ -3,3 +3,17 @@
 
 // Import Main CSS file from theme
 @import "main";
+
+:root {
+    --sgda_blue: #36a8b3;
+    --sgda_green: #74b336;
+    --sgda_yellow: #ffcf40;
+    --sgda_red: #cc3629;
+    --sgda_purple: #664766;
+    --sgda_lightgrey: #8a9899;
+    --sgda_darkgrey: #2b2f33;
+}
+
+a {
+    color: var(--sgda_blue);
+  }
