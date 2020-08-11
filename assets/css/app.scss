@@ -1,9 +1,8 @@
----
----
+--- 
+--- 
 
 // Import Main CSS file from theme
 @import "main";
-
 :root {
     --sgda_blue: #36a8b3;
     --sgda_green: #74b336;
@@ -16,4 +15,99 @@
 
 a {
     color: var(--sgda_blue);
-  }
+}
+
+.title.is-2 {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.body {
+    font-family: dinosaur, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+    color: #363636;
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.125;
+}
+
+.navbar {
+    //background-color: white;
+    min-height: 3.25rem;
+    position: relative;
+    z-index: 30;
+}
+
+.navbar-item {
+    font-family: proxima-nova, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--sgda_lightgrey);
+}
+
+.navbar.is-primary {
+    background-color: var(--sgda_darkgrey);
+    color: var(--sgda_darkgrey);
+}
+
+.navbar.is-primary .navbar-brand>.navbar-item,
+.navbar.is-primary .navbar-brand .navbar-link {
+    color: var(--sgda_lightgrey);
+}
+
+.navbar.is-primary .navbar-brand>a.navbar-item:focus,
+.navbar.is-primary .navbar-brand>a.navbar-item:hover,
+.navbar.is-primary .navbar-brand>a.navbar-item.is-active,
+.navbar.is-primary .navbar-brand .navbar-link:focus,
+.navbar.is-primary .navbar-brand .navbar-link:hover,
+.navbar.is-primary .navbar-brand .navbar-link.is-active {
+    background-color: var(--sgda_darkgrey);
+    color: var(--sgda_lightgrey);
+}
+
+.navbar.is-primary .navbar-brand .navbar-link::after {
+    border-color: #fff;
+}
+
+.navbar.is-primary .navbar-burger {
+    color: #fff;
+}
+
+@media screen and (min-width: 1024px) {
+    .navbar.is-primary .navbar-start>.navbar-item,
+    .navbar.is-primary .navbar-start .navbar-link,
+    .navbar.is-primary .navbar-end>.navbar-item,
+    .navbar.is-primary .navbar-end .navbar-link {
+        color: var(--sgda_lightgrey);
+    }
+    .navbar.is-primary .navbar-start>a.navbar-item:focus,
+    .navbar.is-primary .navbar-start>a.navbar-item:hover,
+    .navbar.is-primary .navbar-start>a.navbar-item.is-active,
+    .navbar.is-primary .navbar-start .navbar-link:focus,
+    .navbar.is-primary .navbar-start .navbar-link:hover,
+    .navbar.is-primary .navbar-start .navbar-link.is-active,
+    .navbar.is-primary .navbar-end>a.navbar-item:focus,
+    .navbar.is-primary .navbar-end>a.navbar-item:hover,
+    .navbar.is-primary .navbar-end>a.navbar-item.is-active,
+    .navbar.is-primary .navbar-end .navbar-link:focus,
+    .navbar.is-primary .navbar-end .navbar-link:hover,
+    .navbar.is-primary .navbar-end .navbar-link.is-active {
+        background-color: var(--sgda_darkgrey);
+        color: #fff;
+    }
+    .navbar.is-primary .navbar-start .navbar-link::after,
+    .navbar.is-primary .navbar-end .navbar-link::after {
+        border-color: #fff;
+    }
+}
