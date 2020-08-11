@@ -1,0 +1,19 @@
+- tier_name: Club Officers
+  desciption: |-
+    SGDA Club Officers
+  sponsors:
+    - name: Cameron Meyer
+      role: President
+    - name: Andrew Sylvester
+      role: Vice President
+    - name: Henry Werner
+      role: Technical Officer
+      profile: https://www.linkedin.com/in/htwerner/
+    - name: Noah Sims
+      role: Treasurer
+    - name: Andrew Bond-Harris
+      role: Secretary
+    - name: Bill Dang
+      role: Marketing Coordinator
+    - name: Ellie Goyer
+      role: Graphic Designer

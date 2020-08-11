@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+sponsors: officers
 ---
 
 ## Who are we?
@@ -15,12 +16,6 @@ Additionally, come attend any of our future events or meetings! You can find a l
 
 *(Note: all events this semester will be digitally held via Discord and/or Twitch)*
 
-## SGDA Officers
-- (Headshot of officer followed by name and LinkedIn)
-- (Headshot of officer followed by name and LinkedIn)
-- (Headshot of officer followed by name and LinkedIn)
-- (Headshot of officer followed by name and LinkedIn)
-- (Headshot of officer followed by name and LinkedIn)
-- (Headshot of officer followed by name and LinkedIn)
+***
 
 [discord]: https://discord.com/invite/Aae9Mhg

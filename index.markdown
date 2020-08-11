@@ -3,6 +3,7 @@
 layout: homepage
 title: Home
 callouts: home_callout
+hide_footer: true
 ---
 
 ## Who are we?
