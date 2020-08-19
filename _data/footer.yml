@@ -1,0 +1,20 @@
+# Object 'name' is used as the text for the link
+# 'fa' is optional. This will be used as the HTML class name for the font-awesome icon.
+# 'link' is used as the HTML href link.
+- name: Discord
+  fa: fab fa-discord
+  link: https://discord.com/invite/Aae9Mhg
+- name: Twitter
+  fa: fab fa-twitter
+  link: https://twitter.com/utdsgda
+- name: Facebook
+  fa: fab fa-facebook
+  link: https://www.facebook.com/groups/UTDSGDA
+- name: Twitch
+  fa: fab fa-twitch
+  link: https://www.twitch.tv/utdsgda 
+- name: LinkedIn
+  fa: fab fa-linkedin
+  link: https://www.linkedin.com/company/utd-sgda/ 
+- name: Presence
+  link: https://utdallas.presence.io/organization/student-game-developer-association-sgda

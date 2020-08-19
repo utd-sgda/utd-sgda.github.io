@@ -6,15 +6,21 @@
             {% for item in site.data[site.footer_menu] %}
             <div class="column has-text-centered">
                 <div>
-                    <a href="{{ item.link | relative_url }}" class="link">{{ item.name }}</a>
+                    <a href="{{ item.link | relative_url }}" class="link">
+                        {% if item.fa %}
+                        <i class="{{ item.fa }}"></i>
+                        {% endif %}
+                        {{ item.name }}
+                    </a>
                 </div>
             </div>
             {% endfor %}
         </div>
         {% endif %}
-
+        <!--
         <div class="content is-small has-text-centered">
             <p class="">I made this :)</p>
         </div>
+        -->
     </div>
 </footer>

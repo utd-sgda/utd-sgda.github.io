@@ -5,5 +5,6 @@ permalink: /events/
 ---
 
 # Upcoming Events
-<iframe src="https://feed.mikle.com/widget/v2/90479/" height="476px" width="100%" class="fw-iframe" scrolling="no" frameborder="0"></iframe>
+<!--this could break at any moment-->
+<iframe src="https://feed.mikle.com/widget/v2/90479/?preloader-text=Loading" height="410px" width="100%" class="fw-iframe" scrolling="no" frameborder="0"></iframe>
     

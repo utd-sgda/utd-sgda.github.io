@@ -5,10 +5,20 @@ permalink: /contact/
 ---
 
 # Join our mailing list!
-(text entry field)
+<a class="button is-dark" href="#">
+    <span class="icon">
+        <i class="fas fa-paper-plane fa-inverse" aria-hidden="true"></i>
+    </span>
+    <span>Sign Up</span>
+</a>
 
 # Join the discussion on Discord!
-(cool button linking to the Discord server)
+<a class="button is-primary" href="#">
+    <span class="icon">
+        <i class="fab fa-discord fa-inverse" aria-hidden="true"></i>
+    </span>
+    <span>Join</span>
+</a>
 
 # Follow us to stay up to date on upcoming meetings!
 Twitter: ######
