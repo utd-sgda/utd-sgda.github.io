@@ -2,7 +2,7 @@ style: is-light
 height: is-medium
 items:
   - title: Upcoming Events
-    icon: fa-calendar-check
+    icon: fa-clock
     icon_brand: false
     description: >
       Come to our next event!
@@ -15,11 +15,11 @@ items:
     description: >
       Join the discussion on our Discord server!
     call_to_action_name: Join
-    call_to_action_link: /about/
+    call_to_action_link: https://discord.com/invite/Aae9Mhg
 
   - title: Mailing List
     icon: fa-envelope
     description: >
       Have club information sent to your inbox! 
     call_to_action_name: Sign Up
-    call_to_action_link: /about/
+    call_to_action_link: https://wordpress.us9.list-manage.com/subscribe?u=f921145fe669f08c3392649e5&id=c6d0adccd5 
