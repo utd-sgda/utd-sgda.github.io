@@ -117,9 +117,24 @@ a {
     background-color: #eeeeee;
 }
 
-.button.is-light:hover, .button.is-light.is-hovered {
+.button.is-light:hover,
+.button.is-light.is-hovered {
     //background-color: #eeeeee;
     background-color: var(--sgda_green);
     border-color: transparent;
     color: rgba(0, 0, 0, 0.7);
+}
+
+
+//These change the forced width values for the site's layout
+@media screen and (min-width: 1216px) {
+    .container {
+      max-width: 1152px;
+    }
+}
+  
+@media screen and (min-width: 1408px) {
+    .container {
+      max-width: 1344px;
+    }
 }
