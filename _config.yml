@@ -28,6 +28,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: utdsgda
 github_username:  utd-sgda
+discord_link: https://discord.com/invite/Aae9Mhg
 
 # Optional footer menu
 footer_menu: footer

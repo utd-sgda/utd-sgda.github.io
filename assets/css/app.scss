@@ -36,8 +36,8 @@ a {
 .content h5,
 .content h6 {
     color: #363636;
-    font-family: brandon-grotesque, sans-serif;
-    font-weight: 600;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 700;
     font-style: normal;
     line-height: 1.125;
 }
@@ -110,4 +110,16 @@ a {
     .navbar.is-primary .navbar-end .navbar-link::after {
         border-color: #fff;
     }
+}
+
+.button.is-light {
+    //background-color: var(--sgda_green);
+    background-color: #eeeeee;
+}
+
+.button.is-light:hover, .button.is-light.is-hovered {
+    //background-color: #eeeeee;
+    background-color: var(--sgda_green);
+    border-color: transparent;
+    color: rgba(0, 0, 0, 0.7);
 }
