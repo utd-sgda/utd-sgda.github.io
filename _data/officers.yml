@@ -8,15 +8,15 @@
     - name: Andrew Sylvester
       role: Vice President
       profile: https://www.linkedin.com/in/arsylvester/
-    - name: Bill Dang
-      role: Marketing Coordinator
-      profile: https://www.linkedin.com/in/bill-dang-39555b189/
-    - name: Noah Sims
-      role: Treasurer
-      profile: https://www.linkedin.com/in/noah-sims-7812451a5/
     - name: Andrew Bond-Harris
       role: Secretary
       profile: https://www.linkedin.com/in/andrew-bond-harris-71a50b160/
+    - name: Noah Sims
+      role: Treasurer
+      profile: https://www.linkedin.com/in/noah-sims-7812451a5/
+    - name: Bill Dang
+      role: Marketing Coordinator
+      profile: https://www.linkedin.com/in/bill-dang-39555b189/
     - name: Henry Werner
       role: Technical Officer
       profile: https://www.linkedin.com/in/htwerner/

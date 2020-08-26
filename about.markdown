@@ -3,6 +3,7 @@ layout: page
 title: About
 permalink: /about/
 sponsors: officers
+hero_image: /images/PatternBlue_672x672_20pct.png
 ---
 
 ## Who are we?

@@ -11,7 +11,7 @@
   <body>
     {% include header.html %}
     {% unless page.hide_hero %}
-        <section class="hero {% if page.hero_height %} {{ page.hero_height }} {% else %} is-medium {% endif %} is-bold is-primary" {% if page.hero_image %} style="background: url('{{ page.hero_image }}') no-repeat center center; background-size: cover;" {% endif %}>
+        <section class="hero {% if page.hero_height %} {{ page.hero_height }} {% else %} is-medium {% endif %} is-bold is-primary" {% if page.hero_image %} style="background: url('{{ page.hero_image }}') repeat center center; background-size: 678px 678px;" {% endif %}>
             <div class="hero-body {% if page.hero_darken %} hero-darken {% endif %}">
                 <div class="container">
                     <h1 class="title is-2 is-hidden-touch">The University of Texas at Dallas<br /> Student Game Developer Association</h1>
@@ -47,7 +47,10 @@
             </div>
         </div>
     </section>
-    {% include callouts.html %}
+    <!-- Callouts are hidden on mobile. President's orders.-->
+    <section class="is-hidden-touch">
+        {% include callouts.html %}
+    </section>
     {% unless page.hide_footer %}
         {% include footer.html %}
     {% endunless %}

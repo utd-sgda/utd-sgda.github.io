@@ -3,6 +3,7 @@ layout: page
 title: Contact
 permalink: /contact/
 # hero_image: /images/rats_castle.png  //placeholder image
+hero_image: /images/PatternBlue_672x672_20pct.png
 ---
 
 # Stay in touch!
