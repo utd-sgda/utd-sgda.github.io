@@ -15,11 +15,11 @@ items:
     description: >
       Join the discussion on our Discord server!
     call_to_action_name: Join
-    call_to_action_link: /discord/
+    call_to_action_link: /discord
 
   - title: Mailing List
     icon: fa-envelope
     description: >
       Have club information sent to your inbox! 
     call_to_action_name: Sign Up
-    call_to_action_link: /mailing/
+    call_to_action_link: /mailing

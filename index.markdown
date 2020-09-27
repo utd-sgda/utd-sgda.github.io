@@ -29,7 +29,7 @@ The SGDA serves to promote game development, create a growing community of stude
 <hr>
 <h2>Newsletter</h2>
 <p>Subscribe to our email list to have club information sent to your inbox!</p>
-<a href="/mailing/" class="link">
+<a href="/mailing" class="link">
     Sign up
     <i class="fa fa-arrow-right" aria-hidden="true"></i>
 </a>
