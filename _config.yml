@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   The offical website of the Student Game Developer Association
   at the University of Texas at Dallas.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://utdsgda.club" # the base hostname & protocol for your site, e.g. http://example.com
+url: http://utdsgda.club # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: utdsgda
 github_username:  utd-sgda
 discord_link: https://discord.com/invite/Aae9Mhg
