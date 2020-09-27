@@ -19,4 +19,6 @@ Additionally, come attend any of our future events or meetings! You can find a l
 
 ***
 
-[discord]: https://discord.com/invite/Aae9Mhg
+[discord]: {{ site.discord_link }}
+
+<!-- club officer ("sponsors") section is appended here. -->
