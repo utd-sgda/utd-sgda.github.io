@@ -33,6 +33,8 @@ mail_link: https://wordpress.us9.list-manage.com/subscribe?u=f921145fe669f08c339
 # Optional footer menu
 footer_menu: footer
 
+associated_companies: companies
+
 # Build settings
 theme: bulma-clean-theme
 plugins:
