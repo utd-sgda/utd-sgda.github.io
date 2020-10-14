@@ -1,16 +1,13 @@
 <div class="container">
-    <p class="title is-3 has-text-centered pt-6">Companies we've worked with</p>
+    <p class="title is-3 has-text-centered pt-6">Guest speakers from</p>
     <div class="columns is-multiline is-mobile is-centered is-vcentered pb-6">
         <!-- might need an is-hidden-touch. Or might need to use an mx-2 / mx-1 -->
 
         {% for logo in site.data[site.associated_companies] %}
         <div class="column is-narrow">
-            <figure class="image" style="width: 150px; filter: grayscale(1); opacity: 0.8;">
+            <figure class="image" style="width: 120px; filter: grayscale(0.3); opacity: 0.8;">
                 <img src="{{ logo.image }}" alt="{{ logo.name }}">
             </figure>
-            <!-- <figure class="image is-1by1">
-                    <iframe class="has-ratio" width="200" height="200" src="{{ logo.image }}"></iframe>
-                </figure> -->
         </div>
         {% endfor %}
     </div>

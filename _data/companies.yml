@@ -1,3 +1,5 @@
+- name: Blizzard
+  image: images\company_logos\Blizzard_Logo.png
 - name: Bungie
   image: images\company_logos\Bungie.png
 - name: ID Software
