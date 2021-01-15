@@ -34,5 +34,6 @@ The SGDA serves to promote game development, create a growing community of stude
     <i class="fa fa-arrow-right" aria-hidden="true"></i>
 </a>
 
+<hr>
 </div>
 

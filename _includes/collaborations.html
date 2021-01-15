@@ -1,0 +1,25 @@
+<div class="container is-fluid">
+    <!-- desktop version -->
+    <p class="title is-3 has-text-centered pt-6 is-hidden-touch">Guest speakers from</p>
+    <div class="columns is-multiline is-mobile is-centered is-vcentered pb-6 is-hidden-touch">
+        {% for logo in site.data[site.associated_companies] %}
+        <div class="column is-narrow">
+            <figure class="image" style="width: 120px; filter: grayscale(0.3); opacity: 0.8;">
+                <img src="{{ logo.image }}" alt="{{ logo.name }}">
+            </figure>
+        </div>
+        {% endfor %}
+    </div>
+
+    <!-- mobile version -->
+    <p class="title is-3 has-text-centered is-hidden-desktop">Guest speakers from</p>
+    <div class="columns is-multiline is-mobile is-centered is-vcentered pb-6 is-hidden-desktop">
+        {% for logo in site.data[site.associated_companies] %}
+        <div class="column is-narrow is-one-third-mobile">
+            <figure class="image" style="filter: grayscale(0.3); opacity: 0.8;">
+                <img src="{{ logo.image }}" alt="{{ logo.name }}">
+            </figure>
+        </div>
+        {% endfor %}
+    </div>
+</div>
