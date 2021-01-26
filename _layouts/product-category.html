@@ -12,12 +12,11 @@ show_sidebar: false
   {% assign products = site.data.merchandise %}
 
   {% for item in site.data.merchandise %}
-  <div class="column is-4-desktop is-6-tablet">
+  <div class="column is-mobile is-3-desktop is-4-tablet">
 
     <a href="{{ item.link }}">
 
-      <div class="card">
-
+      <div class="card merch">
         {% if item.image %}
         <div class="card-image">
           <figure class="image is-1by1">
@@ -28,9 +27,15 @@ show_sidebar: false
         <div class="card-content">
 
           <p class="title is-4">{{ item.title }}</h2>
-          <p class="subtitle is-5">{{ item.description }}</p>  
-          <p class="title is-5 has-text-right">{{ item.price }}</p>
+          <p class="subtitle is-6">{{ item.description }}</p>
+          <!-- <p class="is-6 has-text-right">starting at <b class="title is-5">{{ item.price }}</b></p> -->
 
+        </div>
+
+        <div class="card-footer merch">
+          <div class="card-footer-item">
+            <p class="is-6 has-text-right">starting at <b class="title is-5">{{ item.price }}</b></p>
+          </div>
         </div>
       </div>
 
