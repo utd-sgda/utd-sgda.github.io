@@ -142,3 +142,25 @@ a {
     background-color: #fafafa; 
     padding: 3rem 1.5rem 3rem; 
 }
+
+.card.merch {
+    transition: 0.5s;
+}
+
+.card.merch:hover {
+    box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.3), 0 0px 0 1px rgba(10, 10, 10, 0.02);
+}
+
+.card-image.merch {
+    object-fit: fill;
+}
+
+.card-footer.merch {
+    transition: 0.6s;
+    transition-timing-function: ease;
+    transition-delay: 0.05s;
+}
+
+.card-footer.merch:hover {
+    background-color: var(--sgda_blue);
+}

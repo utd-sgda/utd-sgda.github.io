@@ -9,34 +9,39 @@ show_sidebar: false
     {{ page.content }}
   </div>
 
-  {% assign sorted_products = site.products | sort:page.sort %}
+  {% assign products = site.data.merchandise %}
 
-  {% for product in sorted_products %}
-  <div class="column is-4-desktop is-6-tablet">
+  {% for item in site.data.merchandise %}
+  <div class="column is-mobile is-3-desktop is-4-tablet">
 
-    <a href="{{ product.url | relative_url }}">
+    <a href="{{ item.link }}">
 
-      <div class="card">
-
-        {% if product.image %}
+      <div class="card merch">
+        {% if item.image %}
         <div class="card-image">
-          <figure class="image is-4by3">
-            <img src="{{ product.image }}" alt="{{ product.title }}" />
+          <figure class="image is-1by1">
+            <img src="{{ item.image }}" alt="{{ item.title }}" />
           </figure>
         </div>
         {% endif %}
         <div class="card-content">
 
-          <p class="title is-4">{{ product.title }}</h2>
-          <p class="subtitle is-4">{{ product.subtitle }}</p>  
-          <p class="title is-5 has-text-right">{{ product.price }}</p>
+          <p class="title is-4">{{ item.title }}</h2>
+          <p class="subtitle is-6">{{ item.description }}</p>
+          <!-- <p class="is-6 has-text-right">starting at <b class="title is-5">{{ item.price }}</b></p> -->
 
+        </div>
+
+        <div class="card-footer merch">
+          <div class="card-footer-item">
+            <p class="is-6 has-text-right">starting at <b class="title is-5">{{ item.price }}</b></p>
+          </div>
         </div>
       </div>
 
     </a>
 
   </div>
-{% endfor %}
+  {% endfor %}
 </div>
 
