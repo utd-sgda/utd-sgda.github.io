@@ -1,3 +1,9 @@
+# TODO: rewrite this file to have a more streamlined structure
+
+# - name:    Name of officer
+#   role:    Position title
+#   profile: Link to officer's LinkedIn profile
+
 - tier_name: Club Officers
   desciption: |-
     SGDA Club Officers
@@ -5,21 +11,27 @@
     - name: Cameron Meyer
       role: President
       profile: https://www.linkedin.com/in/cameron-meyer/ 
+
     - name: Andrew Sylvester
       role: Vice President
       profile: https://www.linkedin.com/in/arsylvester/
+
     - name: Brittany Kopel
       role: Secretary
       profile: https://www.linkedin.com/in/brittany-kopel-82b8497b/
+
     - name: Noah Sims
       role: Treasurer
       profile: https://www.linkedin.com/in/noah-sims-7812451a5/
+
     - name: Bill Dang
       role: Marketing Coordinator
       profile: https://www.linkedin.com/in/bill-dang-39555b189/
+
     - name: Henry Werner
       role: Technical Officer
       profile: https://www.linkedin.com/in/htwerner/
+
     - name: Ellie Goyer
       role: Graphic Designer
       profile: https://www.linkedin.com/in/ellie-goyer-625a6999/

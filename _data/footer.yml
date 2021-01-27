@@ -1,22 +1,29 @@
-# Object 'name' is used as the text for the link
-# 'fa' is optional. This will be used as the HTML class name for the font-awesome icon.
-# 'link' is used as the HTML href link.
 # fun fact: Liquid doesn't work in YAML files :(
+
+# - name: Used as the text for the link. Text only visable in desktop view.
+#   fa:   (optional) HTML class name for the font-awesome icon
+#   link: Link to social media page
+
 - name: Discord
   fa: fab fa-discord
   link: https://discord.com/invite/Aae9Mhg
+
 - name: Twitter
   fa: fab fa-twitter
   link: https://twitter.com/utdsgda
+
 - name: Facebook
   fa: fab fa-facebook
   link: https://www.facebook.com/groups/UTDSGDA
+
 - name: Twitch
   fa: fab fa-twitch
   link: https://www.twitch.tv/utdsgda 
+
 - name: YouTube
   fa: fab fa-youtube
   link: https://www.youtube.com/user/UTDallasSGDA
+
 - name: LinkedIn
   fa: fab fa-linkedin
   link: https://www.linkedin.com/company/utd-sgda/

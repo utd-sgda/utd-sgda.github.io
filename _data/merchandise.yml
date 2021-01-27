@@ -1,3 +1,10 @@
+# - title:       Title text for the product 
+#   type:        (unused) Type of product being sold
+#   description: Description text that will appear below the title
+#   price:       Starting price for the product
+#   image:       Link to product image. (1-by-1 aspect ratio)
+#   link:        Link to product page
+
 - title: SGDA Pattern Mask
   type: Mask
   description: Available in multiple sizes and mask types.
