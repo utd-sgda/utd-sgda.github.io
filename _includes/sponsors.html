@@ -1,15 +1,12 @@
 {% if page.sponsors %}
+<!-- This code is a scuffed modification of the theme's existing code. It's really bad. -->
 {% assign tiers=site.data.[page.sponsors] %}
-    <div class="columns is-multiline">
+    <div class="columns is-multiline is-centered">
         {% for tier in tiers %}
-        <div class="column is-12">
+        <div class="column is-10">
             <p class="title is-3 has-text-centered">
                 <span>{{ tier.tier_name }}</span>
             </p>
-            <!--
-            <p class="subtitle has-text-centered">
-                <span class="icon is-large gh-sponsor"><i class="fas fa-heart fa-2x"></i></span>
-            </p>-->
             <div class="columns is-centered">
                 <div class="column is-6 content has-text-centered">
                     <p>{{ tier.description | markdownify }}</p>
@@ -18,15 +15,25 @@
 
             <div class="columns is-multiline is-centered">
                 {% for sponsor in tier.sponsors %}
-                <div class="column {% if tier.size == 'large' %} is-4-desktop is-6-tablet {% else %} is-3-desktop is-4-tablet {% endif %}">
+                <div class="column is-3-desktop is-4-tablet">
                     <div class="box has-text-centered">
                         <p class="title is-4">
-                            {{ sponsor.role }}
-                        </p>
-                        <p class="title {% if tier.size == 'large' %} is-4 {% elsif tier.size == 'small' %} is-6 {% else %} is-5 {% endif %}">
                             {{ sponsor.name }}
                         </p>
-                        <p class="subtitle is-6">
+
+                        <p class="subtitle is-5" style="margin-bottom: 0.6rem; opacity: 0.85;">
+                            {{ sponsor.role }}
+                        </p>
+
+                        {% if sponsor.image %}
+                        <div class="card-image">
+                            <figure class="image is-1by1" style="overflow: hidden; border-radius: 50%;">
+                                <img src="{{ sponsor.image }}" alt="{{ sponsor.title }}" />
+                            </figure>
+                        </div>
+                        {% endif %}
+                       
+                        <p class="subtitle is-6" style="padding-top: 10px;">
                             {% if sponsor.profile %}
                             <a href="{{ sponsor.profile }}" class="is-link is-small">
                                 <i class="fab fa-linkedin"></i>

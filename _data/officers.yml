@@ -2,6 +2,7 @@
 
 # - name:    Name of officer
 #   role:    Position title
+#   image:   Officer's profile image
 #   profile: Link to officer's LinkedIn profile
 
 - tier_name: Club Officers
@@ -10,28 +11,35 @@
   sponsors:
     - name: Cameron Meyer
       role: President
+      image: https://media-exp1.licdn.com/dms/image/C4E03AQFEm2BUyXJk1Q/profile-displayphoto-shrink_200_200/0/1580600395829?e=1621468800&v=beta&t=zYG4yIEkcBDG3-UBNX_CVunYiG9o2ftm67X1pxAHBXY
       profile: https://www.linkedin.com/in/cameron-meyer/ 
 
     - name: Andrew Sylvester
       role: Vice President
+      image: https://media-exp1.licdn.com/dms/image/C5603AQEA92DiH_o22g/profile-displayphoto-shrink_200_200/0/1535728963284?e=1621468800&v=beta&t=R1RWTsha7G3yVH0kLP2wBN9wFfAsK17bTNb0isLlHGk
       profile: https://www.linkedin.com/in/arsylvester/
 
     - name: Brittany Kopel
       role: Secretary
+      image: https://media-exp1.licdn.com/dms/image/C4E03AQFLi7K3-OezGg/profile-displayphoto-shrink_200_200/0/1600475377742?e=1621468800&v=beta&t=RRlW5mfFzSo5uTwRLEKtb_X1uWzTzBTDIahqezVOunU
       profile: https://www.linkedin.com/in/brittany-kopel-82b8497b/
 
     - name: Noah Sims
       role: Treasurer
+      image: https://media-exp1.licdn.com/dms/image/C5603AQHO_ZFkvdcMkA/profile-displayphoto-shrink_200_200/0/1603684759807?e=1621468800&v=beta&t=T5FSQNTFusNZn0GnoXy62NHugejLnpihdatmIo9J2lc
       profile: https://www.linkedin.com/in/noah-sims-7812451a5/
 
     - name: Bill Dang
       role: Marketing Coordinator
+      image: https://media-exp1.licdn.com/dms/image/C4E03AQEMTg6jDUF11Q/profile-displayphoto-shrink_200_200/0/1562020534476?e=1621468800&v=beta&t=P-yY191hBSoNk9jQKc6FAt0BmG0eNn_DS93KqCphE48
       profile: https://www.linkedin.com/in/bill-dang-39555b189/
 
     - name: Henry Werner
       role: Technical Officer
+      image: https://media-exp1.licdn.com/dms/image/C4E03AQE_71rMlzCv3A/profile-displayphoto-shrink_200_200/0/1549754301422?e=1621468800&v=beta&t=lim9ogcwpiH4XuUzIyZugAgGWZHSEV0qUIqvw7cE_Gw
       profile: https://www.linkedin.com/in/htwerner/
 
     - name: Ellie Goyer
       role: Graphic Designer
+      image: https://media-exp1.licdn.com/dms/image/C5603AQGzR7xSFSRrcw/profile-displayphoto-shrink_200_200/0/1596658551689?e=1621468800&v=beta&t=MRQnon0eITtczCT3r1czarHII0b5FPJ5s1_pieZqFjQ
       profile: https://www.linkedin.com/in/ellie-goyer-625a6999/
