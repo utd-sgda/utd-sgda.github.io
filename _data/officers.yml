@@ -39,7 +39,12 @@
       image: https://media-exp1.licdn.com/dms/image/C4E03AQE_71rMlzCv3A/profile-displayphoto-shrink_200_200/0/1549754301422?e=1621468800&v=beta&t=lim9ogcwpiH4XuUzIyZugAgGWZHSEV0qUIqvw7cE_Gw
       profile: https://www.linkedin.com/in/htwerner/
 
-    - name: Ellie Goyer
+    - name: Phu Le
       role: Graphic Designer
-      image: https://media-exp1.licdn.com/dms/image/C5603AQGzR7xSFSRrcw/profile-displayphoto-shrink_200_200/0/1596658551689?e=1621468800&v=beta&t=MRQnon0eITtczCT3r1czarHII0b5FPJ5s1_pieZqFjQ
-      profile: https://www.linkedin.com/in/ellie-goyer-625a6999/
+      image: ..\images\officer_images\phu.png
+
+    - name: Luke Jaggernauth
+      role: Junior Officer
+      image: https://media-exp1.licdn.com/dms/image/C4E03AQG5gtvmAYd8Fw/profile-displayphoto-shrink_800_800/0/1618780552052?e=1626307200&v=beta&t=fQgDkWXRdAQBzveL62j1XybyEsGjUNy8aZD_Do-syxI
+      profile: https://www.linkedin.com/in/lucasjagg/
+
