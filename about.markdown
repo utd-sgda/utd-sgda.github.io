@@ -15,8 +15,6 @@ On top of these events we also do more chill meet ups to show off personal proje
 Getting involved with the SGDA is really simple! There is no membership fee nor any place to “officially” sign up for the org. The best place to start is to join our [Discord server](/discord/). This is where we share most of our news, share the projects we are working on, and provide aid in any aspect of game development!
 Additionally, come attend any of our future events or meetings! You can find a list of them on the [events page](/events/).
 
-*(Note: all events this semester will be digitally held via Discord and/or Twitch)*
-
 ***
 
 
