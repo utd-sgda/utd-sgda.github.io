@@ -1,4 +1,4 @@
 ---
 title: signin
-redirect_to: https://forms.gle/DnLcHgjaZgLhgffs5
+redirect_to: https://forms.gle/JQoJWcMnxiUXpyWr7
 ---
