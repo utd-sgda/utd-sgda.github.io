@@ -11,7 +11,7 @@
   sponsors:
     - name: Cameron Meyer
       role: President
-      image: ..\images\officer_images\cameron.jpg
+      image: ..\images\officer_images\cameron.png
       profile: https://www.linkedin.com/in/cameron-meyer/ 
 
     - name: Andrew Sylvester
@@ -19,32 +19,47 @@
       image: ..\images\officer_images\andrew.jpg
       profile: https://www.linkedin.com/in/arsylvester/
 
-    - name: Brittany Kopel
-      role: Secretary
-      image: ..\images\officer_images\brittany.jpg
-      profile: https://www.linkedin.com/in/brittany-kopel-82b8497b/
-
     - name: Noah Sims
       role: Treasurer
-      image: ..\images\officer_images\noah.jpg
+      image: ..\images\officer_images\noah.png
       profile: https://www.linkedin.com/in/noah-sims-7812451a5/
-
-    - name: Bill Dang
-      role: Marketing Coordinator
-      image: ..\images\officer_images\bill.jpg
-      profile: https://www.linkedin.com/in/bill-dang-39555b189/
 
     - name: Henry Werner
       role: Technical Officer
       image: ..\images\officer_images\henry.jpg
       profile: https://www.linkedin.com/in/htwerner/
 
+    - name: Tryston Minsquero
+      role: Secretary
+      image: ..\images\officer_images\tryston.png
+      profile: https://www.linkedin.com/in/tryston-minsquero/
+
     - name: Phu Le
       role: Graphic Designer
       image: ..\images\officer_images\phu.png
+
+    - name: Allison Chiang
+      role: Marketing
+      image: ..\images\officer_images\allison.png
+      profile: https://www.linkedin.com/in/allisonschiang/
 
     - name: Luke Jaggernauth
       role: Junior Officer
       image: ..\images\officer_images\luke.jpg
       profile: https://www.linkedin.com/in/lucasjagg/
+
+    - name: Brandon Coffey
+      role: Junior Officer
+      image: ..\images\officer_images\brandon.jpg
+      profile: https://www.linkedin.com/in/brandon-coffey-36a802191/
+
+    - name: Sammy Mahmoudi
+      role: Junior Officer
+      image: ..\images\officer_images\sammy.png
+      profile: https://www.linkedin.com/in/sammymahmoudi/
+
+    - name: Mayson Bray
+      role: Junior Officer
+      image: ..\images\officer_images\mayson.png
+      profile: https://www.linkedin.com/in/mayson-bray-970aba1a4/
 
