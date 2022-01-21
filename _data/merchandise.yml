@@ -5,6 +5,13 @@
 #   image:       Link to product image. (1-by-1 aspect ratio)
 #   link:        Link to product page
 
+- title: SGDA T-Shirt
+  type: Shirt
+  description: Comfortable and stylish. Available in multiple sizes.
+  price: $15.00
+  image: https://prod-cdn-02.storenvy.com/product_photos/93977875/file_0f008204dc_original.jpg
+  link: https://sgda.storenvy.com/products/33422776-sgda-f21
+
 - title: SGDA Pattern Mask
   type: Mask
   description: Available in multiple sizes and mask types.
