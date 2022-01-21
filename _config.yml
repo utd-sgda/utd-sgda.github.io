@@ -20,7 +20,7 @@ footer_menu: footer # Storing footer.yml as a variable
 associated_companies: companies # Storing the companies.yml file as a variable
 
 ## Build settings
-theme: bulma-clean-theme
+remote_theme: chrisrhymes/bulma-clean-theme
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
