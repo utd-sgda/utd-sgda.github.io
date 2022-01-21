@@ -4,7 +4,7 @@
 title: SGDA
 email: sgda.utd@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  The offical website of the Student Game Developer Association
+  The official website of the Student Game Developer Association
   at the University of Texas at Dallas.
 baseurl: ""
 url: http://utdsgda.club # the base hostname & protocol of the site
