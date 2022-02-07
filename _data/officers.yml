@@ -16,7 +16,7 @@
 
     - name: Andrew Sylvester
       role: Vice President
-      image: ..\images\officer_images\andrew.jpg
+      image: ..\images\officer_images\andrew.png
       profile: https://www.linkedin.com/in/arsylvester/
 
     - name: Noah Sims
