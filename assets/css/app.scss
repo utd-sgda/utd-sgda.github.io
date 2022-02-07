@@ -125,19 +125,6 @@ a {
     color: rgba(0, 0, 0, 0.7);
 }
 
-//These change the forced width values for the site's layout
-@media screen and (min-width: 1216px) {
-    .container {
-        max-width: 1152px;
-    }
-}
-
-@media screen and (min-width: 1408px) {
-    .container {
-        max-width: 1344px;
-    }
-}
-
 .footer { 
     background-color: #fafafa; 
     padding: 3rem 1.5rem 3rem; 

@@ -1,5 +1,4 @@
-
-<nav class="navbar is-primary" >
+<nav class="navbar is-primary">
     <div class="container">
         <div class="navbar-brand">
             <a href="{{ site.baseurl }}/" class="navbar-item">
@@ -13,22 +12,22 @@
             </a>
         </div>
         <div class="navbar-menu" id="navMenu">
-            <div class="navbar-start">
-                <a href="{{ site.baseurl }}/" class="navbar-item {% if page.url == "/" %}is-active{% endif %}">Home</a>
+            <div class=" navbar-start">
+                <a href="{{ site.baseurl }}/" class="navbar-item {% if page.url == " /" %}is-active{% endif %}">Home</a>
                 {% if site.data.navigation %}
                 {% for item in site.data.navigation %}
-                    {% if item.dropdown %}
-                    <div class="navbar-item has-dropdown is-hoverable">
-                        <a href="{{ item.link | relative_url }}" class="navbar-link {% if item.link == page.url %}is-active{% endif %}">{{ item.name }}</a>
-                        <div class="navbar-dropdown">
-                            {% for subitem in item.dropdown %}
-                            <a href="{{ subitem.link | relative_url }}" class="navbar-item {% if subitem.link == page.url %}is-active{% endif %}">{{ subitem.name }}</a>
-                            {% endfor %}
-                        </div>
+                {% if item.dropdown %}
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a href="{{ item.link | relative_url }}" class="navbar-link {% if item.link == page.url %}is-active{% endif %}">{{ item.name }}</a>
+                    <div class="navbar-dropdown">
+                        {% for subitem in item.dropdown %}
+                        <a href="{{ subitem.link | relative_url }}" class="navbar-item {% if subitem.link == page.url %}is-active{% endif %}">{{ subitem.name }}</a>
+                        {% endfor %}
                     </div>
-                    {% else %}
-                    <a href="{{ item.link | relative_url }}" class="navbar-item {% if item.link == page.url %}is-active{% endif %}">{{ item.name }}</a>
-                    {% endif %}
+                </div>
+                {% else %}
+                <a href="{{ item.link | relative_url }}" class="navbar-item {% if item.link == page.url %}is-active{% endif %}">{{ item.name }}</a>
+                {% endif %}
                 {% endfor %}
                 {% endif %}
             </div>
@@ -42,12 +41,12 @@
                 {% endif %}
                 <div class="navbar-item">
                     <div class="buttons">
-                      <a class="button is-light" href="{{ site.discord_link }}">
-                        <span class="icon">
-                            <i class="fab fa-discord" aria-hidden="true"></i>
-                        </span>
-                        <strong>Join our Discord</strong>
-                      </a>
+                        <a class="button is-light" href="{{ site.discord_link }}">
+                            <span class="icon">
+                                <i class="fab fa-discord" aria-hidden="true"></i>
+                            </span>
+                            <strong>Join our Discord</strong>
+                        </a>
                     </div>
                 </div>
             </div>
