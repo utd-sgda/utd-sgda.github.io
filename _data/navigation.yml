@@ -3,7 +3,5 @@
 
 - name: About
   link: /about/
-- name: Events
-  link: /events/
 - name: Merch
   link: /merch/

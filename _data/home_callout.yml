@@ -1,14 +1,6 @@
 style: is-light
 height: is-medium
 items:
-  - title: Upcoming Events
-    icon: fa-clock
-    icon_brand: false
-    description: >
-      Come to our next event!
-    call_to_action_name: Learn More
-    call_to_action_link: /events/
-  
   - title: SGDA Discord
     icon: fa-discord
     icon_brand: true

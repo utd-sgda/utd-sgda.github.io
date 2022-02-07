@@ -13,7 +13,6 @@ Throughout the school year we host several events to teach technical and profess
 On top of these events we also do more chill meet ups to show off personal projects or even just hang out and play games. We also provide an active Discord server where we share news, industry opportunities, help solve problems, and just hang out.
 ## How can I get involved?
 Getting involved with the SGDA is really simple! There is no membership fee nor any place to “officially” sign up for the org. The best place to start is to join our [Discord server](/discord/). This is where we share most of our news, share the projects we are working on, and provide aid in any aspect of game development!
-Additionally, come attend any of our future events or meetings! You can find a list of them on the [events page](/events/).
 
 ***
 

@@ -18,13 +18,6 @@ The SGDA serves to promote game development, create a growing community of stude
 
 <div class="is-hidden-desktop">
 <!-- Mobile site only -->
-<hr>
-<h2>Upcoming Events</h2>
-<p>See what we've got in store!</p>
-<a href="/events/" class="link">
-    Come to the next one
-    <i class="fa fa-arrow-right" aria-hidden="true"></i>
-</a>
 
 <hr>
 <h2>Newsletter</h2>
