@@ -10,6 +10,10 @@
   fa: fab fa-discord
   link: https://discord.com/invite/Aae9Mhg
 
+- name: Instagram
+  fa: fab fa-instagram
+  link: https://www.instagram.com/utdsgda/
+
 - name: Twitter
   fa: fab fa-twitter
   link: https://twitter.com/utdsgda
