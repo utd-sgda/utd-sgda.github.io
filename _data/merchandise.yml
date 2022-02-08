@@ -1,3 +1,5 @@
+# Used as a product (_layouts/product-category.html)
+
 # - title:       Title text for the product 
 #   type:        (unused) Type of product being sold
 #   description: Description text that will appear below the title

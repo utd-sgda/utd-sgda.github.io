@@ -7,24 +7,24 @@ For reference, here is a map of the site's webpages and the corresponding files 
 | Webpage | File |
 |------------|------------------------------|
 | Home page | `index.md` |
-| Club info & current officers | `about.md` |
-| Upcoming events | `events.md` |
-| Club merchandise | `merch.md` |
-| Discord server redirect | `discord.md` |
-| Mailing list redirect | `mailing.md` |
-| 404 page | `404.html` |
+| Club info & current officers | `pages/about.md` |
+| Upcoming events | `pages/events.md` |
+| Club merchandise | `pages/merch.md` |
+| Discord server redirect | `redirects/discord.md` |
+| Mailing list redirect | `redirects/mailing.md` |
+| 404 page | `pages/404.html` |
 
 ## Updating the site *(for people who don't want to mess with the code)*
 Many aspects of the site are dynamically constructed using data stored in YML files. This allows for easy updates without needing to modify the site's code. Simply add, remove, or modify items in the list of the corresponding file.
 
 |Aspect of the site  |File location  |
 |--|--|
-|List of club officers  |`/_data/officers.yml`  |
-|Merchandise on store page |`/_data/merchandise.yml` |
-|List of company collaborators |`/_data/companies.yml` |
-|Social media in the footer |`/_data/footer.yml` |
-|Discord invite link* |`discord.markdown` |
-|Mailing list link* |`mailing.markdown` |
+|List of club officers  | `_data/officers.yml`  |
+|Merchandise on store page | `_data/merchandise.yml` |
+|List of company collaborators | `_data/companies.yml` |
+|Social media in the footer | `_data/footer.yml` |
+|Discord invite link* | `redirects/discord.markdown` |
+|Mailing list link* | `redirects/mailing.markdown` |
 *For the Discord and Mailing links, simply replace the link in the markdown file.
 
 ## Installation

@@ -1,3 +1,5 @@
+# Used in _includes/footer.html
+
 # fun fact: Liquid doesn't work in YAML files :(
 
 # - name: Used as the text for the link. Text only visable in desktop view.
