@@ -11,57 +11,49 @@
   desciption: |-
     SGDA Club Officers
   sponsors:
-    - name: Cameron Meyer
-      role: President
-      image: ..\images\officer_images\cameron.png
-      profile: https://www.linkedin.com/in/cameron-meyer/ 
-
-    - name: Andrew Sylvester
-      role: Vice President
-      image: ..\images\officer_images\andrew.png
-      profile: https://www.linkedin.com/in/arsylvester/
-
-    - name: Noah Sims
-      role: Treasurer
-      image: ..\images\officer_images\noah.png
-      profile: https://www.linkedin.com/in/noah-sims-7812451a5/
-
-    - name: Henry Werner
-      role: Technical Officer
-      image: ..\images\officer_images\henry.jpg
-      profile: https://www.linkedin.com/in/htwerner/
-
     - name: Tryston Minsquero
-      role: Secretary
+      role: President
       image: ..\images\officer_images\tryston.png
       profile: https://www.linkedin.com/in/tryston-minsquero/
+
+    - name: Brandon Coffey
+      role: Vice President
+      image: ..\images\officer_images\brandon.png
+      profile: https://www.linkedin.com/in/brandon-coffey-36a802191/
+
+    - name: Christine Vo
+      role: Treasurer
+      image: ..\images\officer_images\christine.png
+
+    - name: John Mai
+      role: Technical Officer
+      image: ..\images\officer_images\john.jpg
+
+    - name: Mayson Bray
+      role: Secretary
+      image: ..\images\officer_images\mayson.png
 
     - name: Phu Le
       role: Graphic Designer
       image: ..\images\officer_images\phu.png
 
-    - name: Allison Chiang
+    - name: Ariana Mendez
       role: Marketing
-      image: ..\images\officer_images\allison.png
-      profile: https://www.linkedin.com/in/allisonschiang/
+      image: ..\images\officer_images\ari.png
 
-    - name: Luke Jaggernauth
+    - name: Linus Fackler
       role: Junior Officer
-      image: ..\images\officer_images\luke.jpg
-      profile: https://www.linkedin.com/in/lucasjagg/
+      image: ..\images\officer_images\linus.jpg
 
-    - name: Brandon Coffey
+    - name: Fatimeh Bashir
       role: Junior Officer
-      image: ..\images\officer_images\brandon.jpg
-      profile: https://www.linkedin.com/in/brandon-coffey-36a802191/
+      image: ..\images\officer_images\fatimeh.jpg
 
     - name: Sammy Mahmoudi
       role: Junior Officer
       image: ..\images\officer_images\sammy.png
       profile: https://www.linkedin.com/in/sammymahmoudi/
 
-    - name: Mayson Bray
+    - name: Nick Maclean
       role: Junior Officer
-      image: ..\images\officer_images\mayson.png
-      profile: https://www.linkedin.com/in/mayson-bray-970aba1a4/
-
+      image: ..\images\officer_images\nick.png
