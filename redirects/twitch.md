@@ -1,5 +1,4 @@
 ---
-title: twitch
-redirect_from: twitch
+permalink: /twitch/
 redirect_to: https://twitch.tv/utdsgda
 ---

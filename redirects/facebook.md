@@ -1,5 +1,4 @@
 ---
-title: facebook
-redirect_from: facebook
+permalink: /facebook/
 redirect_to: https://facebook.com/groups/UTDSGDA
 ---

@@ -1,5 +1,4 @@
 ---
-title: smash
-redirect_from: smash
+permalink: /smash/
 redirect_to: https://smash.gg/tournament/super-sgdash-bros-fundraiser/details
 ---

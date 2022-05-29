@@ -1,5 +1,4 @@
 ---
-title: discord
-redirect_from: discord
+permalink: /discord/
 redirect_to: https://discord.com/invite/Aae9Mhg
 ---

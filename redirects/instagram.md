@@ -1,5 +1,4 @@
 ---
-title: instagram
-redirect_from: instagram
+permalink: /instagram/
 redirect_to: https://www.instagram.com/utdsgda/
 ---
