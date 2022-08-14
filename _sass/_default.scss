@@ -1,0 +1,30 @@
+// fonts: brandon-grotesque, dinosaur, proxima-nova
+@import url('https://use.typekit.net/zsz0udd.css');
+
+// a
+// {
+//     color: var(--sgda_blue);
+// }
+
+// .title.is-2
+// {
+//     font-family: brandon-grotesque, sans-serif;
+//     font-weight: 700;
+//     font-style: normal;
+// }
+
+body
+{
+    font-family: dinosaur, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    color: #363636;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.125;
+}

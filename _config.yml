@@ -13,7 +13,7 @@ url: http://utdsgda.club # the base hostname & protocol of the site
 twitter_username: utdsgda
 github_username:  utd-sgda
 discord_link: https://discord.com/invite/Aae9Mhg
-mail_link: https://wordpress.us9.list-manage.com/subscribe?u=f921145fe669f08c3392649e5&id=c6d0adccd5 
+mail_link: https://wordpress.us9.list-manage.com/subscribe?u=f921145fe669f08c3392649e5&id=c6d0adccd5
 
 ## Data variables
 footer_menu: footer # Storing footer.yml as a variable
@@ -24,3 +24,6 @@ remote_theme: chrisrhymes/bulma-clean-theme
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
+
+
+include: ["assets/css"]
