@@ -1,19 +1,13 @@
 # Used as a Callout (_includes/callouts.html)
 
-style: is-light
-height: is-medium
-items:
-  - title: SGDA Discord
-    icon: fa-discord
-    icon_brand: true
-    description: >
-      Join the discussion on our Discord server!
-    call_to_action_name: Join
-    call_to_action_link: /discord
+- title: SGDA Discord
+  icon: fab fa-discord
+  description: Join the discussion on our Discord server!
+  call_to_action_name: Join
+  call_to_action_link: /discord
 
-  - title: Mailing List
-    icon: fa-envelope
-    description: >
-      Have club information sent to your inbox! 
-    call_to_action_name: Sign Up
-    call_to_action_link: /mailing
+- title: Mailing List
+  icon: fas fa-envelope
+  description: Have club information sent to your inbox! 
+  call_to_action_name: Sign Up
+  call_to_action_link: /mailing

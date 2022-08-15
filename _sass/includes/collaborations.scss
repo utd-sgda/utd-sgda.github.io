@@ -1,0 +1,27 @@
+.collabs-wrap
+{
+    margin: 2rem 0;
+
+    h1
+    {
+        text-align: center;
+    }
+}
+
+.collabs
+{
+    justify-content: center;
+    align-items: center;
+}
+
+.collab
+{
+    margin: .4rem .5rem;
+    
+    img
+    {
+        width: 120px;
+        filter: grayscale(0.3);
+        opacity: 0.8;
+    }
+}

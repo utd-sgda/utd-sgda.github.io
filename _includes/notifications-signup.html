@@ -1,0 +1,12 @@
+<div class="callouts flex-row flex-center">
+    {% for callout in site.data.home_callout %}
+    <div class="callout flex-col ">
+        <i class="{{ callout.icon }}"></i>
+        <h1>{{ callout.title }}</h1>
+        <p>{{ callout.description | newline_to_br }}</p>
+        <button class="pure-button" href="{{callout.call_to_action_link}}">
+            {{ callout.call_to_action_name }}
+        </button>
+    </div>
+    {% endfor %}
+</div>

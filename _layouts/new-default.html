@@ -19,6 +19,9 @@
         <!-- custom -->
         <link rel="stylesheet" href="/assets/css/main.css">
         <script src="/assets/js/burger.js" type="text/javascript" defer></script>
+        {% if page.stylesheet %}
+        <link rel="stylesheet" href="/assets/css/pages/{{page.stylesheet}}.css">
+        {% endif %}
         {{page.custom-head}}
     </head>
 
