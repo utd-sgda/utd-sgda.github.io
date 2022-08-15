@@ -11,6 +11,24 @@ nav.main
     width: 1.75rem;
 }
 
+nav.main
+{
+    a, a:hover
+    {
+        background-color: transparent;
+    }
+
+    a
+    {
+        color: var(--sgda_lightgrey);
+    }
+
+    a:hover
+    {
+        color: var(--white);
+    }
+}
+
 nav.main > div
 {
     vertical-align: middle;
@@ -30,7 +48,7 @@ nav.main > div
 
 .nav-burger .bar
 {
-    background-color: white;
+    background-color: var(--white);
     display: block;
     width: 20px;
     height: 2px;
@@ -73,7 +91,7 @@ nav.main > div
     width: 100%;
 }
 
-@media (min-width: 62em)
+@media (min-width: $mobile-break-max)
 {
     #tuckedMenu .right
     {
@@ -92,7 +110,7 @@ nav.main > div
     }
 }
 
-@media (max-width: 62em)
+@media (max-width: $mobile-break-min)
 {
     nav.main
     {
@@ -106,7 +124,7 @@ nav.main > div
     
     #tuckedMenu
     {
-        background-color: #fff;
+        background-color: var(--white);
         width: 100%;
         max-height: 12rem;
         overflow-y: hidden;
@@ -149,5 +167,10 @@ nav.main > div
         -ms-transform: translateX(-140px);
         transform: translateX(-140px);
         opacity: 0;
+    }
+
+    #tuckedMenu a:hover
+    {
+        color: var(--sgda_darkgrey);
     }
 }

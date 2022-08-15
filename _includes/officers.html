@@ -1,0 +1,15 @@
+<div class="officers pure-g">
+    {% for officer in site.data.officers %}
+    <div class="officer box-shadow flex-col">
+        <h1>{{officer.name}}</h1>
+        <p>{{officer.role}}</p>
+        <img src="/assets/images/officers/{{officer.image}}" />
+        {% if officer.linkedin %}
+        <a href="{{officer.linkedin}}">
+            <i class="fab fa-linkedin"></i>
+            View Profile
+        </a>
+        {% endif %}
+    </div>
+    {% endfor %}
+</div>

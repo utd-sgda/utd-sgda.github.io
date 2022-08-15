@@ -1,0 +1,14 @@
+<footer class="main pure-menu pure-menu-horizontal">
+    <div class="content flex-row flex-wrap flex-center">
+        {% for item in site.data.footer %}
+        <div>
+            <a href="{{ item.link | relative_url }}" class="flex-row">
+                {% if item.fa %}
+                <i class="{{ item.fa }}"></i>
+                {% endif %}
+                <p>{{ item.name }}</p>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+</footer>

@@ -1,30 +1,163 @@
 // fonts: brandon-grotesque, dinosaur, proxima-nova
 @import url('https://use.typekit.net/zsz0udd.css');
 
-// a
-// {
-//     color: var(--sgda_blue);
-// }
-
-// .title.is-2
-// {
-//     font-family: brandon-grotesque, sans-serif;
-//     font-weight: 700;
-//     font-style: normal;
-// }
+$mobile-break-max: 56rem;
+$mobile-break-min: 56.01em;
 
 body
 {
-    font-family: dinosaur, sans-serif;
-    font-weight: 500;
-    font-style: normal;
+    // font-family: dinosaur, sans-serif;
+    font-family: proxima-nova, sans-serif;
+    color: var(--sgda_darkgrey);
 }
 
 h1, h2, h3, h4, h5, h6
 {
-    color: #363636;
+    color: var(--sgda_darkgrey);
     font-family: proxima-nova, sans-serif;
     font-weight: 700;
     font-style: normal;
     line-height: 1.125;
+}
+
+p
+{
+    line-height: 1.5rem;
+}
+
+.content
+{
+    // max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+}
+
+@media (min-width: 35.5rem)
+{
+    .content
+    {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+}
+
+@media (min-width: 48rem)
+{
+    .content
+    {
+        padding-left: 8rem;
+        padding-right: 8rem;
+    }
+}
+
+@media (min-width: 90rem)
+{
+    .content
+    {
+        padding-left: 16rem;
+        padding-right: 16rem;
+    }
+}
+
+// default links
+a, a:visited, a:focus
+{
+    text-decoration: none;
+    color: var(--sgda_blue);
+    transition: color .15s;
+    background-color: transparent;
+}
+
+.pure-menu-link:focus
+{
+    background-color: transparent;
+}
+
+a:hover
+{
+    color: var(--sgda_darkgrey);
+}
+
+// flex components
+.flex-row
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-col
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-wrap
+{
+    flex-wrap: wrap;
+}
+
+.flex-center
+{
+    justify-content: center;
+    align-items: center;
+}
+
+.pure-g
+{
+    letter-spacing: normal;
+}
+
+// discord button
+button.discord
+{
+    background-color: #eee;
+    transition: all .1s;
+    border-radius: 3px;
+}
+
+button.discord:hover
+{
+    background-color: var(--sgda_green);
+    color: var(--sgda_darkgrey);
+}
+
+// hero
+.hero
+{
+    width: 100vw;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.hero > h1
+{
+    font-size: 2.5rem;
+    color: var(--white);
+    
+    margin: 0;
+}
+
+@media (min-width: $mobile-break-min)
+{
+    .lg-hidden
+    {
+        display: none;
+    }
+}
+
+@media (max-width: $mobile-break-max)
+{
+    .md-hidden
+    {
+        display: none;
+    }
+}
+
+hr
+{
+    background-color: var(--darkwhite);
+    border: none;
+    height: 2px;
 }

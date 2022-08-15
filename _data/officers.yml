@@ -1,59 +1,59 @@
 # Used in _includes/sponsors.html
 
-# TODO: rewrite this file to have a more streamlined structure
-
 # - name:    Name of officer
 #   role:    Position title
-#   image:   Officer's profile image
-#   profile: Link to officer's LinkedIn profile
+#   image:   Officer's image
+#   linkedin: Link to officer's LinkedIn
 
-- tier_name: Club Officers
-  desciption: |-
-    SGDA Club Officers
-  sponsors:
-    - name: Tryston Minsquero
-      role: President
-      image: ..\images\officer_images\tryston.png
-      profile: https://www.linkedin.com/in/tryston-minsquero/
+- name: Tryston Minsquero
+  role: President
+  image: tryston.png
+  linkedin: https://www.linkedin.com/in/tryston-minsquero/
 
-    - name: Brandon Coffey
-      role: Vice President
-      image: ..\images\officer_images\brandon.png
-      profile: https://www.linkedin.com/in/brandon-coffey-36a802191/
+- name: Brandon Coffey
+  role: Vice President
+  image: brandon.jpg
+  linkedin: https://www.linkedin.com/in/brandon-coffey-36a802191/
 
-    - name: Christine Vo
-      role: Treasurer
-      image: ..\images\officer_images\christine.png
+- name: Christine Vo
+  role: Treasurer
+  image: christine.JPG
+  linkedin: https://www.linkedin.com/in/christine-vo-4a56331b8/
 
-    - name: John Mai
-      role: Technical Officer
-      image: ..\images\officer_images\john.jpg
+- name: John Mai
+  role: Technical Officer
+  image: john.jpg
 
-    - name: Mayson Bray
-      role: Secretary
-      image: ..\images\officer_images\mayson.png
+- name: Mayson Bray
+  role: Secretary
+  image: mayson.png
+  linkedin: https://www.linkedin.com/in/mayson-bray-970aba1a4/
 
-    - name: Phu Le
-      role: Graphic Designer
-      image: ..\images\officer_images\phu.png
+- name: Phu Le
+  role: Graphic Designer
+  image: phu.png
 
-    - name: Ariana Mendez
-      role: Marketing
-      image: ..\images\officer_images\ari.png
+- name: Ariana Mendez
+  role: Marketing
+  image: ari.png
+  linkedin: https://www.linkedin.com/in/ariana-z-mendez/
 
-    - name: Linus Fackler
-      role: Junior Officer
-      image: ..\images\officer_images\linus.jpg
+- name: Linus Fackler
+  role: Junior Officer
+  image: linus.jpg
+  linkedin: https://www.linkedin.com/in/linus-fackler/
 
-    - name: Fatimeh Bashir
-      role: Junior Officer
-      image: ..\images\officer_images\fatimeh.jpg
+- name: Fatimeh Bashir
+  role: Junior Officer
+  image: fatimeh.png
+  linkedin: https://www.linkedin.com/in/fatimeh-bashir/
 
-    - name: Sammy Mahmoudi
-      role: Junior Officer
-      image: ..\images\officer_images\sammy.png
-      profile: https://www.linkedin.com/in/sammymahmoudi/
+- name: Sammy Mahmoudi
+  role: Junior Officer
+  image: sammy.png
+  linkedin: https://www.linkedin.com/in/sammymahmoudi/
 
-    - name: Nick Maclean
-      role: Junior Officer
-      image: ..\images\officer_images\nick.png
+- name: Nick Maclean
+  role: Junior Officer
+  image: nick.jpg
+  linkedin: https://www.linkedin.com/in/nick-maclean/
