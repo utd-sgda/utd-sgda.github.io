@@ -16,15 +16,21 @@ This website uses [Jekyll] and [RaisinCSS]. The site is designed to make the imp
 
 # Installation
 
-USE [RUBY 2.7.6-1](https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.7.6-1/rubyinstaller-devkit-2.7.6-1-x64.exe) with devkit!
+Jekyll's [Installation guide](https://jekyllrb.com/docs/installation/) covers this quite well.
 
-The site can be built and tested in a local environment using Jekyll. Jekyll has a helpful installation tutorial available [here](https://jekyllrb.com/tutorials/video-walkthroughs/).
+1. Install the latest version of [Ruby+Devkit](https://rubyinstaller.org/downloads/) (tested with 3.1.2-1 x64)
 
-1. After installing ruby, run `gem install jekyll`.
-2. For first time users, `bundle install` should be run while at the root of the repo.
+2. The documentation component can be leftout, but the others are required.
 
-Once installed, you can host the site locally by running the command `bundle exec jekyll serve` from the project's root directory.
+3. On the last page of the installation wizard, run the `ridk install` step. Select the `MSYS2 and MINGW development tool chain` in the pop-up window.
 
+4. Run `gem install jekyll bundler` in a fresh command prompt.
+
+5. navigate to the root of the project (in command prompt) and run `bundle install`.
+
+Now `bundle exec jekyll serve` may be run (in command prompt) at the root of the project to create a development build of the site, which may be viewed at `http://localhost:4000/` in your browser.
+
+Note: In VSCode, the `bundle exec jekyll serve` command can be exposed as a button in the bottom-right hand corner of the window with the `Jekyll Run` extension.
 
 # Updating the site
 
@@ -88,13 +94,25 @@ When inserting `.html` into the default template, consider if it needs to overri
 
 For example a hero image may use `ignore` to *ignore* the default responsive styling of `<main>`, `content-wrapper` to apply padding to match its siblings horizontal positioning, and `content` to constrain the hero image's text (which is a child of the image).
 
+- `stylesheet` (bool): will inline page specific scss from `_includes/css/{page}.scss`
+- `not-inline` (bool): instead of inlining `_includes/css/{page}.scss`, `assets/css/pages/{page}.scss` will be linked. This should be used if the stylesheet exceeds 14kb.
+
 ## Assets
 
 `_assets` stores all non-`html`, non-`md`, and non-`scss` partial files that should be published with the site. This includes images, javascript, and page specific stylesheets.
 
 ## SCSS
 
-`.scss` files in the `_sass` folder are considered 'partial' files. They are not directly used by pages, but rather imported by `.scss` files in `assets/css` to be used by pages.
+`.scss` files in the `_sass` folder are considered 'partial' files. They are not directly used by pages, but rather imported by `.scss` files in `assets/css/` or `_includes/css/` to be used by pages.
+
+`.scss` files in `assets/` need to have
+
+```
+---
+---
+```
+
+at the top to be processed to `css`.
 
 ## HTML Components (and their SCSS)
 
