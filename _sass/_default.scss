@@ -1,63 +1,44 @@
-// fonts: brandon-grotesque, dinosaur, proxima-nova
-@import url('https://use.typekit.net/zsz0udd.css');
-
-$mobile-break-max: 56rem;
-$mobile-break-min: 56.01em;
-
 body
 {
-    // font-family: dinosaur, sans-serif;
-    font-family: proxima-nova, sans-serif;
-    color: var(--sgda_darkgrey);
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+    color: var(--darkgrey);
 }
 
 h1, h2, h3, h4, h5, h6
 {
-    color: var(--sgda_darkgrey);
-    font-family: proxima-nova, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    line-height: 1.125;
+    margin-top: 1.5rem;
+    margin-bottom: .75rem;
 }
 
 p
 {
-    line-height: 1.5rem;
+    margin: .75rem 0;
 }
 
-.content
+// reponsive layout base
+.content-wrapper
 {
-    // max-width: 768px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100vw;
     padding-left: 1.75rem;
     padding-right: 1.75rem;
 }
 
-@media (min-width: 35.5rem)
+$max-width: 900px;
+.content, .children-are-content > *:not(.ignore)
 {
-    .content
-    {
-        padding-left: 5rem;
-        padding-right: 5rem;
-    }
+    max-width: $max-width;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-@media (min-width: 48rem)
+@media (max-width: $max-width)
 {
-    .content
+    .children-are-content > *:not(.ignore)
     {
-        padding-left: 8rem;
-        padding-right: 8rem;
-    }
-}
-
-@media (min-width: 90rem)
-{
-    .content
-    {
-        padding-left: 16rem;
-        padding-right: 16rem;
+        padding-left: 1.75rem;
+        padding-right: 1.75rem;
     }
 }
 
@@ -70,94 +51,36 @@ a, a:visited, a:focus
     background-color: transparent;
 }
 
-.pure-menu-link:focus
-{
-    background-color: transparent;
-}
-
 a:hover
 {
+    text-decoration: none;
+    color: var(--text-bright);
+}
+
+a.button
+{
+    background-color: #e6e6e6;
     color: var(--sgda_darkgrey);
-}
+    padding: .5rem 1rem;
 
-// flex components
-.flex-row
-{
-    display: flex;
-    flex-direction: row;
-}
-
-.flex-col
-{
-    display: flex;
-    flex-direction: column;
-}
-
-.flex-wrap
-{
-    flex-wrap: wrap;
-}
-
-.flex-center
-{
-    justify-content: center;
-    align-items: center;
-}
-
-.pure-g
-{
-    letter-spacing: normal;
-}
-
-// discord button
-button.discord
-{
-    background-color: #eee;
     transition: all .1s;
     border-radius: 3px;
 }
 
-button.discord:hover
+a.button:hover
 {
     background-color: var(--sgda_green);
     color: var(--sgda_darkgrey);
 }
 
-// hero
-.hero
+// default button
+button
 {
-    width: 100vw;
-    padding-top: 8rem;
-    padding-bottom: 8rem;
-}
-
-.hero > h1
-{
-    font-size: 2.5rem;
-    color: var(--white);
-    
-    margin: 0;
-}
-
-@media (min-width: $mobile-break-min)
-{
-    .lg-hidden
-    {
-        display: none;
-    }
-}
-
-@media (max-width: $mobile-break-max)
-{
-    .md-hidden
-    {
-        display: none;
-    }
-}
-
-hr
-{
-    background-color: var(--darkwhite);
     border: none;
-    height: 2px;
+}
+
+// raisincss extension
+.w-fit
+{
+    width: fit-content
 }

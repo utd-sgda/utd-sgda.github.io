@@ -5,7 +5,7 @@ window.onload = function ()
 
     burger.addEventListener('click', function (e)
     {
-        tuckedMenu.classList.toggle('nav-tucked');
-        burger.classList.toggle('x');
+        tuckedMenu.classList.toggle('untucked');
+        burger.classList.toggle('is-active');
     });
 };

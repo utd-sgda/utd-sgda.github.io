@@ -1,12 +1,12 @@
-<footer class="main pure-menu pure-menu-horizontal">
-    <div class="content flex-row flex-wrap flex-center">
+<footer class="content-wrapper bg-darkwhite py-12 mt-12">
+    <div class="content flex flex-row flex-wrap justify-center font-2xl lg:font-lg">
         {% for item in site.data.footer %}
         <div>
-            <a href="{{ item.link | relative_url }}" class="flex-row">
+            <a href="{{ item.link | relative_url }}" class="flex flex-row mx-3 my-2">
                 {% if item.fa %}
-                <i class="{{ item.fa }}"></i>
+                <i class="{{ item.fa }} my-auto lg:mr-1"></i>
                 {% endif %}
-                <p>{{ item.name }}</p>
+                <p class="display-none lg:display-block">{{ item.name }}</p>
             </a>
         </div>
         {% endfor %}

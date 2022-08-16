@@ -1,10 +1,6 @@
-<div class="collabs-wrap">
-    <h1>Guest speakers from</h1>
-    <div class="collabs pure-g">
-        {% for logo in site.data.companies %}
-        <div class="collab">
-            <img src="{{ logo.image }}" alt="{{ logo.name }}">
-        </div>
-        {% endfor %}
-    </div>
+<h1 class="text-center">Guest speakers from</h1>
+<div class="flex flex-row flex-wrap justify-center mt-8">
+    {% for logo in site.data.companies %}
+    <img class="collab my-4 lg:my-auto mx-2" src="{{ logo.image }}" alt="{{ logo.name }}">
+    {% endfor %}
 </div>

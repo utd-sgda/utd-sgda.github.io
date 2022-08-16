@@ -9,10 +9,6 @@
         <title> {{site.title}} | {{page.title}} </title>
         <link rel="shortcut icon" type="image/png" href="/assets/images/favicon-256.png"/>
         
-        <!-- pure css -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/base-min.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/pure-min.css" integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH" crossorigin="anonymous">
-        
         <!-- font awesome -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
         
@@ -22,38 +18,17 @@
         {% if page.stylesheet %}
         <link rel="stylesheet" href="/assets/css/pages/{{page.stylesheet}}.css">
         {% endif %}
-        {{page.custom-head}}
+        <!-- {{page.custom-head}} -->
     </head>
 
     <body>
         {% include navbar.html %}
 
         {% if page.hero %}
-        <div class="hero content" style="background: url('/assets/images/TileablePatternBlue-168.png') repeat center center; {{page.heroStyle}}">
-            {% if page.hero-text-small %}
-            <h1 class="md-hidden">
-                {% if page.hero-text %}
-                    {{page.hero-text}}
-                {% else %}
-                    {{page.title}}
-                {% endif %}
-            </h1>
-            <h1 class="lg-hidden">
-                {{page.hero-text-small}}
-            </h1>
-            {% else %}
-            <h1>
-                {% if page.hero-text %}
-                    {{page.hero-text}}
-                {% else %}
-                    {{page.title}}
-                {% endif %}
-            </h1>
-            {% endif %}
-        </div>
+        {% include hero-tileable-bg.html path=page.hero %}
         {% endif %}
 
-        <main class="content">
+        <main class="children-are-content mt-12">
             {{content}}
         </main>
 

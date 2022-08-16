@@ -1,12 +1,14 @@
-<div class="callouts flex-row flex-center">
-    {% for callout in site.data.home_callout %}
-    <div class="callout flex-col ">
-        <i class="{{ callout.icon }}"></i>
-        <h1>{{ callout.title }}</h1>
-        <p>{{ callout.description | newline_to_br }}</p>
-        <button class="pure-button" href="{{callout.call_to_action_link}}">
-            {{ callout.call_to_action_name }}
-        </button>
+<div class="ignore content-wrapper bg-darkwhite text-center">
+    <div class="content flex flex-column sm:flex-row justify-around py-12">
+        {% for callout in site.data.home_callout %}
+        <div class="flex flex-column ">
+            <i class="{{ callout.icon }} fa-4x"></i>
+            <h2 class="m-0">{{ callout.title }}</h2>
+            <p class="mt-0 mb-6">{{ callout.description | newline_to_br }}</p>
+            <a class="button w-fit mx-auto" href="{{callout.call_to_action_link}}">
+                {{ callout.call_to_action_name }}
+            </a>
+        </div>
+        {% endfor %}
     </div>
-    {% endfor %}
 </div>

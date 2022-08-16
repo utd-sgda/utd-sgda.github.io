@@ -1,0 +1,29 @@
+{% assign text-color = '#fff' %}
+{% if include.text-color %}
+    {% assign text-color = include.text-color%}
+{% endif %}
+
+<div class="content-wrapper py-12" style="background: url('/assets/images/{{include.path}}') repeat center center; {{page.heroStyle}}">
+    <div class="content font-xl" style="color:{{text-color}}; line-height: 1.125;">
+        {% if page.hero-text-small %}
+        <h1 class="display-none lg:display-block m-0">
+            {% if page.hero-text %}
+            {{page.hero-text}}
+            {% else %}
+            {{page.title}}
+            {% endif %}
+        </h1>
+        <h1 class="lg:display-none m-0">
+            {{page.hero-text-small}}
+        </h1>
+        {% else %}
+        <h1 class="m-0">
+            {% if page.hero-text %}
+            {{page.hero-text}}
+            {% else %}
+            {{page.title}}
+            {% endif %}
+        </h1>
+        {% endif %}
+    </div>
+</div>
