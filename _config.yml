@@ -22,5 +22,4 @@ associated_companies: companies # Storing the companies.yml file as a variable
 ## Build settings
 remote_theme: chrisrhymes/bulma-clean-theme
 plugins:
-  - jekyll-feed
   - jekyll-redirect-from

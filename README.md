@@ -33,8 +33,6 @@ Many aspects of the site are dynamically constructed using data stored in YML fi
 
 ## Installation
 
-USE [RUBY 2.7.6-1](https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.7.6-1/rubyinstaller-devkit-2.7.6-1-x64.exe) with devkit!
-
 The site can be built and tested in a local environment using Jekyll. Jekyll has a helpful installation tutorial available [here](https://jekyllrb.com/tutorials/video-walkthroughs/).
 
 Once installed, you can host the site locally by running the command `bundle exec jekyll serve` from the project's root directory.
