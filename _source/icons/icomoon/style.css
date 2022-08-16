@@ -1,0 +1,105 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?kyat0j');
+  src:  url('fonts/icomoon.eot?kyat0j#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?kyat0j') format('truetype'),
+    url('fonts/icomoon.woff?kyat0j') format('woff'),
+    url('fonts/icomoon.svg?kyat0j#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-down:before {
+  content: "\e915";
+}
+.icon-arrow-left:before {
+  content: "\e916";
+}
+.icon-arrow-right:before {
+  content: "\e917";
+}
+.icon-arrow-up:before {
+  content: "\e918";
+}
+.icon-envelope:before {
+  content: "\e919";
+}
+.icon-artstation:before {
+  content: "\e900";
+}
+.icon-css3:before {
+  content: "\e901";
+}
+.icon-discord:before {
+  content: "\e902";
+}
+.icon-facebook:before {
+  content: "\e903";
+}
+.icon-github:before {
+  content: "\e904";
+}
+.icon-gitkraken:before {
+  content: "\e905";
+}
+.icon-html5:before {
+  content: "\e906";
+}
+.icon-instagram:before {
+  content: "\e907";
+}
+.icon-linkedin:before {
+  content: "\e908";
+}
+.icon-linkedin-in:before {
+  content: "\e909";
+}
+.icon-square-facebook:before {
+  content: "\e90a";
+}
+.icon-square-github:before {
+  content: "\e90b";
+}
+.icon-square-instagram:before {
+  content: "\e90c";
+}
+.icon-square-steam:before {
+  content: "\e90d";
+}
+.icon-square-twitter:before {
+  content: "\e90e";
+}
+.icon-square-youtube:before {
+  content: "\e90f";
+}
+.icon-steam:before {
+  content: "\e910";
+}
+.icon-twitch:before {
+  content: "\e911";
+}
+.icon-twitter:before {
+  content: "\e912";
+}
+.icon-unity:before {
+  content: "\e913";
+}
+.icon-youtube:before {
+  content: "\e914";
+}

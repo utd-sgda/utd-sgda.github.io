@@ -101,6 +101,10 @@ For example a hero image may use `ignore` to *ignore* the default responsive sty
 
 `_assets` stores all non-`html`, non-`md`, and non-`scss` partial files that should be published with the site. This includes images, javascript, and page specific stylesheets.
 
+### Icons
+
+See `/source/icons/README.md` for updating the icon font.
+
 ## SCSS
 
 `.scss` files in the `_sass` folder are considered 'partial' files. They are not directly used by pages, but rather imported by `.scss` files in `assets/css/` or `_includes/css/` to be used by pages.

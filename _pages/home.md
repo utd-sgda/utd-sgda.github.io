@@ -21,7 +21,7 @@ The SGDA serves to promote game development, create a growing community of stude
 <div class="mb-12">
     <a href="/about/">
         Learn more
-        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+        <i class="icon-arrow-right" aria-hidden="true"></i>
     </a>
 </div>
 

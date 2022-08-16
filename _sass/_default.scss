@@ -87,12 +87,12 @@ a.button:hover
 }
 
 // arrow animation
-a .fa-arrow-right
+a .icon-arrow-right
 {
     transition: all ease-out .15s;
 }
 
-a:focus .fa-arrow-right
+a:focus .icon-arrow-right
 {
     transform: translateX(25px);
     opacity: 0;
@@ -131,4 +131,9 @@ button
 .line-1
 {
     line-height: 1;
+}
+
+.font-6xl
+{
+    font-size: 4rem;
 }
