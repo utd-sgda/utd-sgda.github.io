@@ -1,6 +1,6 @@
-<h1 class="text-center">Guest speakers from</h1>
+<h1 class="text-center mt-0">Guest speakers from</h1>
 <div class="flex flex-row flex-wrap justify-center mt-8">
     {% for logo in site.data.companies %}
-    <img class="collab my-4 lg:my-auto mx-2" src="{{ logo.image }}" alt="{{ logo.name }}">
+    <img class="collab my-4 lg:my-auto mx-2" src="{{ logo.image }}" alt="{{ logo.name }}" style="width: 120px; filter: grayscale(0.3); opacity: 0.8;">
     {% endfor %}
 </div>

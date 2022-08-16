@@ -8,8 +8,6 @@ description: Welcome to the UT Dallas SGDA site. We make and play games!
 hero: TileablePatternBlue-168.png
 hero-text: The University of Texas at Dallas<br/>Student Game Developer Association
 hero-text-small: UTD SGDA
-
-stylesheet: home
 ---
 
 ## Who are we?
