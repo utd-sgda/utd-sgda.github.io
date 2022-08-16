@@ -24,4 +24,4 @@ plugins:
   - jekyll-redirect-from
 
 
-include: ["assets/css"]
+include: ["_pages", "_redirects", "assets/css"]

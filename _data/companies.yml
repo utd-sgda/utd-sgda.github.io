@@ -1,31 +1,31 @@
-# Used in _includes/collaborations.html
+# Used in _includes/companies.html component
 
 # - name:  Company name
 #   image: Image of company logo
 
 - name: Blizzard
-  image: images\company_logos\Blizzard_Logo.png
+  image: Blizzard_Logo.png
 
 - name: Bungie
-  image: images\company_logos\Bungie.png
+  image: Bungie.png
 
 - name: ID Software
-  image: images\company_logos\Id_Software.png
+  image: Id_Software.png
 
 - name: Gearbox
-  image: images\company_logos\Gearbox_Software.png
+  image: Gearbox_Software.png
 
 - name: Niantic
-  image: images\company_logos\Niantic.png
+  image: Niantic.png
 
 - name: Bethesda
-  image: images\company_logos\Bethesda.png
+  image: Bethesda.png
 
 - name: Polynight
-  image: images\company_logos\Polyknight.png
+  image: Polyknight.png
 
 - name: Boss Fight Entertainment 
-  image: images\company_logos\boss-fight-entertainment.png
+  image: boss-fight-entertainment.png
 
 - name: BonusXP
-  image: images\company_logos\BonusXP.jpg
+  image: BonusXP.jpg

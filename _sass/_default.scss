@@ -1,13 +1,20 @@
+@import url("https://use.typekit.net/zsz0udd.css");
+
 body
 {
+    font-family: "proxima-nova", sans-serif;
+    color: var(--darkgrey);
+    line-height: 1.5;
+    
     padding: 0;
     margin: 0;
-    line-height: 1.5;
-    color: var(--darkgrey);
 }
 
 h1, h2, h3, h4, h5, h6
 {
+    font-family: "brandon-grotesque", sans-serif;
+    font-weight: 700;
+    
     margin-top: 1.5rem;
     margin-bottom: .75rem;
 }
