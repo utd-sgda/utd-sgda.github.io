@@ -2,7 +2,7 @@
     <div class="content flex flex-row flex-wrap justify-center font-2xl lg:font-lg">
         {% for item in site.data.socials %}
         <div>
-            <a href="{{ item.link | relative_url }}" class="flex flex-row mx-3 my-2">
+            <a href="{{ item.link | relative_url }}" class="flex flex-row mx-3 my-2" aria-label="{{ item.name }}">
                 {% if item.fa %}
                 <i class="{{ item.fa }} my-auto lg:mr-1"></i>
                 {% endif %}
