@@ -24,6 +24,15 @@ p
     margin: .75rem 0;
 }
 
+hr
+{
+    height: .15rem;
+    margin: 2rem 0 3rem;
+
+    border: none;
+    background-color: var(--darkwhite);
+}
+
 // reponsive layout base
 .content-wrapper
 {
@@ -80,14 +89,49 @@ a.button:hover
     color: var(--sgda_darkgrey);
 }
 
+// arrow animation
+a .fa-arrow-right
+{
+    transition: all ease-out .15s;
+}
+
+a:focus .fa-arrow-right
+{
+    transform: translateX(25px);
+    opacity: 0;
+}
+
 // default button
 button
 {
     border: none;
 }
 
+// box-shadow
+.box-shadow
+{
+    box-shadow: 0 .5em 1em -.125em rgba(10,10,10,0.1),0 0px 0 1px rgba(10,10,10,0.02);
+    color: #4a4a4a;
+}
+
 // raisincss extension
 .w-fit
 {
-    width: fit-content
+    width: fit-content;
+}
+
+.h-fit
+{
+    height: fit-content;
+}
+
+.sz-fit
+{
+    width: fit-content;
+    height: fit-content;
+}
+
+.line-1
+{
+    line-height: 1;
 }

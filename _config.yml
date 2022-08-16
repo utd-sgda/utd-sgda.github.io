@@ -20,7 +20,7 @@ associated_companies: companies # Storing the companies.yml file as a variable
 
 ## Build settings
 plugins:
-  - jekyll-feed
+  - jekyll-seo-tag
   - jekyll-redirect-from
 
 

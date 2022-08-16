@@ -10,9 +10,15 @@
     --white: white;
     --darkgrey: #363636;
     --darkwhite: #f5f5f5;
+    --lightgrey: #4a4a4a;
 }
 
 .bg-darkwhite
 {
     background-color: var(--darkwhite);
+}
+
+.c-lightgrey
+{
+    color: var(--lightgrey);
 }
