@@ -17,7 +17,17 @@
         <script src="/assets/js/burger.js" type="text/javascript" defer></script>
         {% if page.stylesheet %}
         {% assign extension = page.name | split: '.' | last | prepend: "." %}
+        
+        {% if page.not-inline %}
         <link rel="stylesheet" href="/assets/css/pages/{{page.name | remove: extension }}.css">
+        {% else %}
+        <style type="text/css">
+            {% capture include_to_scssify %}
+            {% include {{ page.name | remove: extension | prepend: "css/" | append: ".scss" }} %}
+            {% endcapture %}
+            {{ include_to_scssify | scssify }}
+        </style>
+        {% endif%}
         {% endif %}
         {{page.custom-head}}
     </head>
