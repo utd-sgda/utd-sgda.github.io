@@ -6,9 +6,17 @@ title: About
 description: Welcome to the UT Dallas SGDA site. We make and play games!
 ---
 
-{% include hero-tileable-bg.html
+<!-- {% include hero-tileable-bg.html
     path="TileablePatternBlue-168.png"
-%}
+    text="About us"
+%} -->
+
+<div class="ignore content-wrapper gradient-2">
+    <div class="content flex flex-column items-center">
+        <h1 class="my-12"> About </h1>
+    </div>
+</div>
+
 
 # Who are we?
 

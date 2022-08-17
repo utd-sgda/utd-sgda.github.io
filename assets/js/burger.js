@@ -1,11 +1,16 @@
 window.onload = function ()
 {
-    burger = document.getElementById('nav-burger');
-    tuckedMenu = document.getElementById('tuckedMenu');
+    let stateful_elements = document.getElementsByClassName("stateful");
 
-    burger.addEventListener('click', function (e)
+    for (let i = 0; i < stateful_elements.length; i++)
     {
-        tuckedMenu.classList.toggle('untucked');
-        burger.classList.toggle('is-active');
-    });
+        let el = stateful_elements[i];
+        button = document.getElementById(el.getAttribute("for"));
+
+        button.addEventListener('click', function (e)
+        {
+            el.classList.toggle('active');
+            button.classList.toggle('active');
+        });
+    }
 };

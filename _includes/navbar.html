@@ -1,40 +1,44 @@
 <nav class="main line-1">
-    <div class="content-wrapper py-4">
-        <div class="content flex flex-column lg:flex-row items-center">
-            <div class="flex flex-row items-center w-full lg:w-auto">
-                <a href="/">
-                    <img src="/assets/images/sgda_logo_stacked_letters-256.png" alt="UT Dallas SGDA Logo" class="nav-logo">
-                </a>
-                {% include burger.html id="nav-burger" class="ml-auto lg:display-none" %}
-            </div>
-
-            <!-- tablet/desktop inline navigation -->
-            <div class="lg:flex flex-column lg:flex-row items-start lg:items-center w-full display-none">
-                <a class="link-on-dark w-full lg:w-auto lg:h-full lg:pl-4" href="/">Home</a>
-                <a class="link-on-dark w-full lg:w-auto lg:h-full lg:pl-4" href="/about/">About</a>
-                <a class="link-on-dark w-full lg:w-auto lg:h-full lg:pl-4" href="/merch/">Merch</a>
+    <div class="content-wrapper bg-black">
+        <div class="content">
+            <div class="flex flex-column lg:flex-row items-center">
+                <div class="flex flex-row items-center lg:mr-auto w-full lg:w-auto">
+                    <!-- logo -->
+                    <div class="">
+                        <a class="display-block py-4" href="/">
+                            <img src="/assets/images/sgda_logo_horrizontal_letters-128.png" alt="UT Dallas SGDA Logo" class="logo">
+                        </a>
+                    </div>
+                    
+                    <!-- dots controller -->
+                    <!-- <button class="lg:display-none ml-auto" id="nav-burger">
+                        <div class="flex flex-column">
+                            <div class="dot-1 border-radius-full mx-auto"></div>
+                            <div class="flex flex-row">
+                                <div class="dot-2 border-radius-full"></div>
+                                <div class="dot-3 border-radius-full ml-3"></div>
+                            </div>
+                            <div class="dot-4 border-radius-full mx-auto"></div>
+                        </div>
+                    </button> -->
+                    {% include burger.html id="nav-burger" class="ml-auto lg:display-none" %}
+                </div>
                 
-                <a class="button lg:ml-auto" href="/discord"> <i class="icon-discord" aria-hidden="true"></i> Join our Discord</a>
-            </div>
-        </div>
-    </div>
-    
-    <!-- mobile burger dropdown -->
-    <div class="lg:display-none tucked" id="tuckedMenu">
-        <div class="flex flex-column lg:flex-row items-start lg:items-center w-full py-4">
-            <a class="content-wrapper link-on-light w-full lg:w-auto lg:h-full lg:pl-4 lg:pb-0 py-1" href="/">
-                <p class="content">Home</p>
-            </a>
-            <a class="content-wrapper link-on-light w-full lg:w-auto lg:h-full lg:pl-4 lg:pb-0 py-1" href="/about/">
-                <p class="content">About</p>
-            </a>
-            <a class="content-wrapper link-on-light w-full lg:w-auto lg:h-full lg:pl-4 lg:pb-0 py-1" href="/merch/">
-                <p class="content">Merch</p>
-            </a>
-            
-            <div class="display-block content-wrapper pt-4 pb-3">
-                <div class="content w-full">
-                    <a class="button lg:ml-auto" href="/discord"> <i class="icon-discord" aria-hidden="true"></i> Join our Discord</a>
+                <!-- links -->
+                <div class="links flex flex-column lg:flex-row items-center w-full lg:w-auto text-center overflow-hidden stateful" for="nav-burger">
+                {% assign i = 0 %}
+                {% for item in site.data.navigation %}
+                <a class="link-{{ i | modulo: 4 | plus: 1}} w-full h-full lg:pl-4 py-3{% if page.title == item.title %} current-page{% endif %}" href="{{ item.link }}"> {{ item.title }} </a>
+                    {% assign i = i | plus: 1 %}
+                {% endfor %}
+                </div>
+                
+                <!-- dots row -->
+                <div class="ml-auto lg:flex flex-row display-none">
+                    <div class="dot-1 border-radius-full"></div>
+                    <div class="dot-2 border-radius-full ml-2"></div>
+                    <div class="dot-3 border-radius-full ml-2"></div>
+                    <div class="dot-4 border-radius-full ml-2"></div>
                 </div>
             </div>
         </div>

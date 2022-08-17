@@ -52,20 +52,20 @@ button.hamburger:hover
     top: 1rem;
 }
 
-button.hamburger.is-active > .hamburger-inner::before
+button.hamburger.active > .hamburger-inner::before
 {
     transform: translateX(-50%) rotate(-45deg);
     top: .875rem;
     opacity: 0;
 }
 
-button.hamburger.is-active > .hamburger-inner
+button.hamburger.active > .hamburger-inner
 {
     transform: rotate(45deg);
     top: 0;
 }
 
-button.hamburger.is-active > .hamburger-inner::after
+button.hamburger.active > .hamburger-inner::after
 {
     transform: rotate(-90deg);
     top: 0;

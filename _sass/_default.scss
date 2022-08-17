@@ -1,8 +1,11 @@
 body
 {
     font-family: "Montserrat", sans-serif;
-    color: var(--darkgrey);
     line-height: 1.5;
+
+    color: $clr-white;
+    background-color: $clr-black;
+    background: linear-gradient(90deg, #111 0%, #000 40%, #000 60%, #111 100%);
     
     padding: 0;
     margin: 0;
@@ -55,6 +58,29 @@ $max-width: 900px;
     }
 }
 
+main.children-are-content
+{
+    > h1
+    {
+        color: $clr-sgda-yellow;
+    }
+    
+    > h1:nth-child(2)
+    {
+        color: $clr-sgda-green;
+    }
+    
+    > h1:nth-child(3)
+    {
+        color: $clr-sgda-blue;
+    }
+    
+    > h1:nth-child(4)
+    {
+        color: $clr-sgda-red;
+    }
+}
+
 // default links
 a, a:visited, a:focus
 {
@@ -67,12 +93,12 @@ a, a:visited, a:focus
 a:hover
 {
     text-decoration: none;
-    color: var(--text-bright);
+    color: var(--sgda_yellow);
 }
 
 a.button
 {
-    background-color: #e6e6e6;
+    background-color: $clr-sgda-blue;
     color: var(--sgda_darkgrey);
     padding: .5rem 1rem;
 
@@ -82,7 +108,7 @@ a.button
 
 a.button:hover
 {
-    background-color: var(--sgda_green);
+    background-color: var(--sgda_yellow);
     color: var(--sgda_darkgrey);
 }
 
@@ -136,4 +162,19 @@ button
 .font-6xl
 {
     font-size: 4rem;
+}
+
+// gradients
+.gradient-1
+{
+    $darken: 15%;
+    background-color: $clr-sgda-blue;
+    background-image: linear-gradient(43deg,  adjust-color($clr-sgda-blue, $lightness: -$darken) 0%, adjust-color($clr-sgda-green, $lightness: -$darken) 100%);
+}
+
+.gradient-2
+{
+    $darken: 15%;
+    background-color: $clr-sgda-red;
+    background-image: linear-gradient(43deg,  adjust-color($clr-sgda-red, $lightness: -$darken) 30%, adjust-color($clr-sgda-yellow, $lightness: -$darken) 100%);
 }
