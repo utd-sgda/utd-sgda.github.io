@@ -1,0 +1,130 @@
+@import "_colors";
+@import "includes/burger";
+
+nav.main
+{
+    font-weight: 600;
+
+    @media (max-width: 991px)
+    {
+        padding-bottom: 2px;
+        background-color: $clr-sgda-yellow;
+        background: linear-gradient(90deg, $clr-sgda-red 0%, $clr-sgda-yellow 100%);
+
+        a
+        {
+            transition: background-color .1s;
+        }
+
+        a:hover
+        {
+            background-color: darken($clr-sgda-darkgrey, 8);
+        }
+
+        .links
+        {
+            max-height: 0;
+            transition: max-height .3s;
+        }
+        
+        .links.active
+        {
+            max-height: 10rem;
+        }
+    }
+
+    @media (min-width: 992px)
+    {
+        .content
+        {
+            padding-bottom: 2px;
+            background-color: $clr-sgda-yellow;
+            background: linear-gradient(90deg, $clr-sgda-red 0%, $clr-sgda-yellow 100%);
+
+            > *
+            {
+                background-color: $clr-black;
+            }
+        }
+    }
+
+    .logo
+    {
+        height: 1.75rem;
+        width: 4.8125rem;
+        object-fit: contain;
+    }
+
+
+    $link-darken: 20;
+    .link-1
+    {
+        color: darken($clr-sgda-red, $link-darken);
+    }
+
+    .link-2
+    {
+        color: darken($clr-sgda-yellow, $link-darken+10);
+    }
+
+    .link-3
+    {
+        color: darken($clr-sgda-green, $link-darken);
+    }
+
+    .link-4
+    {
+        color: darken($clr-sgda-blue, $link-darken);
+    }
+
+    .link-1:hover, .link-1.current-page
+    {
+        color: $clr-sgda-red;
+    }
+
+    .link-2:hover, .link-2.current-page
+    {
+        color: $clr-sgda-yellow;
+    }
+
+    .link-3:hover, .link-3.current-page
+    {
+        color: $clr-sgda-green;
+    }
+
+    .link-4:hover, .link-4.current-page
+    {
+        color: $clr-sgda-blue;
+    }
+
+    .current-page
+    {
+        font-weight: bold;
+    }
+
+    .dot-1, .dot-2, .dot-3, .dot-4
+    {
+        width: .7rem;
+        height: .7rem;
+    }
+
+    .dot-1
+    {
+        background-color: $clr-sgda-red;
+    }
+
+    .dot-2
+    {
+        background-color: $clr-sgda-yellow;
+    }
+
+    .dot-3
+    {
+        background-color: $clr-sgda-green;
+    }
+
+    .dot-4
+    {
+        background-color: $clr-sgda-blue;
+    }
+}

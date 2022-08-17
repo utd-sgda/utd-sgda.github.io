@@ -1,0 +1,46 @@
+<nav class="main line-1">
+    <div class="content-wrapper bg-black">
+        <div class="content">
+            <div class="flex flex-column lg:flex-row items-center">
+                <div class="flex flex-row items-center lg:mr-auto w-full lg:w-auto">
+                    <!-- logo -->
+                    <div class="">
+                        <a class="display-block py-4" href="/">
+                            <img src="/assets/images/sgda_logo_horrizontal_letters-128.png" alt="UT Dallas SGDA Logo" class="logo">
+                        </a>
+                    </div>
+                    
+                    <!-- dots controller -->
+                    <!-- <button class="lg:display-none ml-auto" id="nav-burger">
+                        <div class="flex flex-column">
+                            <div class="dot-1 border-radius-full mx-auto"></div>
+                            <div class="flex flex-row">
+                                <div class="dot-2 border-radius-full"></div>
+                                <div class="dot-3 border-radius-full ml-3"></div>
+                            </div>
+                            <div class="dot-4 border-radius-full mx-auto"></div>
+                        </div>
+                    </button> -->
+                    {% include burger.html id="nav-burger" class="ml-auto lg:display-none" %}
+                </div>
+                
+                <!-- links -->
+                <div class="links flex flex-column lg:flex-row items-center w-full lg:w-auto text-center overflow-hidden stateful" for="nav-burger">
+                {% assign i = 0 %}
+                {% for item in site.data.navigation %}
+                <a class="link-{{ i | modulo: 4 | plus: 1}} w-full h-full lg:pl-4 py-3{% if page.title == item.title %} current-page{% endif %}" href="{{ item.link }}"> {{ item.title }} </a>
+                    {% assign i = i | plus: 1 %}
+                {% endfor %}
+                </div>
+                
+                <!-- dots row -->
+                <div class="ml-auto lg:flex flex-row display-none">
+                    <div class="dot-1 border-radius-full"></div>
+                    <div class="dot-2 border-radius-full ml-2"></div>
+                    <div class="dot-3 border-radius-full ml-2"></div>
+                    <div class="dot-4 border-radius-full ml-2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>

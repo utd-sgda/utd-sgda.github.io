@@ -1,0 +1,106 @@
+# Used in _includes/merch.html component
+
+# - title:       Title text for the product 
+#   type:        (unused) Type of product being sold
+#   description: Description text that will appear below the title
+#   price:       Starting price for the product
+#   image:       Link to product image. (1-by-1 aspect ratio)
+#   link:        Link to product page
+
+- title: SGDA T-Shirt
+  type: Shirt
+  description: Comfortable and stylish. Available in multiple sizes.
+  price: $15.00
+  image: https://prod-cdn-02.storenvy.com/product_photos/93977875/file_0f008204dc_original.jpg
+  link: https://sgda.storenvy.com/products/33422776-sgda-f21
+
+- title: SGDA Pattern Mask
+  type: Mask
+  description: Available in multiple sizes and mask types.
+  price: $10.00
+  image: https://ih1.redbubble.net/image.2069634428.6200/ur,fitted_mask_flatlay_fitted_regular,square,1000x1000.jpg
+  link: https://www.redbubble.com/i/mask/SGDA-Pattern-in-Blue-by-sgda/69216200.9G0D8
+
+- title: Stacked Logo Mask
+  type: Mask
+  description: Available in multiple sizes and mask types.
+  price: $10.00
+  image: https://ih1.redbubble.net/image.2069228280.3124/ur,mask_flatlay_front,product,600x600.jpg
+  link: https://www.redbubble.com/i/mask/SGDA-Circle-Logo-by-sgda/54003124.9G0D8
+
+- title: SGDA Dots Mask
+  type: Mask
+  description: Available in multiple sizes and mask types.
+  price: $10.00
+  image: https://ih1.redbubble.net/image.2069230997.0104/ur,mask_flatlay_front,product,600x600.jpg
+  link: https://www.redbubble.com/i/mask/SGDA-Dot-Logo-by-sgda/54110104.9G0D8
+
+- title: Horizontal Logo Sticker
+  type: Sticker
+  description: Available in matte, glossy, and transparent.
+  price: $2.50
+  image: https://ih1.redbubble.net/image.1495035559.9948/st,small,507x507-pad,600x600,f8f8f8.jpg
+  link: https://www.redbubble.com/i/sticker/SGDA-Horizontal-Logo-2020-by-sgda/54109948.EJUG5
+
+- title: Stacked Logo Sticker
+  type: Sticker
+  description: Available in matte, glossy, and transparent.
+  price: $2.50
+  image: https://ih1.redbubble.net/image.1489907591.3124/st,small,507x507-pad,600x600,f8f8f8.jpg
+  link: https://www.redbubble.com/i/sticker/SGDA-Circle-Logo-by-sgda/54003124.EJUG5
+
+- title: SGDA Dots Sticker
+  type: Sticker
+  description: Available in matte, glossy, and transparent.
+  price: $2.50
+  image: https://ih1.redbubble.net/image.1495043236.0104/st,small,507x507-pad,600x600,f8f8f8.jpg
+  link: https://www.redbubble.com/i/sticker/SGDA-Dot-Logo-by-sgda/54110104.EJUG5
+
+- title: Circuit Logo Sticker
+  type: Sticker
+  description: Available in matte, glossy, and transparent.
+  price: $2.50
+  image: https://ih1.redbubble.net/image.2069705676.7028/st,small,507x507-pad,600x600,f8f8f8.jpg
+  link: https://www.redbubble.com/i/sticker/SGDA-Circuit-Logo-Black-on-White-by-sgda/69227028.EJUG5
+
+- title: Pride Logo Sticker
+  type: Sticker
+  description: Available in matte, glossy, and transparent.
+  price: $2.50
+  image: https://ih1.redbubble.net/image.1495064133.0538/st,small,507x507-pad,600x600,f8f8f8.jpg
+  link: https://www.redbubble.com/i/sticker/SGDA-Pride-Logo-by-sgda/54110538.EJUG5
+
+- title: Controller Logo Sticker
+  type: Sticker
+  description: Available in matte, glossy, and transparent.
+  price: $2.50
+  image: https://ih1.redbubble.net/image.2072866880.2349/st,small,507x507-pad,600x600,f8f8f8.jpg
+  link: https://www.redbubble.com/i/sticker/SGDA-Controller-Logo-by-sgda/69322349.EJUG5
+
+- title: Stacked Logo Pin
+  type: Pin
+  description: Available in multiple sizes.
+  price: $3.31
+  image: https://ih1.redbubble.net/image.2069209522.3124/ur,pin_large_front,square,600x600.jpg
+  link: https://www.redbubble.com/i/pin/SGDA-Circle-Logo-by-sgda/54003124.NP9QY
+
+- title: Circuit Logo Pin
+  type: Pin
+  description: Available in blue, red, yellow, green, and white.
+  price: $3.31
+  image: https://ih1.redbubble.net/image.1506743236.2790/ur,pin_large_front,square,600x600.jpg
+  link: https://www.redbubble.com/people/sgda/shop?artistUserName=sgda&collections=2056144&iaCode=u-accessories
+
+- title: Pride Logo Pin
+  type: Pin
+  description: Available in multiple sizes.
+  price: $3.31
+  image: https://ih1.redbubble.net/image.2069675203.0538/ur,pin_large_front,square,600x600.jpg
+  link: https://www.redbubble.com/i/pin/SGDA-Pride-Logo-by-sgda/54110538.NP9QY
+
+- title: SGDA Dots Pin
+  type: Pin
+  description: Available in multiple sizes.
+  price: $3.31
+  image: https://ih1.redbubble.net/image.2069230993.0104/ur,pin_large_front,square,600x600.jpg
+  link: https://www.redbubble.com/i/pin/SGDA-Dot-Logo-by-sgda/54110104.NP9QY

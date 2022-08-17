@@ -1,67 +1,59 @@
-# Used in _includes/sponsors.html
-
-# TODO: rewrite this file to have a more streamlined structure
+# Used in _includes/officers.html component
 
 # - name:    Name of officer
 #   role:    Position title
-#   image:   Officer's profile image
-#   profile: Link to officer's LinkedIn profile
+#   image:   Officer's image
+#   linkedin: Link to officer's LinkedIn
 
-- tier_name: Club Officers
-  desciption: |-
-    SGDA Club Officers
-  sponsors:
-    - name: Cameron Meyer
-      role: President
-      image: ..\images\officer_images\cameron.png
-      profile: https://www.linkedin.com/in/cameron-meyer/ 
+- name: Tryston Minsquero
+  role: President
+  image: tryston.png
+  linkedin: https://www.linkedin.com/in/tryston-minsquero/
 
-    - name: Andrew Sylvester
-      role: Vice President
-      image: ..\images\officer_images\andrew.png
-      profile: https://www.linkedin.com/in/arsylvester/
+- name: Brandon Coffey
+  role: Vice President
+  image: brandon.jpg
+  linkedin: https://www.linkedin.com/in/brandon-coffey-36a802191/
 
-    - name: Noah Sims
-      role: Treasurer
-      image: ..\images\officer_images\noah.png
-      profile: https://www.linkedin.com/in/noah-sims-7812451a5/
+- name: Christine Vo
+  role: Treasurer
+  image: christine.JPG
+  linkedin: https://www.linkedin.com/in/christine-vo-4a56331b8/
 
-    - name: Henry Werner
-      role: Technical Officer
-      image: ..\images\officer_images\henry.jpg
-      profile: https://www.linkedin.com/in/htwerner/
+- name: John Mai
+  role: Technical Officer
+  image: john.jpg
 
-    - name: Tryston Minsquero
-      role: Secretary
-      image: ..\images\officer_images\tryston.png
-      profile: https://www.linkedin.com/in/tryston-minsquero/
+- name: Mayson Bray
+  role: Secretary
+  image: mayson.png
+  linkedin: https://www.linkedin.com/in/mayson-bray-970aba1a4/
 
-    - name: Phu Le
-      role: Graphic Designer
-      image: ..\images\officer_images\phu.png
+- name: Phu Le
+  role: Graphic Designer
+  image: phu.png
 
-    - name: Allison Chiang
-      role: Marketing
-      image: ..\images\officer_images\allison.png
-      profile: https://www.linkedin.com/in/allisonschiang/
+- name: Ariana Mendez
+  role: Marketing
+  image: ari.png
+  linkedin: https://www.linkedin.com/in/ariana-z-mendez/
 
-    - name: Luke Jaggernauth
-      role: Junior Officer
-      image: ..\images\officer_images\luke.jpg
-      profile: https://www.linkedin.com/in/lucasjagg/
+- name: Linus Fackler
+  role: Junior Officer
+  image: linus.jpg
+  linkedin: https://www.linkedin.com/in/linus-fackler/
 
-    - name: Brandon Coffey
-      role: Junior Officer
-      image: ..\images\officer_images\brandon.jpg
-      profile: https://www.linkedin.com/in/brandon-coffey-36a802191/
+- name: Fatimeh Bashir
+  role: Junior Officer
+  image: fatimeh.png
+  linkedin: https://www.linkedin.com/in/fatimeh-bashir/
 
-    - name: Sammy Mahmoudi
-      role: Junior Officer
-      image: ..\images\officer_images\sammy.png
-      profile: https://www.linkedin.com/in/sammymahmoudi/
+- name: Sammy Mahmoudi
+  role: Junior Officer
+  image: sammy.png
+  linkedin: https://www.linkedin.com/in/sammymahmoudi/
 
-    - name: Mayson Bray
-      role: Junior Officer
-      image: ..\images\officer_images\mayson.png
-      profile: https://www.linkedin.com/in/mayson-bray-970aba1a4/
-
+- name: Nick Maclean
+  role: Junior Officer
+  image: nick.jpg
+  linkedin: https://www.linkedin.com/in/nick-maclean/

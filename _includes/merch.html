@@ -1,0 +1,13 @@
+<div class="flex flex-row flex-wrap justify-center">
+    {% for item in site.data.merch %}
+        <a class="merch-item box-shadow h-fit flex flex-column m-3" href="{{item.link}}">
+            <img src="{{item.image}}" alt="{{item.title}}">
+            <div class="px-6">
+                <h1 class="line-1 font-2xl">{{item.title}}</h1>
+                <p>{{item.description}}</p>
+                <hr class="my-0">
+                <p class="text-center">starting at <b>{{item.price}}</b></p>
+            </div>
+        </a>
+    {% endfor %}
+</div>

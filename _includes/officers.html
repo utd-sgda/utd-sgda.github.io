@@ -1,0 +1,15 @@
+<div class="officers flex flex-row flex-wrap justify-center">
+    {% for officer in site.data.officers %}
+    <div class="officer flex flex-column border-radius-lg box-shadow text-center align-center m-5 sz-fit pb-2 px-5 pt-5">
+        <h1 class="mx-0 mt-2 mb-0 font-2xl line-1">{{officer.name}}</h1>
+        <p class="mt-0 mb-2 font-lg c-lightgrey">{{officer.role}}</p>
+        <img class="border-radius-full mb-5" src="/assets/images/officers/{{officer.image}}" alt="{{officer.name}}'s Portrait" style="width: 13rem; height: 13rem;"/>
+        {% if officer.linkedin %}
+        <a class="mb-3" href="{{officer.linkedin}}">
+            <i class="icon-linkedin"></i>
+            View Profile
+        </a>
+        {% endif %}
+    </div>
+    {% endfor %}
+</div>

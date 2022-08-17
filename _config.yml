@@ -6,20 +6,33 @@ email: sgda.utd@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   The official website of the Student Game Developer Association
   at the University of Texas at Dallas.
-baseurl: ""
-url: http://utdsgda.club # the base hostname & protocol of the site
+url: https://utdsgda.club # the base hostname & protocol of the site
 
 ## Social media
 twitter_username: utdsgda
 github_username:  utd-sgda
 discord_link: https://discord.com/invite/Aae9Mhg
-mail_link: https://wordpress.us9.list-manage.com/subscribe?u=f921145fe669f08c3392649e5&id=c6d0adccd5 
+mail_link: https://wordpress.us9.list-manage.com/subscribe?u=f921145fe669f08c3392649e5&id=c6d0adccd5
 
 ## Data variables
 footer_menu: footer # Storing footer.yml as a variable
 associated_companies: companies # Storing the companies.yml file as a variable
 
 ## Build settings
-remote_theme: chrisrhymes/bulma-clean-theme
 plugins:
   - jekyll-redirect-from
+  - jekyll-seo-tag
+
+# Compress.html (html minifier)
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: [development]
+  blanklines: false
+  profile: false
+  startings: [html, head, body]
+
+include: ["_pages", "_redirects", "assets/css"]
+exclude: ["README.md"]

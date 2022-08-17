@@ -1,0 +1,13 @@
+# Used in _includes/callouts.html component
+
+- title: SGDA Discord
+  icon: icon-discord
+  description: Join the discussion on our Discord server!
+  call_to_action_name: Join
+  call_to_action_link: /discord
+
+- title: Mailing List
+  icon: icon-envelope
+  description: Have club information sent to your inbox! 
+  call_to_action_name: Sign Up
+  call_to_action_link: /mailing

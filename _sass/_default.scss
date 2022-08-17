@@ -1,0 +1,180 @@
+body
+{
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+
+    color: $clr-white;
+    background-color: $clr-black;
+    background: linear-gradient(90deg, #111 0%, #000 40%, #000 60%, #111 100%);
+    
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    
+    margin-top: 1.5rem;
+    margin-bottom: .75rem;
+}
+
+p
+{
+    margin: .75rem 0;
+}
+
+hr
+{
+    height: .15rem;
+    margin: 2rem 0 3rem;
+
+    border: none;
+    background-color: var(--darkwhite);
+}
+
+// reponsive layout base
+.content-wrapper
+{
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+}
+
+$max-width: 900px;
+.content, .children-are-content > *:not(.ignore)
+{
+    max-width: $max-width;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: $max-width)
+{
+    .children-are-content > *:not(.ignore)
+    {
+        padding-left: 1.75rem;
+        padding-right: 1.75rem;
+    }
+}
+
+main.children-are-content
+{
+    > h1
+    {
+        color: $clr-sgda-yellow;
+    }
+    
+    > h1:nth-child(2)
+    {
+        color: $clr-sgda-green;
+    }
+    
+    > h1:nth-child(3)
+    {
+        color: $clr-sgda-blue;
+    }
+    
+    > h1:nth-child(4)
+    {
+        color: $clr-sgda-red;
+    }
+}
+
+// default links
+a, a:visited, a:focus
+{
+    text-decoration: none;
+    color: var(--sgda_blue);
+    transition: color .15s;
+    background-color: transparent;
+}
+
+a:hover
+{
+    text-decoration: none;
+    color: var(--sgda_yellow);
+}
+
+a.button
+{
+    background-color: $clr-sgda-blue;
+    color: var(--sgda_darkgrey);
+    padding: .5rem 1rem;
+
+    transition: all .1s;
+    border-radius: 3px;
+}
+
+a.button:hover
+{
+    background-color: var(--sgda_yellow);
+    color: var(--sgda_darkgrey);
+}
+
+// arrow animation
+a .icon-arrow-right
+{
+    transition: all ease-out .15s;
+}
+
+a:focus .icon-arrow-right
+{
+    transform: translateX(25px);
+    opacity: 0;
+}
+
+// default button
+button
+{
+    border: none;
+}
+
+// box-shadow
+.box-shadow
+{
+    box-shadow: 0 .5em 1em -.125em rgba(10,10,10,0.1),0 0px 0 1px rgba(10,10,10,0.02);
+    color: #4a4a4a;
+}
+
+// raisincss extension
+.w-fit
+{
+    width: fit-content;
+}
+
+.h-fit
+{
+    height: fit-content;
+}
+
+.sz-fit
+{
+    width: fit-content;
+    height: fit-content;
+}
+
+.line-1
+{
+    line-height: 1;
+}
+
+.font-6xl
+{
+    font-size: 4rem;
+}
+
+// gradients
+.gradient-1
+{
+    $darken: 15%;
+    background-color: $clr-sgda-blue;
+    background-image: linear-gradient(43deg,  adjust-color($clr-sgda-blue, $lightness: -$darken) 0%, adjust-color($clr-sgda-green, $lightness: -$darken) 100%);
+}
+
+.gradient-2
+{
+    $darken: 15%;
+    background-color: $clr-sgda-red;
+    background-image: linear-gradient(43deg,  adjust-color($clr-sgda-red, $lightness: -$darken) 30%, adjust-color($clr-sgda-yellow, $lightness: -$darken) 100%);
+}

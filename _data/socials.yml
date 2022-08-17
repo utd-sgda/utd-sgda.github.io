@@ -1,0 +1,33 @@
+# Used in _includes/socials.html component
+
+# - name: Used as the text for the link. Text only visable in desktop view.
+#   fa:   (optional) HTML class name for the font-awesome icon
+#   link: Link to social media page
+
+- name: Discord
+  fa: icon-discord
+  link: https://discord.com/invite/Aae9Mhg
+
+- name: Instagram
+  fa: icon-instagram
+  link: https://www.instagram.com/utdsgda/
+
+- name: Twitter
+  fa: icon-twitter
+  link: https://twitter.com/utdsgda
+
+- name: Facebook
+  fa: icon-facebook
+  link: https://www.facebook.com/groups/UTDSGDA
+
+- name: Twitch
+  fa: icon-twitch
+  link: https://www.twitch.tv/utdsgda 
+
+- name: YouTube
+  fa: icon-youtube
+  link: https://www.youtube.com/user/UTDallasSGDA
+
+- name: LinkedIn
+  fa: icon-linkedin
+  link: https://www.linkedin.com/company/utd-sgda/
