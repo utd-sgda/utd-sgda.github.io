@@ -11,9 +11,10 @@ description: Welcome to the UT Dallas SGDA site. We make and play games!
     text="About us"
 %} -->
 
-<div class="ignore content-wrapper gradient-2">
+<div class="ignore content-wrapper">
     <div class="content flex flex-column items-center">
-        <h1 class="my-12"> About </h1>
+        <h1 class="logo-shadow-cascade py-4 lg:py-12 display-none lg:display-block"> About Us </h1>
+        <h1 class="logo-shadow-cascade py-4 lg:py-12 lg:display-none"> About </h1>
     </div>
 </div>
 

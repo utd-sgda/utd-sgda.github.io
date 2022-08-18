@@ -5,9 +5,9 @@ title: Events
 Description: Here is information about our next event!
 ---
 
-<div class="ignore content-wrapper gradient-3">
+<div class="ignore content-wrapper">
     <div class="content flex flex-column items-center">
-        <h1 class="my-12"> Next Event </h1>
+        <h1 class="logo-shadow-cascade py-4 lg:py-12"> Next Event </h1>
     </div>
 </div>
 

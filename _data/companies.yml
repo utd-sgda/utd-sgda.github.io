@@ -5,27 +5,36 @@
 
 - name: Blizzard
   image: Blizzard_Logo.png
+  link: https://www.blizzard.com/en-us/
 
 - name: Bungie
   image: Bungie.png
+  link: https://www.bungie.net/#!//
 
 - name: ID Software
   image: Id_Software.png
+  link: https://www.idsoftware.com/en-us
 
 - name: Gearbox
   image: Gearbox_Software.png
+  link: https://www.gearboxsoftware.com/
 
 - name: Niantic
   image: Niantic.png
+  link: https://nianticlabs.com/
 
 - name: Bethesda
   image: Bethesda.png
+  link: https://bethesda.net/en/dashboard
 
-- name: Polynight
+- name: Polyknight
   image: Polyknight.png
+  link: https://www.indiedb.com/company/polyknight-games
 
 - name: Boss Fight Entertainment 
   image: boss-fight-entertainment.png
+  link: https://bossfightentertainment.com/
 
 - name: BonusXP
   image: BonusXP.jpg
+  link: https://bonusxp.com/
