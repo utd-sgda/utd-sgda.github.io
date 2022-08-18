@@ -23,6 +23,12 @@ plugins:
   - jekyll-redirect-from
   - jekyll-seo-tag
 
+defaults:
+  - scope:
+      path: _pages
+    values:
+      layout: default
+
 # Compress.html (html minifier)
 compress_html:
   clippings: all

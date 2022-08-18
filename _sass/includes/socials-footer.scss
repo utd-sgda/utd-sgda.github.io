@@ -1,39 +1,88 @@
+// footer.main
+// {
+//     white-space: normal;
+//     background-color: var(--darkwhite);
+//     padding-top: 3rem;
+//     padding-bottom: 3rem;
+// }
+
+// footer.main a
+// {
+//     text-decoration: none;
+// }
+
+// footer.main > div > div
+// {
+//     display: inline-block;
+//     margin-right: .5rem;
+//     margin-left: .5rem;
+// }
+
+// footer.main p
+// {
+//     display: inline-block;
+//     margin: 0;
+// }
+
+// footer.main i
+// {
+//     font-size: 1.4rem;
+//     margin-right: .3rem;
+// }
+
+// @media (max-width: 62rem)
+// {
+//     footer.main p
+//     {
+//         display: none;
+//     }
+// }
+
+@import "_colors";
+@import "includes/burger";
+
 footer.main
 {
-    white-space: normal;
-    background-color: var(--darkwhite);
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-}
-
-footer.main a
-{
-    text-decoration: none;
-}
-
-footer.main > div > div
-{
-    display: inline-block;
-    margin-right: .5rem;
-    margin-left: .5rem;
-}
-
-footer.main p
-{
-    display: inline-block;
-    margin: 0;
-}
-
-footer.main i
-{
-    font-size: 1.4rem;
-    margin-right: .3rem;
-}
-
-@media (max-width: 62rem)
-{
-    footer.main p
+    @media (max-width: 991px)
     {
-        display: none;
+        padding-top: 2px;
+        background-color: $clr-sgda-yellow;
+        background: linear-gradient(90deg, $clr-sgda-red 0%, $clr-sgda-yellow 100%);
+
+        a
+        {
+            transition: background-color .1s;
+        }
+
+        a:hover
+        {
+            background-color: darken($clr-sgda-darkgrey, 8);
+        }
+
+        .links
+        {
+            max-height: 0;
+            transition: max-height .3s;
+        }
+        
+        .links.active
+        {
+            max-height: 10rem;
+        }
+    }
+
+    @media (min-width: 992px)
+    {
+        .content
+        {
+            padding-top: 2px;
+            background-color: $clr-sgda-yellow;
+            background: linear-gradient(90deg, $clr-sgda-red 0%, $clr-sgda-yellow 100%);
+
+            > *
+            {
+                background-color: $clr-black;
+            }
+        }
     }
 }

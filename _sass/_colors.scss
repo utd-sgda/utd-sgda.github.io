@@ -9,11 +9,6 @@ $clr-sgda-darkgrey: #2b2f33;
 $clr-white:         #fff;
 $clr-black:         #000;
 
-.bg-black
-{
-    background-color: $clr-black;
-}
-
 :root
 {
     --sgda_blue: #36a8b3;
@@ -27,14 +22,4 @@ $clr-black:         #000;
     --darkgrey: #363636;
     --darkwhite: #f5f5f5;
     --lightgrey: #4a4a4a;
-}
-
-.bg-darkwhite
-{
-    background-color: var(--darkwhite);
-}
-
-.c-lightgrey
-{
-    color: var(--lightgrey);
 }

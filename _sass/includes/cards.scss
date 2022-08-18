@@ -1,0 +1,54 @@
+@import '_colors';
+
+$box-shadow-x: .25rem;
+$box-shadow-y: .25rem;
+$box-shadow-x-hover: .1rem;
+$box-shadow-y-hover: .1rem;
+
+.card:nth-child(4n), .card:nth-child(4n):visited
+{
+    border-color: $clr-sgda-blue;
+    box-shadow: $box-shadow-x $box-shadow-y $clr-sgda-blue;
+}
+
+.card:nth-child(3n), .card:nth-child(3n):visited
+{
+    border-color: $clr-sgda-green;
+    box-shadow: $box-shadow-x $box-shadow-y $clr-sgda-green;
+}
+
+.card:nth-child(2n):not(.card:nth-child(4n)), .card:nth-child(2n):not(.card:nth-child(4n)):visited
+{
+    border-color: $clr-sgda-yellow;
+    box-shadow: $box-shadow-x $box-shadow-y $clr-sgda-yellow;
+}
+
+.card, .card:visited
+{
+    background-color: $clr-black;
+    border: 1px solid $clr-sgda-red;
+
+    box-shadow: $box-shadow-x $box-shadow-y $clr-sgda-red;
+    transition: transform .05s, box-shadow .05s;
+}
+
+.card:nth-child(4n):hover
+{
+    box-shadow: $box-shadow-x-hover $box-shadow-y-hover $clr-sgda-blue;
+}
+
+.card:nth-child(3n):hover
+{
+    box-shadow: $box-shadow-x-hover $box-shadow-y-hover $clr-sgda-green;
+}
+
+.card:nth-child(2n):not(.card:nth-child(4n)):hover
+{
+    box-shadow: $box-shadow-x-hover $box-shadow-y-hover $clr-sgda-yellow;
+}
+
+.card:hover
+{
+    box-shadow: $box-shadow-x-hover $box-shadow-y-hover $clr-sgda-red;
+    transform: translateX($box-shadow-x - $box-shadow-x-hover) translateY($box-shadow-y - $box-shadow-y-hover)
+}

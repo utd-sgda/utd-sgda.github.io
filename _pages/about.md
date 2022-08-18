@@ -4,6 +4,8 @@ layout: default
 
 title: About
 description: Welcome to the UT Dallas SGDA site. We make and play games!
+
+stylesheet: true
 ---
 
 <!-- {% include hero-tileable-bg.html
@@ -33,3 +35,5 @@ Getting involved with the SGDA is really simple! There is no membership fee nor 
 ---
 
 {% include officers.html %}
+
+<div class="pt-12"></div>
