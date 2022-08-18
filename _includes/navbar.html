@@ -28,9 +28,10 @@
                 <div class="links flex flex-column lg:flex-row items-center w-full lg:w-auto text-center overflow-hidden stateful" for="nav-burger">
                 {% assign i = 0 %}
                 {% for item in site.data.navigation %}
-                <a class="link-{{ i | modulo: 4 | plus: 1}} w-full h-full lg:pl-4 py-3{% if page.title == item.title %} current-page{% endif %}" href="{{ item.link }}"> {{ item.title }} </a>
+                    <a class="link-{{ i | modulo: 4 | plus: 1}} w-full h-full lg:pl-4 py-3{% if page.title == item.title %} current-page{% endif %}" href="{{ item.link }}"> {{ item.title }} </a>
                     {% assign i = i | plus: 1 %}
                 {% endfor %}
+                    <div class="pt-4"></div>
                 </div>
                 
                 <!-- dots row -->

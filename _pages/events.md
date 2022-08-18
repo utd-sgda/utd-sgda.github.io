@@ -11,9 +11,11 @@ Description: Here is information about our next event!
     </div>
 </div>
 
-<p class="text-center mt-8">
-    <img class="w-full md:w-1/2 mx-auto" src="/assets/images/posters/arcade-game-jam.png">
-</p>
+<div class="text-center mt-8">
+   <figure class="mx-auto sm:w-max-1/2">
+      <img class="card border-radius-md overflow-hidden" src="/assets/images/posters/arcade-game-jam.png">
+   </figure>
+</div>
 
 # When
 

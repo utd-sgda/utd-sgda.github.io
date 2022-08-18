@@ -13,7 +13,8 @@ body
 
 h1, h2, h3, h4, h5, h6
 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "brandon-grotesque", sans-serif;
+    text-transform: uppercase;
     font-weight: 600;
     
     margin-top: 1.5rem;
@@ -64,18 +65,18 @@ main.children-are-content
     {
         color: $clr-sgda-yellow;
     }
-    
-    > h1:nth-child(2n)
+
+    > h1:nth-of-type(2n)
     {
         color: $clr-sgda-green;
     }
-    
-    > h1:nth-child(3n)
+
+    > h1:nth-of-type(3n)
     {
         color: $clr-sgda-blue;
     }
-    
-    > h1:nth-child(4n)
+
+    > h1:nth-of-type(4n)
     {
         color: $clr-sgda-red;
     }
@@ -161,6 +162,14 @@ button
 .font-6xl
 {
     font-size: 4rem;
+}
+
+@media (min-width: 576px)
+{
+    .sm\:w-max-1\/2
+    {
+        max-width: 50%;
+    }
 }
 
 // gradients

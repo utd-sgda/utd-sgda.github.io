@@ -7,7 +7,7 @@ nav.main
 
     @media (max-width: 991px)
     {
-        padding-top: 2px;
+        padding-bottom: 2px;
         background-color: $clr-sgda-yellow;
         background: linear-gradient(90deg, $clr-sgda-red 0%, $clr-sgda-yellow 100%);
 
@@ -29,7 +29,7 @@ nav.main
         
         .links.active
         {
-            max-height: 10rem;
+            max-height: 11rem;
         }
     }
 
@@ -37,7 +37,7 @@ nav.main
     {
         .content
         {
-            padding-top: 2px;
+            padding-bottom: 2px;
             background-color: $clr-sgda-yellow;
             background: linear-gradient(90deg, $clr-sgda-red 0%, $clr-sgda-yellow 100%);
 

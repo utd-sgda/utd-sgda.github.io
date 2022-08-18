@@ -24,6 +24,12 @@ description: Welcome to the UT Dallas SGDA site. We make and play games!
 
 <div class="pt-12"></div>
 
+# A community of people making games.
+
+Insert positive, catchy, a short explanation of the group here. Leave the specifics for the about page.
+
+<div class="pt-12"></div>
+
 {% include companies.html %}
 
 <div class="pt-12"></div>

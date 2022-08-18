@@ -4,8 +4,6 @@ layout: default
 
 title: About
 description: Welcome to the UT Dallas SGDA site. We make and play games!
-
-stylesheet: true
 ---
 
 <!-- {% include hero-tileable-bg.html
