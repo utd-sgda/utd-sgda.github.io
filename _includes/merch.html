@@ -1,7 +1,7 @@
 <div class="flex flex-row flex-wrap justify-center">
     {% for item in site.data.merch %}
         <a class="card merch-item h-fit flex flex-column m-3 border-radius-lg overflow-hidden" href="{{item.link}}">
-            <img src="{{item.image}}" alt="{{item.title}}">
+            <img src="/assets/images/merch/{{item.image}}" alt="{{item.title}}">
             <div>
                 <h1 class="line-1 font-2xl px-6 c-white">{{item.title}}</h1>
                 <p class="px-6 c-white">{{item.description}}</p>
