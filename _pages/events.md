@@ -5,17 +5,9 @@ title: Events
 Description: Here is information about our next event!
 ---
 
-<div class="ignore content-wrapper">
-    <div class="content flex flex-column items-center">
-        <h1 class="logo-shadow-cascade py-4 lg:py-12"> Next Event </h1>
-    </div>
-</div>
+{% include title-animated.html text="Next Event" %}
 
-<div class="text-center mt-8">
-   <figure class="mx-auto sm:w-max-1/2">
-      <img class="card border-radius-md overflow-hidden" src="/assets/images/posters/arcade-game-jam.png">
-   </figure>
-</div>
+{% include poster.html image="arcade-game-jam.png" %}
 
 # When
 

@@ -1,0 +1,10 @@
+<div class="ignore content-wrapper">
+    <div class="content flex flex-column items-center">
+    {% if include.text-small %}
+        <h1 class="logo-shadow-cascade py-4 lg:py-12 display-none lg:display-block"> {{ include.text }} </h1>
+        <h1 class="logo-shadow-cascade py-4 lg:py-12 lg:display-none"> {{ include.text-small }} </h1>
+    {% else %}
+        <h1 class="logo-shadow-cascade py-4 lg:py-12"> {{ include.text }} </h1>
+    {% endif %}
+    </div>
+</div>

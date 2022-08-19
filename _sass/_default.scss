@@ -13,7 +13,7 @@ body
 
     color: $clr-white;
     background-color: $clr-black;
-    background: linear-gradient(90deg, #111 0%, #000 40%, #000 60%, #111 100%);
+    background: url('/assets/images/TileablePatternBlack-168.png');
     
     padding: 0;
     margin: 0;
@@ -40,7 +40,8 @@ hr
     margin: 2rem 0 3rem;
 
     border: none;
-    background-color: var(--darkwhite);
+    background-color: $clr-darkwhite;
+    border-radius: 2px;
 }
 
 // reponsive layout base
@@ -94,7 +95,7 @@ main.children-are-content
 a, a:visited, a:focus
 {
     text-decoration: none;
-    color: var(--sgda_blue);
+    color: $clr-sgda-blue;
     transition: color .15s;
     background-color: transparent;
 }
@@ -102,13 +103,13 @@ a, a:visited, a:focus
 a:hover
 {
     text-decoration: none;
-    color: var(--sgda_yellow);
+    color: $clr-sgda-yellow;
 }
 
 a.button
 {
     background-color: $clr-sgda-blue;
-    color: var(--sgda_darkgrey);
+    color: $clr-sgda-darkgrey;
     padding: .5rem 1rem;
 
     transition: all .1s;
@@ -117,8 +118,8 @@ a.button
 
 a.button:hover
 {
-    background-color: var(--sgda_yellow);
-    color: var(--sgda_darkgrey);
+    background-color: $clr-sgda-yellow;
+    color: $clr-sgda-darkgrey;
 }
 
 // arrow animation
@@ -139,18 +140,7 @@ button
     border: none;
 }
 
-// box-shadow
-.box-shadow
-{
-    box-shadow: 0 .5em 1em -.125em rgba(10,10,10,0.1),0 0px 0 1px rgba(10,10,10,0.02);
-}
-
 // raisincss extension
-.w-fit
-{
-    width: fit-content;
-}
-
 .h-fit
 {
     height: fit-content;
@@ -167,11 +157,6 @@ button
     line-height: 1;
 }
 
-.font-6xl
-{
-    font-size: 4rem;
-}
-
 @media (min-width: 576px)
 {
     .sm\:w-max-1\/2
@@ -180,44 +165,20 @@ button
     }
 }
 
-// gradients
-.gradient-1
-{
-    $darken: 15%;
-    background-color: $clr-sgda-blue;
-    background-image: linear-gradient(43deg,  adjust-color($clr-sgda-blue, $lightness: -$darken) 0%, adjust-color($clr-sgda-green, $lightness: -$darken) 100%);
-    // background-image: linear-gradient(43deg,  adjust-color($clr-sgda-red, $lightness: -$darken) 0%, adjust-color(adjust-color($clr-sgda-red, $lightness: -15%), $lightness: -$darken) 100%);
-}
-
-.gradient-2
-{
-    $darken: 22%;
-    background-color: $clr-sgda-red;
-    background-image: linear-gradient(43deg,  adjust-color($clr-sgda-red, $lightness: -$darken) 30%, adjust-color($clr-sgda-yellow, $lightness: -$darken) 100%);
-    // background-image: linear-gradient(43deg,  adjust-color($clr-sgda-yellow, $lightness: -$darken) 0%, adjust-color(adjust-color($clr-sgda-yellow, $lightness: -15%), $lightness: -$darken) 100%);
-}
-
-.gradient-3
-{
-    $darken: 15%;
-    background-color: $clr-sgda-red;
-    background-image: linear-gradient(43deg,  adjust-color($clr-sgda-red, $lightness: -$darken) 30%, adjust-color($clr-sgda-yellow, $lightness: -$darken) 100%);
-}
-
 // colors
 .bg-black
 {
-    background-color: $clr-black;
+    background-color: $clr-black !important;
 }
 
 .bg-white
 {
-    background-color: $clr-white;
+    background-color: $clr-white !important;
 }
 
 .c-white
 {
-    color: $clr-white;
+    color: $clr-white !important;
 }
 
 h1.logo-shadow-cascade

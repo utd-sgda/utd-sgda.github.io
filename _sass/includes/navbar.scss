@@ -9,7 +9,7 @@ nav.main
     {
         padding-bottom: 2px;
         background-color: $clr-sgda-yellow;
-        background: linear-gradient(90deg, $clr-sgda-red 0%, $clr-sgda-yellow 100%);
+        background: linear-gradient(90deg, $clr-sgda-red 0%, $clr-sgda-yellow 33%, $clr-sgda-green 50%, $clr-sgda-blue 90%);
 
         a
         {
@@ -39,7 +39,7 @@ nav.main
         {
             padding-bottom: 2px;
             background-color: $clr-sgda-yellow;
-            background: linear-gradient(90deg, $clr-sgda-red 0%, $clr-sgda-yellow 100%);
+            background: linear-gradient(90deg, $clr-sgda-red 0%, $clr-sgda-yellow 33%, $clr-sgda-green 50%, $clr-sgda-blue 90%);
 
             > *
             {

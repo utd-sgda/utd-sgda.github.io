@@ -1,45 +1,4 @@
-// footer.main
-// {
-//     white-space: normal;
-//     background-color: var(--darkwhite);
-//     padding-top: 3rem;
-//     padding-bottom: 3rem;
-// }
-
-// footer.main a
-// {
-//     text-decoration: none;
-// }
-
-// footer.main > div > div
-// {
-//     display: inline-block;
-//     margin-right: .5rem;
-//     margin-left: .5rem;
-// }
-
-// footer.main p
-// {
-//     display: inline-block;
-//     margin: 0;
-// }
-
-// footer.main i
-// {
-//     font-size: 1.4rem;
-//     margin-right: .3rem;
-// }
-
-// @media (max-width: 62rem)
-// {
-//     footer.main p
-//     {
-//         display: none;
-//     }
-// }
-
 @import "_colors";
-@import "includes/burger";
 
 footer.main
 {
@@ -47,7 +6,7 @@ footer.main
     {
         padding-top: 2px;
         background-color: $clr-sgda-yellow;
-        background: linear-gradient(90deg, $clr-sgda-blue 0%, $clr-sgda-green 100%);
+        background: linear-gradient(90deg, $clr-sgda-red 0%, $clr-sgda-yellow 33%, $clr-sgda-green 50%, $clr-sgda-blue 90%);
 
         a
         {
@@ -77,7 +36,7 @@ footer.main
         {
             padding-top: 2px;
             background-color: $clr-sgda-yellow;
-            background: linear-gradient(90deg, $clr-sgda-red 0%, $clr-sgda-yellow 100%);
+            background: linear-gradient(90deg, $clr-sgda-red 0%, $clr-sgda-yellow 33%, $clr-sgda-green 50%, $clr-sgda-blue 90%);
 
             > *
             {

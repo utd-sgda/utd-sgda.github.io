@@ -29,6 +29,7 @@ $box-shadow-y-hover: .1rem;
 
     box-shadow: $box-shadow-x $box-shadow-y $clr-sgda-red;
     transition: transform .05s, box-shadow .05s;
+    background-color: $clr-black;
 }
 
 .card:nth-of-type(4n):hover
