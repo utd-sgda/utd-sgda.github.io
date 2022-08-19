@@ -13,10 +13,13 @@ body
 
     color: $clr-white;
     background-color: $clr-black;
-    background: url('/assets/images/TileablePatternBlack-168.png');
+    background: url('/assets/images/TileablePatternBlack-168.png') repeat;
     
     padding: 0;
     margin: 0;
+
+    animation: slide 10s linear infinite;
+    background-attachment: fixed;
 }
 
 h1, h2, h3, h4, h5, h6
@@ -199,5 +202,18 @@ h1.logo-shadow-cascade
     h1.logo-shadow-cascade
     {
         font-size: 5rem;
+    }
+}
+
+@keyframes slide
+{
+    0%
+    {
+        background-position-x: 0;
+        background-position-y: 0;
+    }
+    100% {
+        background-position-x: 100px;
+        background-position-y: 100px;
     }
 }
