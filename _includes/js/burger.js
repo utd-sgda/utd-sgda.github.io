@@ -1,4 +1,13 @@
-window.onload = function ()
+if(window.addEventListener)
+{
+    window.addEventListener('load', burger)
+}
+else
+{
+    window.attachEvent('onload', burger)
+}
+
+function burger()
 {
     let stateful_elements = document.getElementsByClassName("stateful");
 

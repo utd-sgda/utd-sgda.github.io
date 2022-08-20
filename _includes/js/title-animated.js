@@ -9,7 +9,16 @@ function map(current, in_min, in_max, out_min, out_max)
     return clamp(mapped, out_min, out_max);
 }
 
-window.onload = function ()
+if(window.addEventListener)
+{
+    window.addEventListener('load', title)
+}
+else
+{
+    window.attachEvent('onload', title)
+}
+
+function title()
 {
     // ignore mobile browsers
     if (navigator.userAgent.toLowerCase().match(/mobile/i)) return;
@@ -23,8 +32,6 @@ window.onload = function ()
 
         document.body.addEventListener('mousemove', function (e)
         {
-            console.log(e);
-            
             let center_x = el.offsetLeft + el.clientWidth / 2;
             let center_y = el.offsetTop + el.clientHeight / 2;
             
