@@ -23,6 +23,7 @@
 - name: John Mai
   role: Technical Officer
   image: john.jpg
+  linkedin: https://www.linkedin.com/in/john-huy-mai/
 
 - name: Mayson Bray
   role: Secretary
@@ -32,6 +33,7 @@
 - name: Phu Le
   role: Graphic Designer
   image: phu.png
+  linkedin: https://www.linkedin.com/in/phu--le
 
 - name: Ariana Mendez
   role: Marketing
