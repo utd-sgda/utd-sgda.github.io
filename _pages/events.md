@@ -7,7 +7,17 @@ Description: Here is information about our next event!
 
 {% include title-animated.html text="Next Event" %}
 
-{% include poster.html image="arcade-game-jam.png" %}
+# To Be Announced
+
+Throughout the Fall and Spring semesters, we generally have meetings every *Wednesday* at *7pm*. Check back here for information once our next event has been announced, or get notifications from the `#announcement` channel on our discord.
+
+<p class="p-1"></p>
+
+<div class="text-center"><a class="button" href="/discord"> <i class="icon-discord" aria-hidden="true"></i> Join our Discord </a></div>
+
+<p class="p-1 lg:p-4"></p>
+
+<!-- {% include poster.html image="arcade-game-jam.png" %}
 
 # When
 
@@ -55,4 +65,4 @@ SPN 2.220 2nd Floor (**Makerspace**)
    3. If at any time there are conflicts between team members, an SGDA officer may be contacted to help resolve the matter. The SGDA officer then has the right to split teams, remove members from the team, or even remove participants from the jam if they deem fit.
    4. If someone joins the jam late and a team is willing to accept a new member that would not exceed the 5 person limit, the team can add the new participant to their team if they communicate with an SGDA Officer first.
 
-<div class="pt-12">
+<div class="pt-12"> -->
