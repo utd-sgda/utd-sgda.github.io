@@ -24,6 +24,7 @@ function title()
     if (navigator.userAgent.toLowerCase().match(/mobile/i)) return;
     
     let logos = document.getElementsByClassName('logo-shadow-cascade')
+    const walk_amount = 8;
 
     for (let i = 0; i < logos.length; i++)
     {
@@ -38,8 +39,8 @@ function title()
             let x = e.clientX;
             let y = e.clientY;
 
-            const xWalk = Math.round(map(x - center_x, -window.innerWidth/2, window.innerWidth/2, -15, 15));
-            const yWalk = Math.round(map(y - center_y, -window.innerHeight/2, window.innerHeight/2, -15, 15));
+            const xWalk = Math.round(map(x - center_x, -window.innerWidth/2, window.innerWidth/2, -walk_amount, walk_amount));
+            const yWalk = Math.round(map(y - center_y, -window.innerHeight/2, window.innerHeight/2, -walk_amount, walk_amount));
 
             let shadow = ['--sgda_red', '--sgda_yellow', '--sgda_green', '--sgda_blue']
 
