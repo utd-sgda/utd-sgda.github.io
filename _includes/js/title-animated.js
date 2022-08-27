@@ -11,11 +11,11 @@ function map(current, in_min, in_max, out_min, out_max)
 
 if(window.addEventListener)
 {
-    window.addEventListener('load', title)
+    window.addEventListener('load', title);
 }
 else
 {
-    window.attachEvent('onload', title)
+    window.attachEvent('onload', title);
 }
 
 function title()
@@ -23,7 +23,7 @@ function title()
     /* ignore mobile browsers */
     if (navigator.userAgent.toLowerCase().match(/mobile/i)) return;
     
-    let logos = document.getElementsByClassName('logo-shadow-cascade')
+    let logos = document.getElementsByClassName('logo-shadow-cascade');
     const walk_amount = 8;
 
     for (let i = 0; i < logos.length; i++)
@@ -42,7 +42,7 @@ function title()
             const xWalk = Math.round(map(x - center_x, -window.innerWidth/2, window.innerWidth/2, -walk_amount, walk_amount));
             const yWalk = Math.round(map(y - center_y, -window.innerHeight/2, window.innerHeight/2, -walk_amount, walk_amount));
 
-            let shadow = ['--sgda_red', '--sgda_yellow', '--sgda_green', '--sgda_blue']
+            let shadow = ['--sgda_red', '--sgda_yellow', '--sgda_green', '--sgda_blue'];
 
             for (let i = 0; i < shadow.length; i++)
             {

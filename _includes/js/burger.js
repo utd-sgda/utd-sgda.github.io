@@ -1,10 +1,10 @@
 if(window.addEventListener)
 {
-    window.addEventListener('load', burger)
+    window.addEventListener('load', burger);
 }
 else
 {
-    window.attachEvent('onload', burger)
+    window.attachEvent('onload', burger);
 }
 
 function burger()

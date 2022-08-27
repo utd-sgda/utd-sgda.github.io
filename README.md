@@ -12,6 +12,7 @@ This website uses [Jekyll] and [RaisinCSS]. The site is designed to make the imp
   - [HTML Components (and their SCSS)](#html-components-and-their-scss)
   - [Source](#source)
   - [Repo Map](#repo-map)
+- [JavaScript](#javascript)
 - [Helpful documentation](#helpful-documentation)
 
 # Installation
@@ -144,6 +145,10 @@ This workflow allows modularity of components by leveraging multiple files that 
 1: any folders not prefixed with a `_` are automatically copied to the published build of the site. Folders with a `_` may also be included by modifying the `include` list in `_config.yml`.
 
 2: jekyll has specific configurations to process folders `_data`, `_drafts`, `_includes`, `_layouts`, and `_sass`, so their names should *almost never* be changed.
+
+## JavaScript
+
+Semi-colons are mandatory for javascript contained within `<script>` tags. HTML compression removes new lines, so there is no other indication of statements.
 
 # Helpful documentation
 
