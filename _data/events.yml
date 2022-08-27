@@ -1,0 +1,24 @@
+# Used in _pages/events.md
+#
+#   show-next-event (bool):   select info for event or default 'to be announced'.
+#   poster (str):             path from /assets/images/ to a poster to be display. poster should be resized to 900px wide for optimization purposes.
+#
+#   > The below info should be taken from the poster. It is put on the page as plain text to increase accessibility.
+#
+#   title (str):              the name of the event.
+#   when (str):               the date and time of the event.
+#   where (str):              The location of the meeting (this probably won't change much).
+#   what (str):               Additional info about what is happening at this event.
+
+show-next-event: true
+poster: "2022/08-31-22-fallKickoff.jpg"
+title: Game Dev Kick Off!
+when: >
+  7pm August 31st, 2022
+where: >
+  The UTDallas Makerspace: [SPN 2.220](https://map.concept3d.com/?id=1772#!m/550572)
+what: >
+  See what we have in store for this semester!
+
+  
+  Play games made by our members, and meet other devs!

@@ -7,6 +7,7 @@ Description: Here is information about our next event!
 
 {% include title-animated.html text="Next Event" %}
 
+{% unless site.data.events.show-next-event %}
 # To Be Announced
 
 Throughout the Fall and Spring semesters, we generally have meetings every *Wednesday* at *7pm*. Check back here for information once our next event has been announced, or get notifications from the `#announcement` channel on our discord.
@@ -17,9 +18,36 @@ Throughout the Fall and Spring semesters, we generally have meetings every *Wedn
 
 <p class="p-1 lg:p-4"></p>
 
-<!-- {% include poster.html image="arcade-game-jam.png" %}
+{% else %}
+{% include poster.html image=site.data.events.poster %}
 
-# When
+<p class="p-1 lg:p-4"></p>
+
+<div class="text-center"><a class="button" href="/discord"> <i class="icon-discord" aria-hidden="true"></i> Join our Discord </a></div>
+
+<p class="p-1 lg:p-4"></p>
+
+---
+
+# {{ site.data.events.title }}
+
+## When
+
+{{ site.data.events.when }}
+
+## Where
+
+{{ site.data.events.where }}
+
+## What
+
+{{ site.data.events.what }}
+
+<div class="pt-12"></div>
+{% endunless %}
+
+{% comment %}
+<!-- # When
 
 Kick Off: **03/09/2022**  
 Due Date: **03/20/2022**  
@@ -66,3 +94,4 @@ SPN 2.220 2nd Floor (**Makerspace**)
    4. If someone joins the jam late and a team is willing to accept a new member that would not exceed the 5 person limit, the team can add the new participant to their team if they communicate with an SGDA Officer first.
 
 <div class="pt-12"> -->
+{% endcomment %}

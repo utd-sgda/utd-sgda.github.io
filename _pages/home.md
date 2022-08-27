@@ -15,7 +15,7 @@ description: Welcome to the UT Dallas SGDA site. We make and play games!
 
 # A community of people making games.
 
-We're a community students and alumni from The University of Texas at Dallas. We host events with industry speakers, socials, game-jams, and workshops. Come hangout at our meetings or on Discord to talk about games, make them, network, or share what you've been working on!
+We're a community of students and alumni from The University of Texas at Dallas. We host events with industry speakers, socials, game-jams, and workshops. Come hangout at our meetings or on Discord to talk about games, make them, network, or share what you've been working on!
 
 {% include spacer.html amount="1.5rem" %}
 
