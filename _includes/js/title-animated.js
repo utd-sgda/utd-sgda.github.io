@@ -20,7 +20,7 @@ else
 
 function title()
 {
-    // ignore mobile browsers
+    /* ignore mobile browsers */
     if (navigator.userAgent.toLowerCase().match(/mobile/i)) return;
     
     let logos = document.getElementsByClassName('logo-shadow-cascade')
