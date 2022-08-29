@@ -1,5 +1,8 @@
 ---
-permalink: /merch/
+redirect_from:
+- /merch/
+- /merch/referred/
+
 layout: default
 
 title: Merch

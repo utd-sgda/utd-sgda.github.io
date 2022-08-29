@@ -1,5 +1,7 @@
 ---
-permalink: /events/
+redirect_from:
+- /events/
+- /events/referred/
 
 title: Events
 Description: Here is information about our next event!
