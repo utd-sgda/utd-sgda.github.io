@@ -5,6 +5,7 @@ redirect_from:
 
 layout: default
 
+permalink: /pages/merch/
 title: Merch
 description: Offical UTDallas SGDA merch!
 
