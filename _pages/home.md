@@ -1,9 +1,5 @@
 ---
-redirect_from:
-- /
-- /referred/
-
-permalink: /pages/
+permalink: /
 title: Home
 description: Welcome to the UT Dallas SGDA site. We make and play games!
 ---
