@@ -11,14 +11,14 @@
 #   what (str):               Additional info about what is happening at this event.
 
 show-next-event: true
-poster: "2022/08-31-22-fallKickoff.jpg"
-title: Game Dev Kick Off!
+poster: 2022/09-06-22-preProJam.png
+title: Pre-Production Jam
 when: >
-  7pm August 31st, 2022
+  7pm September 22nd, 2022
 where: >
   The UTDallas Makerspace: [SPN 2.220](https://map.concept3d.com/?id=1772#!m/550572)
 what: >
-  See what we have in store for this semester!
+  Concept a new game based on a theme!
 
   
-  Play games made by our members, and meet other devs!
+  Design mechanics, style and then pitch it!
