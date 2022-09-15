@@ -10,7 +10,7 @@
 #   where (str):              The location of the meeting (this probably won't change much).
 #   what (str):               Additional info about what is happening at this event.
 
-show-next-event: true
+show-next-event: false
 poster: 2022/09-14-22-introToUnity.png
 title: Intro to Unity Workshop
 when: >
