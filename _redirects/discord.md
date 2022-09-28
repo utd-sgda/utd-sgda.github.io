@@ -1,4 +1,4 @@
 ---
 permalink: /discord/
-redirect_to: https://discord.gg/P3gc5nfWV6
+redirect_to: https://discord.gg/GXXHbcw
 ---
