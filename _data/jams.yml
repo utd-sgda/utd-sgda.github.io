@@ -1,0 +1,93 @@
+- title: 40 Hour Game Jam
+  date: September 23rd through September 25th 2022
+  poster: 2022/09-28-22-40HourJamWinners.png
+  link: https://itch.io/jam/sgda/entries
+  color: red
+  games:
+    - name: Fuelwarper
+      categories: Best Overall and Best Gameplay
+      link: https://abho.itch.io/fuelwarper
+      members:
+        - name: Abhiveer Annoji
+
+    - name: VacHac
+      categories: Best Technical
+      link: https://abe-estos.itch.io/vachac
+      members:
+        - name: Logan Nance
+
+    - name: Rat Stars
+      categories: Best Visuals
+      link: https://bobystar.itch.io/rat-stars
+      members:
+        - name: Osiris Garcia
+        - name: Terrence Li
+        - name: Clement Lee
+        - name: Yash Neupane
+        - name: Aryan Mehta
+        - name: Eric Dantas
+        - name: Ethan McDonell
+        
+    - name: FLEABAG
+      categories: Best Audio
+      link: https://wlaroos.itch.io/fleabag
+      members:
+        - name: Mikey Bess
+        - name: Ian Guglielmi
+        - name: Zach Denlar
+        - name: Jarod Shelton
+        - name: Kellyn Mendez
+        - name: Shelly Sugiharto
+
+    - name: Raccoon Rummage
+      categories: Fan's Favorite
+      link: https://whalics.itch.io/raccoon-rummage
+      members:
+        - name: Ian Percy
+        - name: Christa Gallegos
+        - name: Angel Regaldo
+        - name: Brandon Coffey
+        - name: Mecheal Cabera
+        - name: Jack Vanzine
+
+- title: Arcade Jam
+  date: March 9th - March 20th 2022
+  poster: 2022/03-23-22-ArcadeJamWinners.png
+  link: https://itch.io/jam/sgda-arcade-jam/entries
+  color: blue
+  games:
+    - name: Dreadlight
+      categories: Best Overall and Best Visuals
+      links: https://emerald0874.itch.io/dreadlight
+      members:
+        - name: Bryce Sheehan
+        - name: Cameron Kelly
+        - name: Rachel Woon
+        - name: Hudson Samuels
+
+    - name: Only Shapes No Beats
+      categories: Best Gameplay
+      links: https://elijahsimmons.itch.io/only-shapes-no-beats
+      members:
+        - name: Elijah Simmons
+        - name: Adam Zuber
+
+    - name: Revenge of the Roombas
+      categories: Best Technical Achievement
+      link: https://amendez.itch.io/revenge-of-the-roombas
+      members:
+        - name: Connor Boone
+        - name: Nick Maclean
+        - name: Ari Mendez
+        - name: Kellyn Mendez
+        - name: Wesley Pate
+
+    - name: Grid City Rift
+      categories: Best Audio
+      link: https://whalics.itch.io/gridcityrift
+      members:
+        - name: Ian Percy
+        - name: Julian Gay
+        - name: Garrett Atwood
+        - name: Ian Guglielmi-White
+        - name: Jarod Shelton

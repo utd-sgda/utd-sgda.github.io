@@ -5,50 +5,50 @@ $box-shadow-y: .25rem;
 $box-shadow-x-hover: .1rem;
 $box-shadow-y-hover: .1rem;
 
-.card:nth-of-type(4n), .card:nth-of-type(4n):visited
+.card, .card:visited, .card-red, .card-yellow, .card-green, .card-blue
+{
+    border: 1px solid $clr-sgda-yellow;
+
+    box-shadow: $box-shadow-x $box-shadow-y $clr-sgda-yellow;
+    transition: transform .05s, box-shadow .05s;
+    background-color: $clr-black;
+}
+
+.card:nth-of-type(4n), .card:nth-of-type(4n):visited, .card-red
+{
+    border-color: $clr-sgda-red;
+    box-shadow: $box-shadow-x $box-shadow-y $clr-sgda-red;
+}
+
+.card:nth-of-type(3n), .card:nth-of-type(3n):visited, .card-blue
 {
     border-color: $clr-sgda-blue;
     box-shadow: $box-shadow-x $box-shadow-y $clr-sgda-blue;
 }
 
-.card:nth-of-type(3n), .card:nth-of-type(3n):visited
+.card:nth-of-type(2n):not(.card:nth-of-type(4n)), .card:nth-of-type(2n):not(.card:nth-of-type(4n)):visited, .card-green
 {
     border-color: $clr-sgda-green;
     box-shadow: $box-shadow-x $box-shadow-y $clr-sgda-green;
 }
 
-.card:nth-of-type(2n):not(.card:nth-of-type(4n)), .card:nth-of-type(2n):not(.card:nth-of-type(4n)):visited
+.card:hover, .card-red:hover, .card-yellow:hover, .card-green:hover, .card-blue:hover
 {
-    border-color: $clr-sgda-yellow;
-    box-shadow: $box-shadow-x $box-shadow-y $clr-sgda-yellow;
+    box-shadow: $box-shadow-x-hover $box-shadow-y-hover $clr-sgda-yellow;
+    transform: translateX($box-shadow-x - $box-shadow-x-hover) translateY($box-shadow-y - $box-shadow-y-hover)
 }
 
-.card, .card:visited
+.card:nth-of-type(4n):hover, .card-red:hover
 {
-    border: 1px solid $clr-sgda-red;
-
-    box-shadow: $box-shadow-x $box-shadow-y $clr-sgda-red;
-    transition: transform .05s, box-shadow .05s;
-    background-color: $clr-black;
+    box-shadow: $box-shadow-x-hover $box-shadow-y-hover $clr-sgda-red;
 }
 
-.card:nth-of-type(4n):hover
+.card:nth-of-type(3n):hover, .card-blue:hover
 {
     box-shadow: $box-shadow-x-hover $box-shadow-y-hover $clr-sgda-blue;
 }
 
-.card:nth-of-type(3n):hover
+.card:nth-of-type(2n):not(.card:nth-of-type(4n)):hover, .card-green:hover
 {
     box-shadow: $box-shadow-x-hover $box-shadow-y-hover $clr-sgda-green;
-}
-
-.card:nth-of-type(2n):not(.card:nth-of-type(4n)):hover
-{
-    box-shadow: $box-shadow-x-hover $box-shadow-y-hover $clr-sgda-yellow;
-}
-
-.card:hover
-{
-    box-shadow: $box-shadow-x-hover $box-shadow-y-hover $clr-sgda-red;
-    transform: translateX($box-shadow-x - $box-shadow-x-hover) translateY($box-shadow-y - $box-shadow-y-hover)
 }

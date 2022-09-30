@@ -73,25 +73,32 @@ $max-width: 900px;
 
 main.children-are-content
 {
-    > h1
+    > h1, .h-color
     {
         color: $clr-sgda-yellow;
     }
 
-    > h1:nth-of-type(2n)
+    > h1:nth-of-type(2n), .h-color:nth-of-type(2n)
     {
         color: $clr-sgda-green;
     }
 
-    > h1:nth-of-type(3n)
+    > h1:nth-of-type(3n), .h-color:nth-of-type(3n)
     {
         color: $clr-sgda-blue;
     }
 
-    > h1:nth-of-type(4n)
+    > h1:nth-of-type(4n), .h-color:nth-of-type(4n)
     {
         color: $clr-sgda-red;
     }
+}
+
+// hide half rule if at bottom of content
+// simplifies list iterations
+main > hr:last-child
+{
+        display: none;
 }
 
 // default links
