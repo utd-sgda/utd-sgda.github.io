@@ -1,5 +1,9 @@
 <div class="text-center mt-8">
-    <figure class="mx-auto sm:w-max-1/2">
-       <img class="card border-radius-md overflow-hidden" src="/assets/images/posters/{{ include.image }}" alt="This is the event's poster. Please look below for that information typed out!">
-    </figure>
+   <figure class="mx-auto sm:w-max-1/2">
+   {% if include.color %}
+   <img class="card-{{ include.color }} border-radius-md overflow-hidden" src="/assets/images/posters/{{ include.image }}" alt="This is the event's poster. Please look below for that information typed out!">
+   {% else %}
+      <img class="card border-radius-md overflow-hidden" src="/assets/images/posters/{{ include.image }}" alt="This is the event's poster. Please look below for that information typed out!">
+   {% endif %}
+   </figure>
  </div>

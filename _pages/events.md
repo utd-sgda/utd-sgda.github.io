@@ -18,7 +18,7 @@ Throughout the Fall and Spring semesters, we generally have meetings every *Wedn
 <p class="p-1 lg:p-4"></p>
 
 {% else %}
-{% include poster.html image=site.data.events.poster %}
+{% include poster.html image=site.data.events.poster color=site.data.events.color %}
 
 <p class="p-1 lg:p-4"></p>
 
