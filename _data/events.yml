@@ -10,13 +10,24 @@
 #   where (str):              The location of the meeting (this probably won't change much).
 #   what (str):               Additional info about what is happening at this event.
 
+# show-next-event: true
+# poster: 2022/10-12-22-IntroToUnreal.png
+# title: Intro to Unreal Workshop
+# color: yellow
+# when: >
+#   7pm October 12th, 2022
+# where: >
+#   The UTDallas Makerspace: [SPN 2.220](https://map.concept3d.com/?id=1772#!m/550572)
+# what: >
+#   Learn how to setup Unreal projects, get started with art and create basic blueprints!
+
 show-next-event: true
-poster: 2022/10-12-22-IntroToUnreal.png
+poster: 2022/10-13-22-IntroToUnrealFollowUp.png
 title: Intro to Unreal Workshop
-color: yellow
+color: blue
 when: >
   7pm October 12th, 2022
 where: >
-  The UTDallas Makerspace: [SPN 2.220](https://map.concept3d.com/?id=1772#!m/550572)
+  [ATC 3.914](https://map.concept3d.com/?id=1772#!m/541901)
 what: >
   Learn how to setup Unreal projects, get started with art and create basic blueprints!
