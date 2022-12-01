@@ -20,7 +20,11 @@ Description: Here are the winners of our previous game jam!
     <a id="{{ game.name | slugify }}" class="h-color card p-4 lg:p-8 text-center" href="{{ game.link }}" target="#" style="width: 90%;">
         <h1 class="mt-0" style="text-transform: none; line-height: 1;"> {{ game.name }} </h1>
         <h2 class="mt-0 c-white font-normal" style="text-transform: none; line-height: 1;"> {{ game.categories }} </h2>
+    {% if game.members.size > 1 %}
         <div class="mt-4 grid has-1-columns lg:has-2-columns justify-items-center row-gap-5">
+    {% else %}
+        <div class="mt-4 grid has-1-columns justify-items-center row-gap-5">
+    {% endif %}
         {% for member in game.members %}
             <p class="c-white my-0"> {{ member.name }} </p>
         {% endfor%}
