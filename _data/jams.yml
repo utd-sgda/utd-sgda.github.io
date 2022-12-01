@@ -1,3 +1,54 @@
+- title: Thankgiving Jam
+  date: November 16th through November 30th 2022
+  poster: 2022/11-30-22-ThanksgivingJamWinners.png
+  link: https://itch.io/jam/sgda-thanksgiving-jam/entries
+  color: yellow
+  games:
+    - name: Brew Balls
+      categories: Best Overall and Best Audio
+      link: https://itch.io/jam/sgda-thanksgiving-jam/rate/1806527
+      members:
+        - name: Ian Guglielmi-White
+
+    - name: Debuff War
+      categories: Best Gameplay
+      link: https://itch.io/jam/sgda-thanksgiving-jam/rate/1799276
+      members:
+        - name: Abhiveer A.
+
+    - name: Toxic Power
+      categories: Best Technical
+      link: https://itch.io/jam/sgda-thanksgiving-jam/rate/1810981
+      members:
+        - name: Henry Roberts
+        - name: Tate Berry
+        - name: Will Callihan
+        - name: Sai Mangipudi
+        - name: Bandon Coffey
+        - name: Rachel Wen
+        - name: Jonathan Gonzales
+        - name: Mike Pustejovsky
+        
+    - name: The Midnight Brew
+      categories: Best Visuals
+      link: https://itch.io/jam/sgda-thanksgiving-jam/rate/1810948
+      members:
+        - name: Christa Gallegos
+        - name: Julian Gay
+        - name: John Mai
+        - name: Aliya Lee
+        - name: Brandon Hutson
+        - name: Sam Chandler
+        - name: Daniel Martinez Murillo
+        - name: Allan Hernandez
+
+    - name: Shackled
+      categories: Fan's Favorite
+      link: https://itch.io/jam/sgda-thanksgiving-jam/rate/1810676
+      members:
+        - name: Mikey Bess
+        - name: Ian Percy
+
 - title: 40 Hour Game Jam
   date: September 23rd through September 25th 2022
   poster: 2022/09-28-22-40HourJamWinners.png
