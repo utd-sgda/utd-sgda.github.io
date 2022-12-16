@@ -15,10 +15,10 @@
   image: brandon.jpg
   linkedin: https://www.linkedin.com/in/brandon-coffey-36a802191/
 
-- name: Christine Vo
+- name: Sammy Mahmoudi
   role: Treasurer
-  image: christine.JPG
-  linkedin: https://www.linkedin.com/in/christine-vo-4a56331b8/
+  image: sammy.png
+  linkedin: https://www.linkedin.com/in/sammymahmoudi/
 
 - name: John Mai
   role: Technical Officer
@@ -49,11 +49,6 @@
   role: Junior Officer
   image: fatimeh.png
   linkedin: https://www.linkedin.com/in/fatimeh-bashir/
-
-- name: Sammy Mahmoudi
-  role: Junior Officer
-  image: sammy.png
-  linkedin: https://www.linkedin.com/in/sammymahmoudi/
 
 - name: Nick Maclean
   role: Junior Technical Officer
