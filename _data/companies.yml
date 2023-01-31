@@ -9,7 +9,7 @@
 
 - name: Bungie
   image: Bungie.png
-  link: https://www.bungie.net/#!//
+  link: https://www.bungie.net/
 
 - name: ID Software
   image: Id_Software.png
@@ -25,7 +25,7 @@
 
 - name: Bethesda
   image: Bethesda.png
-  link: https://bethesda.net/en/dashboard
+  link: https://bethesda.net/
 
 - name: Polyknight
   image: Polyknight.png
@@ -38,3 +38,7 @@
 - name: BonusXP
   image: BonusXP.jpg
   link: https://bonusxp.com/
+
+- name: Highwire Games
+  image: Highwire.png
+  link: https://highwiregames.com/
