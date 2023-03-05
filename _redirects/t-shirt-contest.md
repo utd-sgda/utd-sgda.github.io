@@ -1,4 +1,4 @@
 ---
 permalink: /t-shirt-contest/
-redirect_to: https://docs.google.com/document/d/1pwul97jgLngYmCLoqI0ERu8DLR5B4KwhcthJAboddI0/edit?usp=sharing
+redirect_to: https://docs.google.com/forms/d/e/1FAIpQLScTpH1nQSdgYKxTnHDi0zZrwIcf00tbRmHgXLDIvCVO0cFy4A/viewform?usp=sf_link
 ---
