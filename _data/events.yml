@@ -11,15 +11,18 @@
 #   what (str):               Additional info about what is happening at this event.
 
 show-next-event: true
-poster: 2023/03-01-23-networkingNight.gif
-title: Networking Night
-color: red
+poster: 2023/03-08-23-springGameJam.gif
+title: Game Jam - Kick Off
+color: green
 when: >
-  7pm March 1st, 2023
+  7pm March 8th, 2023
 where: >
   The UTDallas Makerspace: [SPN 2.220](https://map.concept3d.com/?id=1772#!m/550572)
 what: >
-  Come and hang out! 
-  
-  
-  Socialize, network, and make new friends for next week's jam!
+  Come join us for the kick off of our spring game jam!
+
+
+  Submissions will be due 3/19 and we'll have a wrap up to announce the winners 3/21.
+
+
+  For those wanting to take some time off during break, we've got the speedrun category for you! Submit your game by end of day 3/12 to qualify.
