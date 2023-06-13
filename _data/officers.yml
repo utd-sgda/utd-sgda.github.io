@@ -5,52 +5,57 @@
 #   image:   Officer's image
 #   linkedin: Link to officer's LinkedIn
 
-- name: Tryston Minsquero
+- name: Nick Maclean
   role: President
-  image: tryston.png
-  linkedin: https://www.linkedin.com/in/tryston-minsquero/
+  image: nick.jpg
+  linkedin: https://www.linkedin.com/in/nick-maclean/
 
-- name: Brandon Coffey
+- name: Phu Le
   role: Vice President
-  image: brandon.jpg
-  linkedin: https://www.linkedin.com/in/brandon-coffey-36a802191/
+  image: phu.png
+  linkedin: https://www.linkedin.com/in/phu--le
 
 - name: Sammy Mahmoudi
   role: Treasurer
-  image: sammy.png
+  image: sammy.jpg
   linkedin: https://www.linkedin.com/in/sammymahmoudi/
 
-- name: John Mai
+- name: Jarod Shelton
   role: Technical Officer
-  image: john.jpg
-  linkedin: https://www.linkedin.com/in/john-huy-mai/
+  image: jarod.jpg
+  linkedin: https://sites.google.com/view/jarod-shelton/home
 
 - name: Mayson Bray
   role: Secretary
   image: mayson.png
   linkedin: https://www.linkedin.com/in/mayson-bray-970aba1a4/
 
-- name: Phu Le
+- name: John Mai
   role: Graphic Designer
-  image: phu.png
-  linkedin: https://www.linkedin.com/in/phu--le
+  image: john.jpg
+  linkedin: https://www.linkedin.com/in/john-huy-mai/
 
-- name: Ariana Mendez
+- name: Kellyn Mendez
   role: Marketing
-  image: ari.png
-  linkedin: https://www.linkedin.com/in/ariana-z-mendez/
+  image: kellyn.jpeg
+  linkedin: https://www.linkedin.com/in/kellyn-mendez-0512951b6
 
-- name: Linus Fackler
+- name: Ian Percy
   role: Junior Officer
-  image: linus.jpg
-  linkedin: https://www.linkedin.com/in/linus-fackler/
+  image: ian.jpg
+  linkedin: https://www.linkedin.com/in/ian-percy-819181163
 
-- name: Fatimeh Bashir
+- name: Aliya Lee
   role: Junior Officer
-  image: fatimeh.png
-  linkedin: https://www.linkedin.com/in/fatimeh-bashir/
+  image: aliya.jpg
+  linkedin: https://www.linkedin.com/in/aliya-lee-a03755172
 
-- name: Nick Maclean
-  role: Junior Technical Officer
-  image: nick.jpg
-  linkedin: https://www.linkedin.com/in/nick-maclean/
+- name: Jared Ellis
+  role: Junior Officer
+  image: jared.png
+  linkedin: https://jaredellis.myportfolio.com/portfolio
+
+- name: Cade Miller
+  role: Junior Officer
+  image: cade.png
+  linkedin: 
