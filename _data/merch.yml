@@ -7,34 +7,6 @@
 #   image:       Link to product image. (1-by-1 aspect ratio)
 #   link:        Link to product page
 
-- title: SGDA T-Shirt
-  type: Shirt
-  description: Comfortable and stylish. Available in multiple sizes.
-  price: $15.00
-  image: sgda_shirt_2021.jpg
-  link: https://sgda.storenvy.com/products/33422776-sgda-f21
-
-- title: SGDA Pattern Mask
-  type: Mask
-  description: Available in multiple sizes and mask types.
-  price: $10.00
-  image: sgda_mask_blue.jpg
-  link: https://www.redbubble.com/i/mask/SGDA-Pattern-in-Blue-by-sgda/69216200.9G0D8
-
-- title: Stacked Logo Mask
-  type: Mask
-  description: Available in multiple sizes and mask types.
-  price: $10.00
-  image: sgda_mask_grey_letters.jpg
-  link: https://www.redbubble.com/i/mask/SGDA-Circle-Logo-by-sgda/54003124.9G0D8
-
-- title: SGDA Dots Mask
-  type: Mask
-  description: Available in multiple sizes and mask types.
-  price: $10.00
-  image: sgda_mask_grey_dots.jpg
-  link: https://www.redbubble.com/i/mask/SGDA-Dot-Logo-by-sgda/54110104.9G0D8
-
 - title: Horizontal Logo Sticker
   type: Sticker
   description: Available in matte, glossy, and transparent.
@@ -104,3 +76,24 @@
   price: $3.31
   image: sgda_pin_dots.jpg
   link: https://www.redbubble.com/i/pin/SGDA-Dot-Logo-by-sgda/54110104.NP9QY
+
+- title: SGDA Pattern Mask
+  type: Mask
+  description: Available in multiple sizes and mask types.
+  price: $10.00
+  image: sgda_mask_blue.jpg
+  link: https://www.redbubble.com/i/mask/SGDA-Pattern-in-Blue-by-sgda/69216200.9G0D8
+
+- title: Stacked Logo Mask
+  type: Mask
+  description: Available in multiple sizes and mask types.
+  price: $10.00
+  image: sgda_mask_grey_letters.jpg
+  link: https://www.redbubble.com/i/mask/SGDA-Circle-Logo-by-sgda/54003124.9G0D8
+
+- title: SGDA Dots Mask
+  type: Mask
+  description: Available in multiple sizes and mask types.
+  price: $10.00
+  image: sgda_mask_grey_dots.jpg
+  link: https://www.redbubble.com/i/mask/SGDA-Dot-Logo-by-sgda/54110104.9G0D8
