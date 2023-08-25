@@ -1,9 +1,16 @@
 <div class="text-center mt-8">
    <figure class="mx-auto sm:w-max-1/2">
-   {% if include.color %}
-   <img class="card-{{ include.color }} border-radius-md overflow-hidden" src="/assets/images/posters/{{ include.image }}" alt="This is the event's poster. Please look below for that information typed out!">
+   
+   {% if include.color %} {% assign card-attr = "card-" | append: include.color %}
+   {% else %} {% assign card-attr = "card" %}
+   {% endif %}
+
+   {% if include.image contains ".mp4" %}
+      <video class="{{ card-attr }} border-radius-md overflow-hidden w-full" autoplay muted loop>
+         <source src="/assets/images/posters/{{ include.image }}">
+      </video>
    {% else %}
-      <img class="card border-radius-md overflow-hidden" src="/assets/images/posters/{{ include.image }}" alt="This is the event's poster. Please look below for that information typed out!">
+      <img class="{{ card-attr }} border-radius-md overflow-hidden" src="/assets/images/posters/{{ include.image }}" alt="This is the event's poster. Please look below for that information typed out!">
    {% endif %}
    </figure>
  </div>
