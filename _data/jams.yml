@@ -1,3 +1,53 @@
+- title: Fall Game Jam
+  date: September 20th through September 30th 2023
+  poster: 2023/10-05-23-fallGameJamWinners.gif
+  link: https://itch.io/jam/sgda-fall-2023-game-jam
+  color: blue
+  games:
+    - name: Phantomsteel
+      categories: Best Overall and Fan Favorite
+      link: https://itch.io/jam/sgda-fall-2023-game-jam/rate/2289806
+      members:
+        - name: Ryan Pham
+
+    - name: Lymphorce
+      categories: Best Gameplay
+      link: https://itch.io/jam/sgda-fall-2023-game-jam/rate/2290585
+      members:
+        - name: Jimmy Harvin
+        - name: Caleb Won
+        - name: Anna Reid
+        - name: Zen Farris
+        - name: Peter Newell
+
+    - name: Draculala
+      categories: Best Visuals
+      link: https://itch.io/jam/sgda-fall-2023-game-jam/rate/2288469
+      members:
+        - name: Elijah Knight
+        - name: Fern Shrestha
+        - name: N Bui
+        
+    - name: Gat and Mouse
+      categories: Best Audio
+      link: https://itch.io/jam/sgda-fall-2023-game-jam/rate/2290342
+      members:
+        - name: Herson Duron
+        - name: Jacob Milan
+        - name: Keaton Ylanan
+        - name: Sean Creighton
+        - name: Nikki Malmanger
+
+    - name: Death Follows
+      categories: Most Innovative
+      link: https://itch.io/jam/sgda-fall-2023-game-jam/rate/2289841
+      members:
+        - name: Eric Wilhoit
+        - name: Peter Vu
+        - name: Andrew Duarte
+        - name: Cade Miller
+        - name: Charles Nwaiwu
+
 - title: Spring Game Jam
   date: March 8th through March 19th 2023
   poster: 2023/03-22-23-springGameJamWinners.gif
