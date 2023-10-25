@@ -1,4 +1,4 @@
 ---
 permalink: /apply/
-redirect_to: https://docs.google.com/forms/d/e/1FAIpQLSf0JeyMOF0Idrjf9LA0yYss5h7AmNaMjYx_is6cTLi-1mAW4A/viewform?usp=sf_link
+redirect_to: https://docs.google.com/forms/d/e/1FAIpQLSeZcbQ9YYFXQdlbh4_UA5RPGJ9IxoLn1o1YxRxQn50s9qnerg/viewform?usp=sf_link
 ---
