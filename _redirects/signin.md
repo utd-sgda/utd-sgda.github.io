@@ -1,4 +1,4 @@
 ---
 permalink: /signin/
-redirect_to: https://docs.google.com/forms/d/e/1FAIpQLSdjv-zKmG3GD9Oix5NCpl4D32tO10nTqbR_HNtvnwv7GrZUbQ/viewform?usp=sf_link
+redirect_to: https://docs.google.com/forms/d/e/1FAIpQLSdm_UYa78I3PGFEAvq4z_EuttEUjFtVeZq9TfDR0KCrQvL9rA/viewform?usp=sf_link
 ---
