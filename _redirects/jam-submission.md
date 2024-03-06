@@ -1,4 +1,4 @@
 ---
 permalink: /jam-submission/
-redirect_to: https://itch.io/jam/sgda-fall-2023-game-jam
+redirect_to: https://itch.io/jam/spring-24-jam
 ---
