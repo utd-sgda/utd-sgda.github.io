@@ -1,3 +1,47 @@
+- title: Spring Game Jam
+  date: March 6th through March 17th 2023
+  poster: 2024/03-20-24-jamWinners.gif
+  link: https://itch.io/jam/spring-24-jam
+  color: green
+  games:
+    - name: Sporecap
+      categories: Best Overall and Fan Favorite
+      link: https://itch.io/jam/spring-24-jam/rate/2591798
+      members:
+        - name: Mikey Bess
+        - name: John Mai
+        - name: Jarod Shelton
+        - name: Xx_Kigen Shealy_xX
+        - name: Meg Roesler
+    - name: Bloboban
+      categories: Best Gameplay
+      link: https://itch.io/jam/spring-24-jam/rate/2587205
+      members:
+        - name: Cameron Kelly
+    - name: Project Situs
+      categories: Most Innovative
+      link: https://itch.io/jam/spring-24-jam/rate/2591762
+      members:
+        - name: Tyler Mcclure
+        - name: Ryan Samayoa
+        - name: Karan Talagery
+        - name: Michael Fluckiger
+        - name: Axel
+    - name: Granny Smith
+      categories: Best Visuals
+      link: https://itch.io/jam/spring-24-jam/rate/2591431
+      members:
+        - name: Connor Boone
+        - name: Annabelle Kim
+        - name: Aries Mendez
+        - name: Kellyn Mendez
+        - name: Victoria Pruitt
+    - name: Moldkiller
+      categories: Best Audio
+      link: https://itch.io/jam/spring-24-jam/rate/2588869
+      members:
+        - name: Christopher Echols
+
 - title: Fall Game Jam
   date: September 20th through September 30th 2023
   poster: 2023/10-05-23-fallGameJamWinners.gif
