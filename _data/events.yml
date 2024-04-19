@@ -12,7 +12,7 @@
 # Notes
 # - Use &#58; instead of :
 
-show-next-event: true
+show-next-event: false
 poster: 2024/03-06-24-gamejam.gif
 title: Spring Game Jam
 color: green
