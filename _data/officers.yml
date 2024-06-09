@@ -8,32 +8,32 @@
 - name: Phu Le
   role: President
   image: phu.png
-  linkedin: https://www.linkedin.com/in/nick-maclean/
-
-- name: Phu Le
-  role: Vice President
-  image: phu.png
   linkedin: https://www.linkedin.com/in/phu--le
+
+- name: Ian Percy
+  role: Vice President
+  image: ian.jpg
+  linkedin: https://www.linkedin.com/in/ian-percy-819181163
 
 - name: Sakina Mehdi
   role: Treasurer
   image: sakina.jpg
   linkedin: https://www.linkedin.com/in/sakina-mehdi-787986222
 
-- name: Jarod Shelton
+- name: Ahad Kamal
   role: Technical Officer
-  image: jarod.jpg
-  linkedin: https://sites.google.com/view/jarod-shelton/home
+  image: ahad.jpg
+  linkedin: https://www.linkedin.com/in/ahad-kamal-476446263
 
-- name: Mayson Bray
+- name: Skyler Krnavek
   role: Secretary
-  image: mayson.png
-  linkedin: https://www.linkedin.com/in/mayson-bray-970aba1a4/
+  image: skyler.jpg
+  linkedin: https://www.linkedin.com/in/skyler-krnavek-292b6129a
 
-- name: John Mai
+- name: Kris Hernandez
   role: Graphic Designer
-  image: john.jpg
-  linkedin: https://www.linkedin.com/in/john-huy-mai/
+  image: kris.jpg
+  linkedin: 
 
 - name: Kellyn Mendez
   role: Marketing
@@ -45,22 +45,22 @@
   image: ian.jpg
   linkedin: https://www.linkedin.com/in/ian-percy-819181163
 
-- name: Aliya Lee
+- name: Chema Alanis
   role: Junior Officer
-  image: aliya.JPG
-  linkedin: https://www.linkedin.com/in/aliya-lee-a03755172
+  image: chema.JPG
+  linkedin: 
 
-- name: Skyler Krnavek
+- name: Xochi Caballero
   role: Junior Officer
-  image: skyler.jpg
-  linkedin: https://www.linkedin.com/in/skyler-krnavek-292b6129a
+  image: xochi.jpg
+  linkedin: 
 
-- name: Ahad Kamal
+- name: Karan Talagery
   role: Junior Officer
-  image: ahad.jpg
+  image: karan.png
   linkedin: https://www.linkedin.com/in/ahad-kamal-476446263
 
-- name: Cade Miller
+- name: Eric Wilhoit
   role: Junior Officer
-  image: cade.png
+  image: eric.jpg
   linkedin: 
