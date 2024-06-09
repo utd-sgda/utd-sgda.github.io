@@ -5,9 +5,9 @@
 #   image:   Officer's image
 #   linkedin: Link to officer's LinkedIn
 
-- name: Nick Maclean
+- name: Phu Le
   role: President
-  image: nick.jpg
+  image: phu.png
   linkedin: https://www.linkedin.com/in/nick-maclean/
 
 - name: Phu Le
