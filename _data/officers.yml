@@ -40,11 +40,6 @@
   image: kellyn.jpg
   linkedin: https://www.linkedin.com/in/kellyn-mendez-0512951b6
 
-- name: Ian Percy
-  role: Junior Officer
-  image: ian.jpg
-  linkedin: https://www.linkedin.com/in/ian-percy-819181163
-
 - name: Chema Alanis
   role: Junior Officer
   image: chema.JPG
@@ -58,7 +53,7 @@
 - name: Karan Talagery
   role: Junior Officer
   image: karan.png
-  linkedin: https://www.linkedin.com/in/ahad-kamal-476446263
+  linkedin: 
 
 - name: Eric Wilhoit
   role: Junior Officer
