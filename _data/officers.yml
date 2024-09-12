@@ -10,10 +10,10 @@
   image: phu.png
   linkedin: https://www.linkedin.com/in/phu--le
 
-- name: Ian Percy
+- name: Skyler Krnavek
   role: Vice President
-  image: ian.jpg
-  linkedin: https://www.linkedin.com/in/ian-percy-819181163
+  image: skyler.jpg
+  linkedin: https://www.linkedin.com/in/skyler-krnavek-292b6129a
 
 - name: Sakina Mehdi
   role: Treasurer
@@ -25,10 +25,10 @@
   image: ahad.jpg
   linkedin: https://www.linkedin.com/in/ahad-kamal-476446263
 
-- name: Skyler Krnavek
+- name: Karan Talagery
   role: Secretary
-  image: skyler.jpg
-  linkedin: https://www.linkedin.com/in/skyler-krnavek-292b6129a
+  image: karan.png
+  linkedin: 
 
 - name: Kris Hernandez
   role: Graphic Designer
@@ -48,11 +48,6 @@
 - name: Xochi Caballero
   role: Junior Officer
   image: xochi.jpg
-  linkedin: 
-
-- name: Karan Talagery
-  role: Junior Officer
-  image: karan.png
   linkedin: 
 
 - name: Eric Wilhoit
