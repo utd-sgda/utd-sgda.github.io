@@ -12,16 +12,16 @@
 # Notes
 # - Use &#58; instead of :
 
-show-next-event: false
-poster: 2024/03-06-24-gamejam.gif
-title: Spring Game Jam
-color: green
+show-next-event: true
+poster: 2024/09-25-24-gamejam.gif
+title: Fall 2024 Game Jam
+color: blue
 when: >
-  7pm March 6th, 2024
+  7pm September 25th, 2024
 where: >
   The UTDallas Makerspace: [SPN 2.220](https://map.concept3d.com/?id=1772#!m/550572)
 what: >
-  Join us for the kick off of our Spring Game Jam!
+  Join us for the kick off of our Fall Game Jam!
 
 
   We will have food and drinks!
