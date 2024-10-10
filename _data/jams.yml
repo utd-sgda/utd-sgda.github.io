@@ -1,3 +1,46 @@
+- title: Fall Game Jam
+  date: September 25th through October 5th 2023
+  poster: 2024/10-09-24-fallJamWinners.gif
+  link: https://itch.io/jam/sgda-fall-2024-jam
+  color: blue
+  games:
+    - name: 9mm Pistol Shrimp: Operation Shrimpterfuge
+      categories: Best Overall
+      link: https://itch.io/jam/sgda-fall-2024-jam/rate/3019406
+      members:
+        - name: Sean Creighton
+        - name: Herson Duron
+        - name: Andrew Lay
+        - name: Jacob Milan
+        - name: Keaton Ylanan
+    - name: Grub Grabbers
+      categories: Best Gameplay and Audio
+      link: https://itch.io/jam/sgda-fall-2024-jam/rate/3019351
+      members:
+        - name: Connor Boone
+        - name: Kellyn Mendez
+        - name: Xochi Caballero
+    - name: Wildfire Warfare
+      categories: Best Visuals
+      link: https://itch.io/jam/sgda-fall-2024-jam/rate/3018348
+      members:
+        - name: Henry Hou
+        - name: Mike Ness
+        - name: Vinay Munagapati
+        - name: Eric Wilhoit
+        - name: Malik Danab
+    - name: Just A Little Guy
+      categories: Most Innovative
+      link: https://itch.io/jam/sgda-fall-2024-jam/rate/3019762
+      members:
+        - name: Ashwin Avadhanula
+        - name: John Veslin
+    - name: Midnight Snacktime
+      categories: Fan Favorite
+      link: https://itch.io/jam/sgda-fall-2024-jam/rate/3019616
+      members:
+        - name: Da Hyun Kim
+
 - title: Spring Game Jam
   date: March 6th through March 17th 2023
   poster: 2024/03-20-24-jamWinners.gif
