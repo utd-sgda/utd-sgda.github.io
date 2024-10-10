@@ -10,6 +10,10 @@ stylesheet: true
 
 <div class="pt-8"></div>
 
+<div class="text-center">
+    <h1 class="mt-0 mb-2 line-1 font-4xl"> {% include link-arrow.html href="https://forms.gle/v8o6gGbvgQczBABX8" text="Fall 2024 Shirts Now On Sale!" %} </h1>
+</div>
+
 {% include merch.html %}
 
 <div class="pt-8"></div>
