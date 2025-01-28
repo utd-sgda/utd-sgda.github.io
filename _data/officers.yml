@@ -5,15 +5,15 @@
 #   image:   Officer's image
 #   linkedin: Link to officer's LinkedIn
 
-- name: Phu Le
-  role: President
-  image: phu.png
-  linkedin: https://www.linkedin.com/in/phu--le
-
 - name: Skyler Krnavek
-  role: Vice President
+  role: President
   image: skyler.jpg
   linkedin: https://www.linkedin.com/in/skyler-krnavek-292b6129a
+
+- name: Karan Talagery
+  role: Vice President
+  image: karan.png
+  linkedin: 
 
 - name: Sakina Mehdi
   role: Treasurer
@@ -25,9 +25,9 @@
   image: ahad.jpg
   linkedin: https://www.linkedin.com/in/ahad-kamal-476446263
 
-- name: Karan Talagery
+- name: Chema Alanis
   role: Secretary
-  image: karan.png
+  image: chema.jpg
   linkedin: 
 
 - name: Kris Hernandez
@@ -40,9 +40,9 @@
   image: kellyn.jpg
   linkedin: https://www.linkedin.com/in/kellyn-mendez-0512951b6
 
-- name: Chema Alanis
+- name: Jessica Quinlan
   role: Junior Officer
-  image: chema.JPG
+  image: jess.jpg
   linkedin: 
 
 - name: Xochi Caballero
