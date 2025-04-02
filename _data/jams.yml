@@ -1,5 +1,32 @@
+- title: Spring Game Jam
+  date: March 12th through March 23rd 2025
+  poster: 2025/03-12-25-springJamWinners.png
+  link: https://itch.io/jam/sgda-spring-25-game-jam
+  color: red
+  games: 
+    - name: Moon Phase
+      categories: Best Overall and Best Gameplay
+      link: https://itch.io/jam/sgda-spring-25-game-jam/rate/3415628
+      members:
+        - name: 
+    - name: Hydropawnics
+      categories: Fan Favorite and Best Visuals
+      link: https://itch.io/jam/sgda-spring-25-game-jam/rate/3413590
+      members:
+        - name: 
+    - name: Moonstruck Asteroid
+      categories: Most Innovative
+      link: https://itch.io/jam/sgda-spring-25-game-jam/rate/3413359
+      members:
+        - name: 
+    - name: Stargon
+      categories: Best Audio
+      link: https://itch.io/jam/sgda-spring-25-game-jam/rate/3415845
+      members:
+        - name: 
+
 - title: Fall Game Jam
-  date: September 25th through October 5th 2023
+  date: September 25th through October 5th 2024
   poster: 2024/10-09-24-fallJamWinners.gif
   link: https://itch.io/jam/sgda-fall-2024-jam
   color: blue
@@ -42,7 +69,7 @@
         - name: Da Hyun Kim
 
 - title: Spring Game Jam
-  date: March 6th through March 17th 2023
+  date: March 6th through March 17th 2024
   poster: 2024/03-20-24-jamWinners.gif
   link: https://itch.io/jam/spring-24-jam
   color: green
