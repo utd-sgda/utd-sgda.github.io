@@ -1,4 +1,4 @@
 ---
 permalink: /election-info/
-redirect_to: https://docs.google.com/presentation/d/1kQv120bG1uXwsGjbPCWRNcbd2p6kAWmDUVsvtwpHdD0/edit?usp=sharing
+redirect_to: https://docs.google.com/presentation/d/1rUHu9VjJ-qln7o1MD_0SpvKp0UoqLoafdwGTPMMUs2E/edit?usp=sharing
 ---
