@@ -5,29 +5,29 @@
 #   image:   Officer's image
 #   linkedin: Link to officer's LinkedIn
 
-- name: Skyler Krnavek
-  role: President
-  image: skyler.jpg
-  linkedin: https://www.linkedin.com/in/skyler-krnavek-292b6129a
-
 - name: Karan Talagery
-  role: Vice President
+  role: President
   image: karan.png
   linkedin: 
 
-- name: Sakina Mehdi
-  role: Treasurer
-  image: sakina.jpg
-  linkedin: https://www.linkedin.com/in/sakina-mehdi-787986222
-
-- name: Ahad Kamal
-  role: Technical Officer
-  image: ahad.jpg
-  linkedin: https://www.linkedin.com/in/ahad-kamal-476446263
-
 - name: Chema Alanis
-  role: Secretary
+  role: Vice President
   image: chema.jpg
+  linkedin: 
+
+- name: Alfred Zhang
+  role: Treasurer
+  image: alfred.jpg
+  linkedin: 
+
+- name: Eric Wilhoit
+  role: Technical Officer
+  image: eric.jpg
+  linkedin: 
+
+- name: Tyler Mcclure
+  role: Secretary
+  image: tyler.jpg
   linkedin: 
 
 - name: Kris Hernandez
@@ -35,22 +35,33 @@
   image: kris.jpg
   linkedin: 
 
-- name: Kellyn Mendez
+- name: Alan Villalobos
   role: Marketing
-  image: kellyn.jpg
-  linkedin: https://www.linkedin.com/in/kellyn-mendez-0512951b6
+  image: alan.jpg
+  linkedin: 
 
 - name: Jess Quinlan
   role: Junior Officer
   image: jess.jpg
   linkedin: 
 
-- name: Xochi Caballero
+- name: Henry Hou
   role: Junior Officer
-  image: xochi.jpg
+  image: 
   linkedin: 
 
-- name: Eric Wilhoit
+- name: Joshua Navarro
   role: Junior Officer
-  image: eric.jpg
+  image: joshua.jpeg
   linkedin: 
+
+- name: Sai Thiruveedula
+  role: Junior Officer
+  image: 
+  linkedin: 
+
+- name: Maxwell Millward
+  role: Junior Officer
+  image: 
+  linkedin: 
+

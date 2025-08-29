@@ -1,3 +1,40 @@
+- title: Summer Game Jam
+  date: July 25th through August 2nd 2025
+  poster: 2025/07-25-25-summerJamWinners.png
+  link: https://itch.io/jam/sgda-summer-25-jam
+  color: red
+  games: 
+    - name: He's All In
+      categories: Best Overall and Best Audio
+      link: https://itch.io/jam/sgda-summer-25-jam/rate/3777706
+      members:
+        - name: Kenny Rodriguez
+        - name: Garrett McGinn
+        - name: Kadence Hall
+        - name: Lily Morrison
+        - name: Soniya Lin     
+    - name: Stamper
+      categories: Fan Favorite
+      link: https://itch.io/jam/sgda-summer-25-jam/rate/3776107
+      members:
+        - name: James Hawkins
+        - name: Taylor Klinsky
+        - name: Landon Ho
+        - name: Aris Palin
+        - name: Lazarus Avila Fisher
+    - name: Scribe
+      categories: Best Gameplay and Most Innovative
+      link: https://itch.io/jam/sgda-summer-25-jam/rate/3771627
+      members:
+        - name: Nathan Sorensen
+        - name: Katelyn Sorensen
+    - name: Stick Tac Toe
+      categories: Best Visuals
+      link: https://itch.io/jam/sgda-summer-25-jam/rate/3772914
+      members:
+        - name: Karan Talagery
+        - name: Isabella Miranda Gomez
+
 - title: Spring Game Jam
   date: March 12th through March 23rd 2025
   poster: 2025/03-26-25-springJamWinners.png
