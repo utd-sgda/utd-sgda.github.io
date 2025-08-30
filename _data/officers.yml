@@ -17,7 +17,7 @@
 
 - name: Alfred Zhang
   role: Treasurer
-  image: alfred.jpg
+  image: 
   linkedin: 
 
 - name: Eric Wilhoit
@@ -32,8 +32,8 @@
 
 - name: Kris Hernandez
   role: Graphic Designer
-  image: kris.jpg
-  linkedin: 
+  image: kris.png
+  linkedin: https://www.linkedin.com/in/kristina-hernandez-360b46334
 
 - name: Alan Villalobos
   role: Marketing
