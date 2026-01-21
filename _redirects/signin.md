@@ -1,4 +1,4 @@
 ---
 permalink: /signin/
-redirect_to: https://forms.gle/8NKwpSrwuokfGcMZ9
+redirect_to: https://forms.gle/3r82TpkCQNVwcZ5z7
 ---
