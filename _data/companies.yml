@@ -13,7 +13,7 @@
 
 - name: ID Software
   image: Id_Software.png
-  link: https://www.idsoftware.com/en-us
+  link: https://www.idsoftware.com/en
 
 - name: Gearbox
   image: Gearbox_Software.png
@@ -46,3 +46,7 @@
 - name: Balanced Media Technology
   image: BalancedMedia.png
   link: https://www.balancedmediatechnology.com/
+
+- name: Ivybee
+  image: ivybee.png
+  link: https://ivybee.com/

@@ -5,63 +5,67 @@
 #   image:   Officer's image
 #   linkedin: Link to officer's LinkedIn
 
-- name: Karan Talagery
-  role: President
-  image: karan.png
-  linkedin: 
-
 - name: Chema Alanis
-  role: Vice President
+  role: President
   image: chema.jpg
-  linkedin: 
-
-- name: Alfred Zhang
-  role: Treasurer
-  image: 
-  linkedin: 
-
-- name: Eric Wilhoit
-  role: Technical Officer
-  image: eric.jpg
-  linkedin: 
+  linkedin: https://www.linkedin.com/in/chema-alanis/
 
 - name: Tyler Mcclure
-  role: Secretary
+  role: Vice President
   image: tyler.jpg
-  linkedin: 
+  linkedin: https://www.linkedin.com/in/tyler-mcclure-93725a290/
 
-- name: Kris Hernandez
-  role: Graphic Designer
-  image: kris.png
-  linkedin: https://www.linkedin.com/in/kristina-hernandez-360b46334
-
-- name: Alan Villalobos
-  role: Marketing
-  image: alan.jpg
-  linkedin: 
-
-- name: Jess Quinlan
-  role: Junior Officer
-  image: jess.jpg
-  linkedin: 
-
-- name: Henry Hou
-  role: Junior Officer
-  image: 
-  linkedin: 
-
-- name: Joshua Navarro
-  role: Junior Officer
-  image: joshua.jpeg
-  linkedin: 
+- name: Miguel Ochoa
+  role: Treasurer
+  image: miguel.png
+  linkedin: https://www.linkedin.com/in/miguel-ochoa-06940729a/
 
 - name: Sai Thiruveedula
-  role: Junior Officer
+  role: Technical Officer
   image: sai.png
-  linkedin: 
+  linkedin: https://www.linkedin.com/in/sai-thiruveedula/
 
-- name: Maxwell Millward
+- name: Jaden Nguyen
+  role: Secretary
+  image: jaden.jpg
+  linkedin: https://www.linkedin.com/in/jane-n-914076316/
+
+- name: Chloe Choi
+  role: Graphic Designer
+  image: chloe.jpg
+  linkedin: https://www.linkedin.com/in/chloe-choi-0865b3289/
+
+- name: Karan Talagery
+  role: Marketing
+  image: karan.png
+  linkedin: https://www.linkedin.com/in/ktalagery/
+
+- name: Aanya Eshwar
   role: Junior Officer
-  image: maxwell.png
-  linkedin: https://www.linkedin.com/in/maxwell-millward-28202037b
+  image: aanya.jpg
+  linkedin: https://www.linkedin.com/in/aariaeshwar/
 
+- name: Ben Holland
+  role: Junior Officer
+  image: ben.jpg
+  linkedin: https://www.linkedin.com/in/benholland07/
+
+- name: Ilyas Khan
+  role: Junior Officer
+  image: ilyas.jpg
+  linkedin: https://www.linkedin.com/in/ilyas-khan-2a878b302/
+
+- name: Jacob Stephen
+  role: Junior Officer
+  image: jacob.jpg
+  linkedin: https://www.linkedin.com/in/jacob-stephen-527862337/
+
+- name: Nathan Sorensen
+  role: Junior Officer
+  image: nathan.png
+  linkedin: https://www.linkedin.com/in/nathan-sorensen-811115331/
+
+- name: Skyler Krnavek
+  role: Junior Officer
+  image: skyler.jpg
+  linkedin: https://www.linkedin.com/in/skyler-krnavek-292b6129a/

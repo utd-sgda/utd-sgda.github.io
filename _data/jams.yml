@@ -1,3 +1,93 @@
+- title: Spring Game Jam
+  date: March 11th through March 21st 2026
+  poster: 2026/03-25-26-springJamWinners.png
+  link: https://itch.io/jam/sgda-spring-26-classicjam
+  color: red
+  games: 
+    - name: Threadrunner
+      categories: Best Overall and Best Gameplay
+      link: https://itch.io/jam/sgda-spring-26-classicjam/rate/4401008
+      members:
+        - name: Ilyas Khan
+        - name: James Zheng
+        - name: En Bui
+    - name: Sleeky Ball
+      categories: Most Innovative
+      link: https://itch.io/jam/sgda-spring-26-classicjam/rate/4406667
+      members:
+        - name: James Odebiyi
+    - name: Project Iphis
+      categories: Best Visuals and Best Audio
+      link: https://itch.io/jam/sgda-spring-26-classicjam/rate/4402517
+      members:
+        - name: Jaden Nguyen
+        - name: Bao-Ni Nguyen
+        - name: Aitana Navarrete
+        - name: Kiran Dinakaran
+        - name: Grace Seeberger
+
+- title: Winter Game Jam
+  date: January 7th through January 17th 2026
+  poster: 2026/01-21-26-winterJamWinners.png
+  link: https://itch.io/jam/sgda-winter-25-26-jam
+  color: red
+  games: 
+    - name: Notes of Sorcery
+      categories: Best Overall and Most Innovation
+      link: https://itch.io/jam/sgda-winter-25-26-jam/rate/4205764
+      members:
+        - name: Nathan Sorensen
+        - name: Katelyn Sorensen
+    - name: Sands of Decay
+      categories: Best Gameplay and Best Audio
+      link: https://itch.io/jam/sgda-winter-25-26-jam/rate/4199320
+      members:
+        - name: Ian McCormick
+        - name: Avery Harwood
+        - name: Johnathan Dinh
+    - name: Another Taste of Lotus Nectar
+      categories: Best Visuals
+      link: https://itch.io/jam/sgda-winter-25-26-jam/rate/4205611
+      members:
+        - name: Jaden Nguyen
+        - name: Katie Sanchez
+        - name: Chloe Choi
+        - name: Bao-Nhi Nyugen
+        - name: Grace Seeberger
+
+- title: Fall Game Jam
+  date: September 17th through September 27th 2025
+  poster: 2025/10-01-25-fallJamWinners.png
+  link: https://itch.io/jam/sgda-fall-25-jam
+  color: red
+  games: 
+    - name: Chromatica
+      categories: Best Overall and Best Audio
+      link: https://itch.io/jam/sgda-fall-25-jam/rate/3903111
+      members:
+        - name: Diego Rodrigues
+        - name: Emily Yuan
+    - name: Re-Imagined
+      categories: Fan Favorite and Best Visuals
+      link: https://itch.io/jam/sgda-fall-25-jam/rate/3914562
+      members:
+        - name: Chloe Choi
+        - name: Mazie Berry
+        - name: Gabriela Montante
+        - name: Jaden Nguyen
+        - name: Grace Seeberger
+    - name: Palette Command
+      categories: Best Gameplay 
+      link: https://itch.io/jam/sgda-fall-25-jam/rate/3889707
+      members:
+        - name: Yoseph Gebre
+    - name: Tinted
+      categories: Most Innovation
+      link: https://itch.io/jam/sgda-fall-25-jam/rate/3913553
+      members:
+        - name: Nathan Sorensen
+        - name: Katelyn Sorensen
+
 - title: Summer Game Jam
   date: July 25th through August 2nd 2025
   poster: 2025/07-25-25-summerJamWinners.png
