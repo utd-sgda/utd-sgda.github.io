@@ -4,6 +4,7 @@ layout: default
 
 title: About
 description: Welcome to the UT Dallas SGDA site. We make and play games!
+image: /assets/sgda_logo_horrizontal_letters-128.png #added to prevent officer headshot images from showing up in link previews
 ---
 
 {% include title-animated.html text="About Us" text-small="About" %}
